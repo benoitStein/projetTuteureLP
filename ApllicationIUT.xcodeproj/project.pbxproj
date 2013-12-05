@@ -22,6 +22,15 @@
 		F00ECEAC184CC14E00C2B668 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00ECE8B184CC14D00C2B668 /* UIKit.framework */; };
 		F00ECEB4184CC14E00C2B668 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F00ECEB2184CC14E00C2B668 /* InfoPlist.strings */; };
 		F00ECEB6184CC14E00C2B668 /* ApllicationIUTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F00ECEB5184CC14E00C2B668 /* ApllicationIUTTests.m */; };
+		F0B3889918508B1F00DD4824 /* ecocampusTexte.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B3889818508B1F00DD4824 /* ecocampusTexte.m */; };
+		F0FC06E7184CD01000875AB6 /* ecocampusPrincipal.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FC06E6184CD01000875AB6 /* ecocampusPrincipal.m */; };
+		F0FC06F0184CD13B00875AB6 /* ecocampusDL2.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FC06EF184CD13B00875AB6 /* ecocampusDL2.m */; };
+		F0FC073C184E29EF00875AB6 /* IUTBM_quadri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0FC0737184E29EF00875AB6 /* IUTBM_quadri.jpg */; };
+		F0FC073D184E29EF00875AB6 /* LOGO UFC_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0FC0738184E29EF00875AB6 /* LOGO UFC_1.jpg */; };
+		F0FC073E184E29EF00875AB6 /* slideshow_cp_ecocampus.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0FC0739184E29EF00875AB6 /* slideshow_cp_ecocampus.gif */; };
+		F0FC073F184E29EF00875AB6 /* slideshow_logos.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0FC073A184E29EF00875AB6 /* slideshow_logos.gif */; };
+		F0FC0740184E29EF00875AB6 /* vignette_ss_challenge.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0FC073B184E29EF00875AB6 /* vignette_ss_challenge.gif */; };
+		F0FC074718507B0100875AB6 /* ecocampusDL1.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FC074618507B0100875AB6 /* ecocampusDL1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +65,19 @@
 		F00ECEB1184CC14E00C2B668 /* ApllicationIUTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApllicationIUTTests-Info.plist"; sourceTree = "<group>"; };
 		F00ECEB3184CC14E00C2B668 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F00ECEB5184CC14E00C2B668 /* ApllicationIUTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApllicationIUTTests.m; sourceTree = "<group>"; };
+		F0B3889718508B1F00DD4824 /* ecocampusTexte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecocampusTexte.h; sourceTree = "<group>"; };
+		F0B3889818508B1F00DD4824 /* ecocampusTexte.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ecocampusTexte.m; sourceTree = "<group>"; };
+		F0FC06E5184CD01000875AB6 /* ecocampusPrincipal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecocampusPrincipal.h; sourceTree = "<group>"; };
+		F0FC06E6184CD01000875AB6 /* ecocampusPrincipal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ecocampusPrincipal.m; sourceTree = "<group>"; };
+		F0FC06EE184CD13B00875AB6 /* ecocampusDL2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecocampusDL2.h; sourceTree = "<group>"; };
+		F0FC06EF184CD13B00875AB6 /* ecocampusDL2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ecocampusDL2.m; sourceTree = "<group>"; };
+		F0FC0737184E29EF00875AB6 /* IUTBM_quadri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IUTBM_quadri.jpg; path = ../../../Pictures/projTutLP/IUTBM_quadri.jpg; sourceTree = "<group>"; };
+		F0FC0738184E29EF00875AB6 /* LOGO UFC_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "LOGO UFC_1.jpg"; path = "../../../Pictures/projTutLP/LOGO UFC_1.jpg"; sourceTree = "<group>"; };
+		F0FC0739184E29EF00875AB6 /* slideshow_cp_ecocampus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = slideshow_cp_ecocampus.gif; path = ../../../Pictures/projTutLP/slideshow_cp_ecocampus.gif; sourceTree = "<group>"; };
+		F0FC073A184E29EF00875AB6 /* slideshow_logos.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = slideshow_logos.gif; path = ../../../Pictures/projTutLP/slideshow_logos.gif; sourceTree = "<group>"; };
+		F0FC073B184E29EF00875AB6 /* vignette_ss_challenge.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = vignette_ss_challenge.gif; path = ../../../Pictures/projTutLP/vignette_ss_challenge.gif; sourceTree = "<group>"; };
+		F0FC074518507B0100875AB6 /* ecocampusDL1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecocampusDL1.h; sourceTree = "<group>"; };
+		F0FC074618507B0100875AB6 /* ecocampusDL1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ecocampusDL1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +137,7 @@
 		F00ECE8D184CC14D00C2B668 /* ApllicationIUT */ = {
 			isa = PBXGroup;
 			children = (
+				F0FC0741184E2FF600875AB6 /* Ressources */,
 				F00ECE96184CC14D00C2B668 /* AppDelegate.h */,
 				F00ECE97184CC14D00C2B668 /* AppDelegate.m */,
 				F00ECE99184CC14D00C2B668 /* Main.storyboard */,
@@ -124,6 +147,14 @@
 				F00ECEA0184CC14D00C2B668 /* DetailViewController.m */,
 				F00ECEA2184CC14D00C2B668 /* Images.xcassets */,
 				F00ECE8E184CC14D00C2B668 /* Supporting Files */,
+				F0FC06E5184CD01000875AB6 /* ecocampusPrincipal.h */,
+				F0FC06E6184CD01000875AB6 /* ecocampusPrincipal.m */,
+				F0FC06EE184CD13B00875AB6 /* ecocampusDL2.h */,
+				F0FC06EF184CD13B00875AB6 /* ecocampusDL2.m */,
+				F0FC074518507B0100875AB6 /* ecocampusDL1.h */,
+				F0FC074618507B0100875AB6 /* ecocampusDL1.m */,
+				F0B3889718508B1F00DD4824 /* ecocampusTexte.h */,
+				F0B3889818508B1F00DD4824 /* ecocampusTexte.m */,
 			);
 			path = ApllicationIUT;
 			sourceTree = "<group>";
@@ -155,6 +186,18 @@
 				F00ECEB2184CC14E00C2B668 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0FC0741184E2FF600875AB6 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				F0FC0737184E29EF00875AB6 /* IUTBM_quadri.jpg */,
+				F0FC0738184E29EF00875AB6 /* LOGO UFC_1.jpg */,
+				F0FC0739184E29EF00875AB6 /* slideshow_cp_ecocampus.gif */,
+				F0FC073A184E29EF00875AB6 /* slideshow_logos.gif */,
+				F0FC073B184E29EF00875AB6 /* vignette_ss_challenge.gif */,
+			);
+			name = Ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +277,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F00ECEA3184CC14D00C2B668 /* Images.xcassets in Resources */,
+				F0FC073F184E29EF00875AB6 /* slideshow_logos.gif in Resources */,
+				F0FC0740184E29EF00875AB6 /* vignette_ss_challenge.gif in Resources */,
+				F0FC073C184E29EF00875AB6 /* IUTBM_quadri.jpg in Resources */,
 				F00ECE92184CC14D00C2B668 /* InfoPlist.strings in Resources */,
+				F0FC073D184E29EF00875AB6 /* LOGO UFC_1.jpg in Resources */,
 				F00ECE9B184CC14D00C2B668 /* Main.storyboard in Resources */,
+				F0FC073E184E29EF00875AB6 /* slideshow_cp_ecocampus.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +304,11 @@
 			files = (
 				F00ECE98184CC14D00C2B668 /* AppDelegate.m in Sources */,
 				F00ECE9E184CC14D00C2B668 /* MasterViewController.m in Sources */,
+				F0FC074718507B0100875AB6 /* ecocampusDL1.m in Sources */,
 				F00ECE94184CC14D00C2B668 /* main.m in Sources */,
+				F0FC06F0184CD13B00875AB6 /* ecocampusDL2.m in Sources */,
+				F0B3889918508B1F00DD4824 /* ecocampusTexte.m in Sources */,
+				F0FC06E7184CD01000875AB6 /* ecocampusPrincipal.m in Sources */,
 				F00ECEA1184CC14D00C2B668 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +518,7 @@
 				F00ECEBB184CC14E00C2B668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F00ECEBC184CC14E00C2B668 /* Build configuration list for PBXNativeTarget "ApllicationIUTTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +527,7 @@
 				F00ECEBE184CC14E00C2B668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

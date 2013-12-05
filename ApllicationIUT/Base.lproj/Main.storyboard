@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Aza-Vi-HfW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Aza-Vi-HfW">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
@@ -40,10 +40,6 @@
         <scene sceneID="uIC-sZ-EaH">
             <objects>
                 <viewController id="P2N-aY-fcT" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="YFU-FT-QU7"/>
-                        <viewControllerLayoutGuide type="bottom" id="sug-69-fhP"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ho6-Ua-Xws">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -59,10 +55,6 @@
         <scene sceneID="Nnb-w5-CTU">
             <objects>
                 <viewController id="pWl-kL-gDt" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="KUx-y7-lfq"/>
-                        <viewControllerLayoutGuide type="bottom" id="5ia-sL-Xxa"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ObP-Zd-UCy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -79,7 +71,7 @@
         <scene sceneID="cKs-l3-TGi">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="Aza-Vi-HfW" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="NdO-m5-mdI">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -117,10 +109,6 @@
         <scene sceneID="vV3-Tf-to2">
             <objects>
                 <viewController id="yMt-SN-NJJ" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="B5u-aZ-wkW"/>
-                        <viewControllerLayoutGuide type="bottom" id="nyS-MB-8KH"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZAy-gK-m98">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -152,10 +140,6 @@
         <scene sceneID="8pZ-la-Uoh">
             <objects>
                 <viewController id="3ge-Nx-tIL" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="H8r-fK-rbi"/>
-                        <viewControllerLayoutGuide type="bottom" id="LcK-DG-Q33"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vJM-4w-uEp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -184,27 +168,191 @@
             </objects>
             <point key="canvasLocation" x="1901" y="316"/>
         </scene>
-        <!--View Controller - Item 2-->
+        <!--Ecocampus Principal - Item 2-->
         <scene sceneID="8t5-Wi-aeP">
             <objects>
-                <viewController id="QzE-kz-Jcn" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="BkV-yt-Wj3"/>
-                        <viewControllerLayoutGuide type="bottom" id="NlW-ZA-0pr"/>
-                    </layoutGuides>
+                <viewController id="QzE-kz-Jcn" customClass="ecocampusPrincipal" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y0L-eU-ZiJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IUTBM_quadri.jpg" id="bhz-gx-n0o">
+                                <rect key="frame" x="0.0" y="70" width="100" height="40"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO UFC_1.jpg" id="k5w-lF-bbC">
+                                <rect key="frame" x="220" y="70" width="100" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vignette_ss_challenge.gif" id="VIT-eq-aCQ">
+                                <rect key="frame" x="60" y="110" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slideshow_logos.gif" id="x9q-dO-Eb5">
+                                <rect key="frame" x="20" y="300" width="280" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slideshow_cp_ecocampus.gif" id="YYf-Lm-zAx">
+                                <rect key="frame" x="40" y="390" width="240" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lancement du projet" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6iM-4o-EdQ">
+                                <rect key="frame" x="40" y="485" width="240" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="u2y-GE-iHk">
+                                <rect key="frame" x="179" y="489" width="94" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Lire l'article">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="erR-RE-H1R" kind="push" id="bmI-ah-Fqi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="b5s-hJ-g92">
+                                <rect key="frame" x="190" y="280" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Dépliant">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1Ye-Y3-v0R" kind="push" id="QWS-9V-i0H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4Rl-xh-T0b">
+                                <rect key="frame" x="-10" y="280" width="121" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Dossier">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="P9b-VX-iQv" kind="push" id="08Y-dz-57P"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="Qnu-T9-pwd"/>
                     <navigationItem key="navigationItem" id="u3d-yL-9XH"/>
+                    <connections>
+                        <outlet property="bouton1" destination="u2y-GE-iHk" id="cic-4l-JRY"/>
+                        <outlet property="label_descrptif" destination="6iM-4o-EdQ" id="4Xc-uf-3D4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hT3-Mq-Xqt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3084" y="4127"/>
+            <point key="canvasLocation" x="2436" y="3939"/>
+        </scene>
+        <!--Ecocampus Texte-->
+        <scene sceneID="S14-Wk-9Bp">
+            <objects>
+                <viewController id="erR-RE-H1R" customClass="ecocampusTexte" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sWt-9o-alM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="lZW-ku-oRg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="515"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="VVx-rR-J5D">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="M38-cE-ERy">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="950"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">A Belfort, les bâtiments de l’IUT situés sur le Techn’hom1 ont grand besoin d’être rénovés. Ils datent, pour la plupart, des années 1970 et ne sont plus conformes aux normes actuelles de consommation énergétique et d’accessibilité. Le coût de leur maintenance ne cesse de croître.
+Le projet « Eco-campus 2020 » prévoit une rénovation complète de ces locaux selon des critères écologiques. Il s’agit d’un chantier expérimental pilote qui pourrait, à terme, servir de modèle à d’autres campus.
+L’idée est de tester des solutions novatrices de réhabilitation des bâtiments en utilisant les compétences de l’industrie locale, mais aussi celles de l’Université. Belfort concentre en effet un certain nombre de formations et de travaux de recherche orientés vers l’énergie et le génie civil. Les étudiants, enseignants et chercheurs vont donc pouvoir participer à l’élaboration des solutions et à leur expérimentation grandeur nature.
+Certains bâtiments du campus vont être détruits, d’autres construits, mais il s’agira surtout de modifier les locaux existants grâce à des procédés adaptés à chaque cas. On peut donc imaginer utiliser par exemple la cogénération2 ou des systèmes « pile à combustible », deux procédés auxquels les chercheurs du Nord Franche-Comté s’intéressent de près.
+L’IUT de Belfort-Montbéliard n’est pas le seul établissement concerné par ce projet. L’UFR STGI3  et l’institut FEMTO-ST4 sont également impliqués.
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="25w-bP-1EB"/>
+                    <connections>
+                        <outlet property="scroll" destination="lZW-ku-oRg" id="XtE-PE-6El"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q2b-AP-rma" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2916" y="3435"/>
+        </scene>
+        <!--EcocampusDL2-->
+        <scene sceneID="Olj-4u-bze">
+            <objects>
+                <viewController id="1Ye-Y3-v0R" customClass="ecocampusDL2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qiG-R3-wRf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="aRm-HN-xEK">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Aud-FU-kWP"/>
+                    <connections>
+                        <outlet property="lienDeTelechargement2" destination="aRm-HN-xEK" id="uIJ-IV-1aL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SlW-Qr-ISv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3317" y="3889"/>
+        </scene>
+        <!--EcocampusDL1-->
+        <scene sceneID="fUM-kC-OUE">
+            <objects>
+                <viewController id="P9b-VX-iQv" customClass="ecocampusDL1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="64R-gh-SSe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="5mB-fg-nyK">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="btL-5j-3b5"/>
+                    <connections>
+                        <outlet property="lienDeTelechargement1" destination="5mB-fg-nyK" id="pd0-yf-aqf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Xr-R7-nnx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2960" y="4445"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IUTBM_quadri.jpg" width="276" height="102"/>
+        <image name="LOGO UFC_1.jpg" width="181" height="102"/>
+        <image name="slideshow_cp_ecocampus.gif" width="558" height="300"/>
+        <image name="slideshow_logos.gif" width="558" height="300"/>
+        <image name="vignette_ss_challenge.gif" width="100" height="100"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
