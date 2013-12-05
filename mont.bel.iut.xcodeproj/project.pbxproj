@@ -22,17 +22,22 @@
 		F00ECEAC184CC14E00C2B668 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00ECE8B184CC14D00C2B668 /* UIKit.framework */; };
 		F00ECEB4184CC14E00C2B668 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F00ECEB2184CC14E00C2B668 /* InfoPlist.strings */; };
 		F00ECEB6184CC14E00C2B668 /* ApllicationIUTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F00ECEB5184CC14E00C2B668 /* ApllicationIUTTests.m */; };
-		F09DA194184E3DDD00A4878C /* accueil_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA189184E3DDD00A4878C /* accueil_icone.png */; };
-		F09DA195184E3DDD00A4878C /* agenda_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA18A184E3DDD00A4878C /* agenda_icone.png */; };
-		F09DA196184E3DDD00A4878C /* autres_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA18B184E3DDD00A4878C /* autres_icone.png */; };
-		F09DA197184E3DDD00A4878C /* ecocampus_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA18C184E3DDD00A4878C /* ecocampus_icone.png */; };
-		F09DA198184E3DDD00A4878C /* facebook_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA18D184E3DDD00A4878C /* facebook_logo.png */; };
-		F09DA199184E3DDD00A4878C /* formations_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA18E184E3DDD00A4878C /* formations_icone.png */; };
-		F09DA19A184E3DDD00A4878C /* google_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA18F184E3DDD00A4878C /* google_logo.png */; };
-		F09DA19B184E3DDD00A4878C /* iut_logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA190184E3DDD00A4878C /* iut_logo1.png */; };
-		F09DA19C184E3DDD00A4878C /* iut_logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA191184E3DDD00A4878C /* iut_logo2.png */; };
-		F09DA19D184E3DDD00A4878C /* rss_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA192184E3DDD00A4878C /* rss_logo.png */; };
-		F09DA19E184E3DDD00A4878C /* twitter_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA193184E3DDD00A4878C /* twitter_logo.png */; };
+		F09DA1AA1850741E00A4878C /* accueil_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA19F1850741E00A4878C /* accueil_icone.png */; };
+		F09DA1AB1850741E00A4878C /* agenda_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA1A01850741E00A4878C /* agenda_icone.png */; };
+		F09DA1AC1850741E00A4878C /* autres_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA1A11850741E00A4878C /* autres_icone.png */; };
+		F09DA1AD1850741E00A4878C /* ecocampus_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA1A21850741E00A4878C /* ecocampus_icone.png */; };
+		F09DA1AE1850741E00A4878C /* facebook_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA1A31850741E00A4878C /* facebook_logo.png */; };
+		F09DA1AF1850741E00A4878C /* formations_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA1A41850741E00A4878C /* formations_icone.png */; };
+		F09DA1B01850741E00A4878C /* google_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA1A51850741E00A4878C /* google_logo.png */; };
+		F09DA1B11850741E00A4878C /* iut_logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA1A61850741E00A4878C /* iut_logo1.png */; };
+		F09DA1B21850741E00A4878C /* iut_logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA1A71850741E00A4878C /* iut_logo2.png */; };
+		F09DA1B31850741E00A4878C /* rss_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA1A81850741E00A4878C /* rss_logo.png */; };
+		F09DA1B41850741E00A4878C /* twitter_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DA1A91850741E00A4878C /* twitter_logo.png */; };
+		F09DA1B6185074D200A4878C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09DA1B5185074D200A4878C /* MapKit.framework */; };
+		F09DA1B9185078F000A4878C /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09DA1B8185078F000A4878C /* FacebookViewController.m */; };
+		F09DA1BC1850880600A4878C /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09DA1BB1850880600A4878C /* TwitterViewController.m */; };
+		F09DA1BF1850882E00A4878C /* GoogleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09DA1BE1850882E00A4878C /* GoogleViewController.m */; };
+		F09DA1C21850884B00A4878C /* ItineraireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09DA1C11850884B00A4878C /* ItineraireViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,17 +72,26 @@
 		F00ECEB1184CC14E00C2B668 /* mont.bel.iutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mont.bel.iutTests-Info.plist"; sourceTree = "<group>"; };
 		F00ECEB3184CC14E00C2B668 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F00ECEB5184CC14E00C2B668 /* ApllicationIUTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApllicationIUTTests.m; sourceTree = "<group>"; };
-		F09DA189184E3DDD00A4878C /* accueil_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = accueil_icone.png; path = ApllicationIUT/Ressources/accueil_icone.png; sourceTree = "<group>"; };
-		F09DA18A184E3DDD00A4878C /* agenda_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = agenda_icone.png; path = ApllicationIUT/Ressources/agenda_icone.png; sourceTree = "<group>"; };
-		F09DA18B184E3DDD00A4878C /* autres_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = autres_icone.png; path = ApllicationIUT/Ressources/autres_icone.png; sourceTree = "<group>"; };
-		F09DA18C184E3DDD00A4878C /* ecocampus_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ecocampus_icone.png; path = ApllicationIUT/Ressources/ecocampus_icone.png; sourceTree = "<group>"; };
-		F09DA18D184E3DDD00A4878C /* facebook_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook_logo.png; path = ApllicationIUT/Ressources/facebook_logo.png; sourceTree = "<group>"; };
-		F09DA18E184E3DDD00A4878C /* formations_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = formations_icone.png; path = ApllicationIUT/Ressources/formations_icone.png; sourceTree = "<group>"; };
-		F09DA18F184E3DDD00A4878C /* google_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = google_logo.png; path = ApllicationIUT/Ressources/google_logo.png; sourceTree = "<group>"; };
-		F09DA190184E3DDD00A4878C /* iut_logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iut_logo1.png; path = ApllicationIUT/Ressources/iut_logo1.png; sourceTree = "<group>"; };
-		F09DA191184E3DDD00A4878C /* iut_logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iut_logo2.png; path = ApllicationIUT/Ressources/iut_logo2.png; sourceTree = "<group>"; };
-		F09DA192184E3DDD00A4878C /* rss_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rss_logo.png; path = ApllicationIUT/Ressources/rss_logo.png; sourceTree = "<group>"; };
-		F09DA193184E3DDD00A4878C /* twitter_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter_logo.png; path = ApllicationIUT/Ressources/twitter_logo.png; sourceTree = "<group>"; };
+		F09DA19F1850741E00A4878C /* accueil_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = accueil_icone.png; path = ../Ressources/accueil_icone.png; sourceTree = "<group>"; };
+		F09DA1A01850741E00A4878C /* agenda_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = agenda_icone.png; path = ../Ressources/agenda_icone.png; sourceTree = "<group>"; };
+		F09DA1A11850741E00A4878C /* autres_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = autres_icone.png; path = ../Ressources/autres_icone.png; sourceTree = "<group>"; };
+		F09DA1A21850741E00A4878C /* ecocampus_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ecocampus_icone.png; path = ../Ressources/ecocampus_icone.png; sourceTree = "<group>"; };
+		F09DA1A31850741E00A4878C /* facebook_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook_logo.png; path = ../Ressources/facebook_logo.png; sourceTree = "<group>"; };
+		F09DA1A41850741E00A4878C /* formations_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = formations_icone.png; path = ../Ressources/formations_icone.png; sourceTree = "<group>"; };
+		F09DA1A51850741E00A4878C /* google_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = google_logo.png; path = ../Ressources/google_logo.png; sourceTree = "<group>"; };
+		F09DA1A61850741E00A4878C /* iut_logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iut_logo1.png; path = ../Ressources/iut_logo1.png; sourceTree = "<group>"; };
+		F09DA1A71850741E00A4878C /* iut_logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iut_logo2.png; path = ../Ressources/iut_logo2.png; sourceTree = "<group>"; };
+		F09DA1A81850741E00A4878C /* rss_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rss_logo.png; path = ../Ressources/rss_logo.png; sourceTree = "<group>"; };
+		F09DA1A91850741E00A4878C /* twitter_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter_logo.png; path = ../Ressources/twitter_logo.png; sourceTree = "<group>"; };
+		F09DA1B5185074D200A4878C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F09DA1B7185078F000A4878C /* FacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookViewController.h; sourceTree = "<group>"; };
+		F09DA1B8185078F000A4878C /* FacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookViewController.m; sourceTree = "<group>"; };
+		F09DA1BA1850880600A4878C /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
+		F09DA1BB1850880600A4878C /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
+		F09DA1BD1850882E00A4878C /* GoogleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleViewController.h; sourceTree = "<group>"; };
+		F09DA1BE1850882E00A4878C /* GoogleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleViewController.m; sourceTree = "<group>"; };
+		F09DA1C01850884B00A4878C /* ItineraireViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItineraireViewController.h; sourceTree = "<group>"; };
+		F09DA1C11850884B00A4878C /* ItineraireViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItineraireViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F09DA1B6185074D200A4878C /* MapKit.framework in Frameworks */,
 				F00ECE8A184CC14D00C2B668 /* CoreGraphics.framework in Frameworks */,
 				F00ECE8C184CC14D00C2B668 /* UIKit.framework in Frameworks */,
 				F00ECE88184CC14D00C2B668 /* Foundation.framework in Frameworks */,
@@ -127,6 +142,7 @@
 		F00ECE86184CC14D00C2B668 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F09DA1B5185074D200A4878C /* MapKit.framework */,
 				F00ECE87184CC14D00C2B668 /* Foundation.framework */,
 				F00ECE89184CC14D00C2B668 /* CoreGraphics.framework */,
 				F00ECE8B184CC14D00C2B668 /* UIKit.framework */,
@@ -147,6 +163,14 @@
 				F00ECEA0184CC14D00C2B668 /* DetailViewController.m */,
 				F00ECEA2184CC14D00C2B668 /* Images.xcassets */,
 				F00ECE8E184CC14D00C2B668 /* Supporting Files */,
+				F09DA1B7185078F000A4878C /* FacebookViewController.h */,
+				F09DA1B8185078F000A4878C /* FacebookViewController.m */,
+				F09DA1BA1850880600A4878C /* TwitterViewController.h */,
+				F09DA1BB1850880600A4878C /* TwitterViewController.m */,
+				F09DA1BD1850882E00A4878C /* GoogleViewController.h */,
+				F09DA1BE1850882E00A4878C /* GoogleViewController.m */,
+				F09DA1C01850884B00A4878C /* ItineraireViewController.h */,
+				F09DA1C11850884B00A4878C /* ItineraireViewController.m */,
 			);
 			path = ApllicationIUT;
 			sourceTree = "<group>";
@@ -183,17 +207,17 @@
 		F09DA188184E3DBE00A4878C /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
-				F09DA189184E3DDD00A4878C /* accueil_icone.png */,
-				F09DA18A184E3DDD00A4878C /* agenda_icone.png */,
-				F09DA18B184E3DDD00A4878C /* autres_icone.png */,
-				F09DA18C184E3DDD00A4878C /* ecocampus_icone.png */,
-				F09DA18D184E3DDD00A4878C /* facebook_logo.png */,
-				F09DA18E184E3DDD00A4878C /* formations_icone.png */,
-				F09DA18F184E3DDD00A4878C /* google_logo.png */,
-				F09DA190184E3DDD00A4878C /* iut_logo1.png */,
-				F09DA191184E3DDD00A4878C /* iut_logo2.png */,
-				F09DA192184E3DDD00A4878C /* rss_logo.png */,
-				F09DA193184E3DDD00A4878C /* twitter_logo.png */,
+				F09DA19F1850741E00A4878C /* accueil_icone.png */,
+				F09DA1A01850741E00A4878C /* agenda_icone.png */,
+				F09DA1A11850741E00A4878C /* autres_icone.png */,
+				F09DA1A21850741E00A4878C /* ecocampus_icone.png */,
+				F09DA1A31850741E00A4878C /* facebook_logo.png */,
+				F09DA1A41850741E00A4878C /* formations_icone.png */,
+				F09DA1A51850741E00A4878C /* google_logo.png */,
+				F09DA1A61850741E00A4878C /* iut_logo1.png */,
+				F09DA1A71850741E00A4878C /* iut_logo2.png */,
+				F09DA1A81850741E00A4878C /* rss_logo.png */,
+				F09DA1A91850741E00A4878C /* twitter_logo.png */,
 			);
 			name = Ressources;
 			sourceTree = "<group>";
@@ -275,19 +299,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F00ECEA3184CC14D00C2B668 /* Images.xcassets in Resources */,
-				F09DA19D184E3DDD00A4878C /* rss_logo.png in Resources */,
+				F09DA1B31850741E00A4878C /* rss_logo.png in Resources */,
 				F00ECE92184CC14D00C2B668 /* InfoPlist.strings in Resources */,
-				F09DA196184E3DDD00A4878C /* autres_icone.png in Resources */,
-				F09DA19E184E3DDD00A4878C /* twitter_logo.png in Resources */,
-				F09DA19B184E3DDD00A4878C /* iut_logo1.png in Resources */,
-				F09DA19C184E3DDD00A4878C /* iut_logo2.png in Resources */,
+				F09DA1AC1850741E00A4878C /* autres_icone.png in Resources */,
+				F09DA1B41850741E00A4878C /* twitter_logo.png in Resources */,
+				F09DA1B11850741E00A4878C /* iut_logo1.png in Resources */,
+				F09DA1B21850741E00A4878C /* iut_logo2.png in Resources */,
 				F00ECE9B184CC14D00C2B668 /* Main.storyboard in Resources */,
-				F09DA199184E3DDD00A4878C /* formations_icone.png in Resources */,
-				F09DA195184E3DDD00A4878C /* agenda_icone.png in Resources */,
-				F09DA194184E3DDD00A4878C /* accueil_icone.png in Resources */,
-				F09DA19A184E3DDD00A4878C /* google_logo.png in Resources */,
-				F09DA198184E3DDD00A4878C /* facebook_logo.png in Resources */,
-				F09DA197184E3DDD00A4878C /* ecocampus_icone.png in Resources */,
+				F09DA1AF1850741E00A4878C /* formations_icone.png in Resources */,
+				F09DA1AB1850741E00A4878C /* agenda_icone.png in Resources */,
+				F09DA1AA1850741E00A4878C /* accueil_icone.png in Resources */,
+				F09DA1B01850741E00A4878C /* google_logo.png in Resources */,
+				F09DA1AE1850741E00A4878C /* facebook_logo.png in Resources */,
+				F09DA1AD1850741E00A4878C /* ecocampus_icone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,9 +330,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F09DA1C21850884B00A4878C /* ItineraireViewController.m in Sources */,
 				F00ECE98184CC14D00C2B668 /* AppDelegate.m in Sources */,
 				F00ECE9E184CC14D00C2B668 /* MasterViewController.m in Sources */,
 				F00ECE94184CC14D00C2B668 /* main.m in Sources */,
+				F09DA1B9185078F000A4878C /* FacebookViewController.m in Sources */,
+				F09DA1BC1850880600A4878C /* TwitterViewController.m in Sources */,
+				F09DA1BF1850882E00A4878C /* GoogleViewController.m in Sources */,
 				F00ECEA1184CC14D00C2B668 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +462,6 @@
 		F00ECEBA184CC14E00C2B668 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ApllicationIUT/mont.bel.iut-Prefix.pch";
@@ -447,7 +474,6 @@
 		F00ECEBB184CC14E00C2B668 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ApllicationIUT/mont.bel.iut-Prefix.pch";
