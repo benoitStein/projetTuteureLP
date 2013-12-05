@@ -51,14 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F00ECE84184CC14D00C2B668 /* mont.bel.iut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mont.bel.iut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00ECE84184CC14D00C2B668 /* ApllicationIUT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApllicationIUT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00ECE87184CC14D00C2B668 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F00ECE89184CC14D00C2B668 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F00ECE8B184CC14D00C2B668 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F00ECE8F184CC14D00C2B668 /* mont.bel.iut-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mont.bel.iut-Info.plist"; sourceTree = "<group>"; };
+		F00ECE8F184CC14D00C2B668 /* ApllicationIUT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApllicationIUT-Info.plist"; sourceTree = "<group>"; };
 		F00ECE91184CC14D00C2B668 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F00ECE93184CC14D00C2B668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F00ECE95184CC14D00C2B668 /* mont.bel.iut-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mont.bel.iut-Prefix.pch"; sourceTree = "<group>"; };
+		F00ECE95184CC14D00C2B668 /* ApllicationIUT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ApllicationIUT-Prefix.pch"; sourceTree = "<group>"; };
 		F00ECE96184CC14D00C2B668 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F00ECE97184CC14D00C2B668 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F00ECE9A184CC14D00C2B668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,9 +67,9 @@
 		F00ECE9F184CC14D00C2B668 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		F00ECEA0184CC14D00C2B668 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		F00ECEA2184CC14D00C2B668 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F00ECEA8184CC14E00C2B668 /* mont.bel.iutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mont.bel.iutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00ECEA8184CC14E00C2B668 /* ApllicationIUTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApllicationIUTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00ECEA9184CC14E00C2B668 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F00ECEB1184CC14E00C2B668 /* mont.bel.iutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mont.bel.iutTests-Info.plist"; sourceTree = "<group>"; };
+		F00ECEB1184CC14E00C2B668 /* ApllicationIUTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApllicationIUTTests-Info.plist"; sourceTree = "<group>"; };
 		F00ECEB3184CC14E00C2B668 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F00ECEB5184CC14E00C2B668 /* ApllicationIUTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApllicationIUTTests.m; sourceTree = "<group>"; };
 		F09DA19F1850741E00A4878C /* accueil_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = accueil_icone.png; path = ../Ressources/accueil_icone.png; sourceTree = "<group>"; };
@@ -133,8 +133,8 @@
 		F00ECE85184CC14D00C2B668 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F00ECE84184CC14D00C2B668 /* mont.bel.iut.app */,
-				F00ECEA8184CC14E00C2B668 /* mont.bel.iutTests.xctest */,
+				F00ECE84184CC14D00C2B668 /* ApllicationIUT.app */,
+				F00ECEA8184CC14E00C2B668 /* ApllicationIUTTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,10 +178,10 @@
 		F00ECE8E184CC14D00C2B668 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F00ECE8F184CC14D00C2B668 /* mont.bel.iut-Info.plist */,
+				F00ECE8F184CC14D00C2B668 /* ApllicationIUT-Info.plist */,
 				F00ECE90184CC14D00C2B668 /* InfoPlist.strings */,
 				F00ECE93184CC14D00C2B668 /* main.m */,
-				F00ECE95184CC14D00C2B668 /* mont.bel.iut-Prefix.pch */,
+				F00ECE95184CC14D00C2B668 /* ApllicationIUT-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -198,7 +198,7 @@
 		F00ECEB0184CC14E00C2B668 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F00ECEB1184CC14E00C2B668 /* mont.bel.iutTests-Info.plist */,
+				F00ECEB1184CC14E00C2B668 /* ApllicationIUTTests-Info.plist */,
 				F00ECEB2184CC14E00C2B668 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -225,9 +225,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F00ECE83184CC14D00C2B668 /* mont.bel.iut */ = {
+		F00ECE83184CC14D00C2B668 /* ApllicationIUT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F00ECEB9184CC14E00C2B668 /* Build configuration list for PBXNativeTarget "mont.bel.iut" */;
+			buildConfigurationList = F00ECEB9184CC14E00C2B668 /* Build configuration list for PBXNativeTarget "ApllicationIUT" */;
 			buildPhases = (
 				F00ECE80184CC14D00C2B668 /* Sources */,
 				F00ECE81184CC14D00C2B668 /* Frameworks */,
@@ -237,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = mont.bel.iut;
+			name = ApllicationIUT;
 			productName = ApllicationIUT;
-			productReference = F00ECE84184CC14D00C2B668 /* mont.bel.iut.app */;
+			productReference = F00ECE84184CC14D00C2B668 /* ApllicationIUT.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F00ECEA7184CC14E00C2B668 /* mont.bel.iutTests */ = {
+		F00ECEA7184CC14E00C2B668 /* ApllicationIUTTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F00ECEBC184CC14E00C2B668 /* Build configuration list for PBXNativeTarget "mont.bel.iutTests" */;
+			buildConfigurationList = F00ECEBC184CC14E00C2B668 /* Build configuration list for PBXNativeTarget "ApllicationIUTTests" */;
 			buildPhases = (
 				F00ECEA4184CC14E00C2B668 /* Sources */,
 				F00ECEA5184CC14E00C2B668 /* Frameworks */,
@@ -255,9 +255,9 @@
 			dependencies = (
 				F00ECEAE184CC14E00C2B668 /* PBXTargetDependency */,
 			);
-			name = mont.bel.iutTests;
+			name = ApllicationIUTTests;
 			productName = ApllicationIUTTests;
-			productReference = F00ECEA8184CC14E00C2B668 /* mont.bel.iutTests.xctest */;
+			productReference = F00ECEA8184CC14E00C2B668 /* ApllicationIUTTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -274,7 +274,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F00ECE7F184CC14D00C2B668 /* Build configuration list for PBXProject "mont.bel.iut" */;
+			buildConfigurationList = F00ECE7F184CC14D00C2B668 /* Build configuration list for PBXProject "ApllicationIUT" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -287,8 +287,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F00ECE83184CC14D00C2B668 /* mont.bel.iut */,
-				F00ECEA7184CC14E00C2B668 /* mont.bel.iutTests */,
+				F00ECE83184CC14D00C2B668 /* ApllicationIUT */,
+				F00ECEA7184CC14E00C2B668 /* ApllicationIUTTests */,
 			);
 		};
 /* End PBXProject section */
@@ -354,7 +354,7 @@
 /* Begin PBXTargetDependency section */
 		F00ECEAE184CC14E00C2B668 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F00ECE83184CC14D00C2B668 /* mont.bel.iut */;
+			target = F00ECE83184CC14D00C2B668 /* ApllicationIUT */;
 			targetProxy = F00ECEAD184CC14E00C2B668 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -464,9 +464,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ApllicationIUT/mont.bel.iut-Prefix.pch";
-				INFOPLIST_FILE = "ApllicationIUT/mont.bel.iut-Info.plist";
-				PRODUCT_NAME = mont.bel.iut;
+				GCC_PREFIX_HEADER = "ApllicationIUT/ApllicationIUT-Prefix.pch";
+				INFOPLIST_FILE = "ApllicationIUT/ApllicationIUT-Info.plist";
+				PRODUCT_NAME = ApllicationIUT;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -476,9 +476,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ApllicationIUT/mont.bel.iut-Prefix.pch";
-				INFOPLIST_FILE = "ApllicationIUT/mont.bel.iut-Info.plist";
-				PRODUCT_NAME = mont.bel.iut;
+				GCC_PREFIX_HEADER = "ApllicationIUT/ApllicationIUT-Prefix.pch";
+				INFOPLIST_FILE = "ApllicationIUT/ApllicationIUT-Info.plist";
+				PRODUCT_NAME = ApllicationIUT;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -499,8 +499,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ApllicationIUTTests/mont.bel.iutTests-Info.plist";
-				PRODUCT_NAME = mont.bel.iutTests;
+				INFOPLIST_FILE = "ApllicationIUTTests/ApllicationIUTTests-Info.plist";
+				PRODUCT_NAME = ApllicationIUTTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -518,8 +518,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ApllicationIUT/ApllicationIUT-Prefix.pch";
-				INFOPLIST_FILE = "ApllicationIUTTests/mont.bel.iutTests-Info.plist";
-				PRODUCT_NAME = mont.bel.iutTests;
+				INFOPLIST_FILE = "ApllicationIUTTests/ApllicationIUTTests-Info.plist";
+				PRODUCT_NAME = ApllicationIUTTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -528,7 +528,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F00ECE7F184CC14D00C2B668 /* Build configuration list for PBXProject "mont.bel.iut" */ = {
+		F00ECE7F184CC14D00C2B668 /* Build configuration list for PBXProject "ApllicationIUT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F00ECEB7184CC14E00C2B668 /* Debug */,
@@ -537,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F00ECEB9184CC14E00C2B668 /* Build configuration list for PBXNativeTarget "mont.bel.iut" */ = {
+		F00ECEB9184CC14E00C2B668 /* Build configuration list for PBXNativeTarget "ApllicationIUT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F00ECEBA184CC14E00C2B668 /* Debug */,
@@ -546,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F00ECEBC184CC14E00C2B668 /* Build configuration list for PBXNativeTarget "mont.bel.iutTests" */ = {
+		F00ECEBC184CC14E00C2B668 /* Build configuration list for PBXNativeTarget "ApllicationIUTTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F00ECEBD184CC14E00C2B668 /* Debug */,

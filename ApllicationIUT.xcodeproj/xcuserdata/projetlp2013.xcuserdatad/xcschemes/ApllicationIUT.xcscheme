@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F00ECE83184CC14D00C2B668"
                BuildableName = "mont.bel.iut.app"
-               BlueprintName = "mont.bel.iut"
-               ReferencedContainer = "container:mont.bel.iut.xcodeproj">
+               BlueprintName = "ApllicationIUT"
+               ReferencedContainer = "container:ApllicationIUT.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F00ECEA7184CC14E00C2B668"
                BuildableName = "mont.bel.iutTests.xctest"
-               BlueprintName = "mont.bel.iutTests"
-               ReferencedContainer = "container:mont.bel.iut.xcodeproj">
+               BlueprintName = "ApllicationIUTTests"
+               ReferencedContainer = "container:ApllicationIUT.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F00ECE83184CC14D00C2B668"
             BuildableName = "mont.bel.iut.app"
-            BlueprintName = "mont.bel.iut"
-            ReferencedContainer = "container:mont.bel.iut.xcodeproj">
+            BlueprintName = "ApllicationIUT"
+            ReferencedContainer = "container:ApllicationIUT.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F00ECE83184CC14D00C2B668"
             BuildableName = "mont.bel.iut.app"
-            BlueprintName = "mont.bel.iut"
-            ReferencedContainer = "container:mont.bel.iut.xcodeproj">
+            BlueprintName = "ApllicationIUT"
+            ReferencedContainer = "container:ApllicationIUT.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F00ECE83184CC14D00C2B668"
             BuildableName = "mont.bel.iut.app"
-            BlueprintName = "mont.bel.iut"
-            ReferencedContainer = "container:mont.bel.iut.xcodeproj">
+            BlueprintName = "ApllicationIUT"
+            ReferencedContainer = "container:ApllicationIUT.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
