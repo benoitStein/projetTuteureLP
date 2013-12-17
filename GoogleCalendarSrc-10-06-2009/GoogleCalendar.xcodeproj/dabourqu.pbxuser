@@ -1,0 +1,244 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* GoogleCalendar */ = {
+		activeExec = 0;
+		executables = (
+			C7203407107C296E006C5E33 /* GoogleCalendar */,
+		);
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {998, 568}}";
+			sepNavSelRange = "{528, 21}";
+			sepNavVisRange = "{0, 1103}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {855, 5572}}";
+			sepNavSelRange = "{3361, 0}";
+			sepNavVisRange = "{2798, 1041}";
+			sepNavWindowFrame = "{{61, 51}, {1327, 780}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C7203407107C296E006C5E33 /* GoogleCalendar */;
+		activeSDKPreference = iphonesimulator3.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* GoogleCalendar */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* GoogleCalendar */,
+		);
+		breakpoints = (
+			C7203818107C49DC006C5E33 /* RootViewController.m:346 */,
+		);
+		codeSenseManager = C720341D107C2982006C5E33 /* Code sense */;
+		executables = (
+			C7203407107C296E006C5E33 /* GoogleCalendar */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					953,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 276572526;
+			PBXWorkspaceStateSaveDate = 276572526;
+		};
+		perUserProjectItems = {
+			C7203805107C486A006C5E33 /* PBXTextBookmark */ = C7203805107C486A006C5E33 /* PBXTextBookmark */;
+			C7203809107C486A006C5E33 /* PBXTextBookmark */ = C7203809107C486A006C5E33 /* PBXTextBookmark */;
+			C720380A107C486A006C5E33 /* PBXTextBookmark */ = C720380A107C486A006C5E33 /* PBXTextBookmark */;
+			C720381A107C4A06006C5E33 /* PBXTextBookmark */ = C720381A107C4A06006C5E33 /* PBXTextBookmark */;
+			C7203831107C4C65006C5E33 /* PBXTextBookmark */ = C7203831107C4C65006C5E33 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C720341C107C2982006C5E33 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C7203407107C296E006C5E33 /* GoogleCalendar */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GoogleCalendar;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	C720341C107C2982006C5E33 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryName = "iPhone-gCal";
+		};
+	};
+	C720341D107C2982006C5E33 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C7203437107C2BD8006C5E33 /* GDataEntryBase.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 2870}}";
+			sepNavSelRange = "{4924, 0}";
+			sepNavVisRange = "{4663, 1168}";
+		};
+	};
+	C7203438107C2BD8006C5E33 /* GDataEntryBase.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 10318}}";
+			sepNavSelRange = "{21145, 26}";
+			sepNavVisRange = "{15573, 785}";
+		};
+	};
+	C720343F107C2BD8006C5E33 /* GDataServiceGoogle.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 2828}}";
+			sepNavSelRange = "{2608, 17}";
+			sepNavVisRange = "{2117, 1506}";
+		};
+	};
+	C7203440107C2BD8006C5E33 /* GDataServiceGoogle.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 11312}}";
+			sepNavSelRange = "{16013, 0}";
+			sepNavVisRange = "{15135, 1656}";
+		};
+	};
+	C720350C107C2BD8006C5E33 /* GDataEntryCalendar.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 2002}}";
+			sepNavSelRange = "{4404, 14}";
+			sepNavVisRange = "{4325, 973}";
+		};
+	};
+	C720350D107C2BD8006C5E33 /* GDataEntryCalendar.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 3514}}";
+			sepNavSelRange = "{2703, 35}";
+			sepNavVisRange = "{2119, 1266}";
+		};
+	};
+	C7203525107C2BD8006C5E33 /* GDataServiceGoogleCalendar.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1190}}";
+			sepNavSelRange = "{2042, 17}";
+			sepNavVisRange = "{1206, 1067}";
+		};
+	};
+	C7203805107C486A006C5E33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C7203806107C486A006C5E33 /* UITableViewController.h */;
+		name = "UITableViewController.h: 17";
+		rLen = 21;
+		rLoc = 715;
+		rType = 0;
+		vrLen = 935;
+		vrLoc = 0;
+	};
+	C7203806107C486A006C5E33 /* UITableViewController.h */ = {
+		isa = PBXFileReference;
+		name = UITableViewController.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewController.h;
+		sourceTree = "<absolute>";
+	};
+	C7203809107C486A006C5E33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 297";
+		rLen = 125;
+		rLoc = 12364;
+		rType = 0;
+		vrLen = 1855;
+		vrLoc = 11720;
+	};
+	C720380A107C486A006C5E33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C720380B107C486A006C5E33 /* UITableViewController.h */;
+		name = "UITableViewController.h: 17";
+		rLen = 19;
+		rLoc = 694;
+		rType = 0;
+		vrLen = 935;
+		vrLoc = 0;
+	};
+	C720380B107C486A006C5E33 /* UITableViewController.h */ = {
+		isa = PBXFileReference;
+		name = UITableViewController.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewController.h;
+		sourceTree = "<absolute>";
+	};
+	C7203818107C49DC006C5E33 /* RootViewController.m:346 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		functionName = "-tableView:didSelectRowAtIndexPath:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 346;
+		location = "GTUG Demo";
+		modificationTime = 276581186.191967;
+		state = 2;
+	};
+	C720381A107C4A06006C5E33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 381";
+		rLen = 18;
+		rLoc = 16759;
+		rType = 0;
+		vrLen = 2515;
+		vrLoc = 15173;
+	};
+	C7203831107C4C65006C5E33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 127";
+		rLen = 0;
+		rLoc = 4859;
+		rType = 0;
+		vrLen = 2589;
+		vrLoc = 13759;
+	};
+}
