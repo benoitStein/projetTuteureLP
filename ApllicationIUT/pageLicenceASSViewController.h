@@ -10,4 +10,5 @@
 
 @interface pageLicenceASSViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIScrollView *scroll;
 @end

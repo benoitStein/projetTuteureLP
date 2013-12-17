@@ -10,4 +10,6 @@
 
 @interface pageDUTGACOViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIScrollView *scroll;
+
 @end

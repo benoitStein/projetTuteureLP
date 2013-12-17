@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface pageLicenceCARTViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIScrollView *scroll;
 
 @end

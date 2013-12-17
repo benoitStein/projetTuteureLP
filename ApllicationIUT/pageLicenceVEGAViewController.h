@@ -10,4 +10,5 @@
 
 @interface pageLicenceVEGAViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIScrollView *scroll;
 @end

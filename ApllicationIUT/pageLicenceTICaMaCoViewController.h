@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface pageLicenceTICaMaCoViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIScrollView *scroll;
 
 @end

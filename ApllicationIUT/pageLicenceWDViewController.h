@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface pageLicenceWDViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIScrollView *scroll;
 
 @end

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface pageDUTGTEViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIScrollView *scroll;
 
 @end

@@ -26,6 +26,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSString *fullURL =@"https://www.google.com/calendar/embed?src=communication%40iut-bm.univ-fcomte.fr&ctz=Europe/Paris";
+    NSURL *url = [NSURL URLWithString:fullURL];
+    NSURLRequest *requestObj =[NSURLRequest requestWithURL:url];
+    [_webView loadRequest:requestObj];
 	// Do any additional setup after loading the view.
 }
 

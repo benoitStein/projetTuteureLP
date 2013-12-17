@@ -10,4 +10,5 @@
 
 @interface pageDUTRTViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIScrollView *scroll;
 @end

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface pageDUTMPViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIScrollView *scroll;
 
 @end

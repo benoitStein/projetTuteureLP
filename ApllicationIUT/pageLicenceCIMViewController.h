@@ -10,4 +10,5 @@
 
 @interface pageLicenceCIMViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIScrollView *scroll;
 @end
