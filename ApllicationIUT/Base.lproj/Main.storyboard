@@ -44,7 +44,6 @@
         <!--Page Principale Formation View Controller - Formations-->
         <scene sceneID="uIC-sZ-EaH">
             <objects>
-			
                 <viewController id="P2N-aY-fcT" customClass="pagePrincipaleFormationViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oZF-EY-a7l">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -1202,7 +1201,7 @@ et Socio-culturelle</string>
             </objects>
             <point key="canvasLocation" x="3348" y="-1259"/>
         </scene>
-        <!--Page Agenda View Controller - Item 1-->
+        <!--Page Agenda View Controller-->
         <scene sceneID="Nnb-w5-CTU">
             <objects>
                 <viewController id="pWl-kL-gDt" customClass="pageAgendaViewController" sceneMemberID="viewController">
@@ -1316,21 +1315,18 @@ et Socio-culturelle</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Facebook" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="07K-Is-VQE">
-                                                    <rect key="frame" x="73" y="0.0" width="212" height="43"/>
+                                                    <rect key="frame" x="60" y="0.0" width="225" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="facebook_logo.png" id="EwT-65-Qb0">
-                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <rect key="frame" x="15" y="6" width="30" height="30"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="VH8-4h-qvR" kind="push" id="kvx-Hl-JtU"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="yxY-Qw-z2p" imageView="YwU-m8-h9H" style="IBUITableViewCellStyleDefault" id="xJh-Kp-S2b">
                                         <rect key="frame" x="0.0" y="108" width="320" height="44"/>
@@ -1340,14 +1336,14 @@ et Socio-culturelle</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Google+" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yxY-Qw-z2p">
-                                                    <rect key="frame" x="73" y="0.0" width="212" height="43"/>
+                                                    <rect key="frame" x="60" y="0.0" width="225" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="google_logo.png" id="YwU-m8-h9H">
-                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <rect key="frame" x="15" y="6" width="30" height="30"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -1364,14 +1360,14 @@ et Socio-culturelle</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Twitter" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WDZ-dj-9rz">
-                                                    <rect key="frame" x="73" y="0.0" width="212" height="43"/>
+                                                    <rect key="frame" x="60" y="0.0" width="225" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="twitter_logo.png" id="BSV-Ph-dew">
-                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <rect key="frame" x="15" y="6" width="30" height="30"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -1424,9 +1420,6 @@ et Socio-culturelle</string>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="igh-CZ-rmH" kind="push" id="R3s-f7-WzT"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="I38-wV-XsP" imageView="d0X-HK-ESU" style="IBUITableViewCellStyleDefault" id="qJD-8e-4Wz">
                                         <rect key="frame" x="0.0" y="284" width="320" height="44"/>
@@ -1490,7 +1483,7 @@ et Socio-culturelle</string>
             </objects>
             <point key="canvasLocation" x="-2471" y="1864"/>
         </scene>
-         <!--View Controller-->
+        <!--View Controller - Facebook-->
         <scene sceneID="8pZ-la-Uoh">
             <objects>
                 <viewController id="3ge-Nx-tIL" sceneMemberID="viewController">
@@ -4271,7 +4264,6 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ecoles de commerce." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="THe-W5-OMp">
                                                 <rect key="frame" x="20" y="1204" width="166" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -4292,7 +4284,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
             </objects>
             <point key="canvasLocation" x="3921" y="-3105"/>
         </scene>
-		        <!--Google View Controller - Google+-->
+        <!--Google View Controller - Google+-->
         <scene sceneID="BsT-pu-6fd">
             <objects>
                 <viewController id="dX6-B3-SOk" customClass="GoogleViewController" sceneMemberID="viewController">
@@ -4574,7 +4566,6 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
             </objects>
             <point key="canvasLocation" x="-1680" y="2620"/>
         </scene>
-
         <!--PageDUTGU View Controller - Département Carrières Sociales-->
         <scene sceneID="5De-Cz-BlR">
             <objects>
@@ -4736,7 +4727,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
             </objects>
             <point key="canvasLocation" x="-898" y="2620"/>
         </scene>
-		</scenes>
+    </scenes>
     <resources>
         <image name="IUTBM_quadri.jpg" width="276" height="102"/>
         <image name="LOGO UFC_1.jpg" width="181" height="102"/>
@@ -4745,16 +4736,15 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
         <image name="accueil_icone.png" width="30" height="30"/>
         <image name="agenda_icone.png" width="30" height="30"/>
         <image name="autres_icone.png" width="30" height="30"/>
-        <image name="ecocampus_icone.png" width="30" height="30"/>
-        <image name="formations_icone.png" width="30" height="30"/>
         <image name="contacts_logo.png" width="512" height="512"/>
-        <image name="ecocampus_icone.png" width="60" height="60"/>
+        <image name="ecocampus_icone.png" width="30" height="30"/>
         <image name="english_logo.png" width="512" height="512"/>
-        <image name="facebook_logo.png" width="512" height="512"/>
-        <image name="google_logo.png" width="512" height="512"/>
+        <image name="facebook_logo.png" width="30" height="30"/>
+        <image name="formations_icone.png" width="30" height="30"/>
+        <image name="google_logo.png" width="30" height="30"/>
         <image name="itineraire_logo.png" width="512" height="512"/>
         <image name="liens_logo.png" width="512" height="512"/>
-        <image name="twitter_logo.png" width="512" height="512"/>
+        <image name="twitter_logo.png" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
