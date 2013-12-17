@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F00ECE83184CC14D00C2B668"
-               BuildableName = "ApllicationIUT.app"
-               BlueprintName = "ApllicationIUT"
-               ReferencedContainer = "container:ApllicationIUT.xcodeproj">
+               BuildableName = "mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+               BlueprintName = "mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
+               ReferencedContainer = "container:mont.bel.iut.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F00ECEA7184CC14E00C2B668"
-               BuildableName = "ApllicationIUTTests.xctest"
-               BlueprintName = "ApllicationIUTTests"
-               ReferencedContainer = "container:ApllicationIUT.xcodeproj">
+               BuildableName = "mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests"
+               ReferencedContainer = "container:mont.bel.iut.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F00ECE83184CC14D00C2B668"
-            BuildableName = "ApllicationIUT.app"
-            BlueprintName = "ApllicationIUT"
-            ReferencedContainer = "container:ApllicationIUT.xcodeproj">
+            BuildableName = "mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+            BlueprintName = "mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:mont.bel.iut.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F00ECE83184CC14D00C2B668"
-            BuildableName = "ApllicationIUT.app"
-            BlueprintName = "ApllicationIUT"
-            ReferencedContainer = "container:ApllicationIUT.xcodeproj">
+            BuildableName = "mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+            BlueprintName = "mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:mont.bel.iut.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F00ECE83184CC14D00C2B668"
-            BuildableName = "ApllicationIUT.app"
-            BlueprintName = "ApllicationIUT"
-            ReferencedContainer = "container:ApllicationIUT.xcodeproj">
+            BuildableName = "mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+            BlueprintName = "mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:mont.bel.iut.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
