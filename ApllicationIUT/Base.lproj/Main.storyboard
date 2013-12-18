@@ -4729,7 +4729,6 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
         <!--Page Ecocampus Principal View Controller - Eco Campus-->
         <scene sceneID="7hR-D5-NIl">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="igU-pS-t4S" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="ABa-FT-RVs" customClass="PageEcocampusPrincipalViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v06-93-NfO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -4809,6 +4808,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                     </view>
                     <navigationItem key="navigationItem" title="Eco Campus" id="tPT-pv-lSY"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="igU-pS-t4S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3084" y="4127"/>
         </scene>
@@ -4925,7 +4925,7 @@ http://www.iut-bm.univ-fcomte.fr</string>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="76" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n9x-Ak-KSY">
                                                 <rect key="frame" x="0.0" y="-63" width="320" height="1543"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Olivier Prévôt, directeur
+                                                <string key="text">Olivier Prévôt, directeur
 Bruno Viezzi et Damien Charlet, directeurs adjoints
 directeurs@iut-bm.univ-fcomte.fr
  
@@ -4975,7 +4975,7 @@ tél. +33 (0)3 81 99 47 00 | sec_rt@iut-bm.univ-fcomte.fr
  
 Techniques de Commercialisation
 55 faubourg des Ancêtres | 90000 Belfort
-tél. +33 (0)3 84 58 18 01 | sec_tc@iut-bm.univ-fcomte.fr</mutableString>
+tél. +33 (0)3 84 58 18 01 | sec_tc@iut-bm.univ-fcomte.fr</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
@@ -5016,7 +5016,7 @@ tél. +33 (0)3 84 58 18 01 | sec_tc@iut-bm.univ-fcomte.fr</mutableString>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="66" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="me6-IQ-kwh">
                                                 <rect key="frame" x="0.0" y="-63" width="320" height="1339"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">The University Institute of Technology of Belfort-Montbéliard (IUT Belfort-Montbéliard) is a public institution of higher education and is part of the University of Franche-Comté.
+                                                <string key="text">The University Institute of Technology of Belfort-Montbéliard (IUT Belfort-Montbéliard) is a public institution of higher education and is part of the University of Franche-Comté.
  
 It was founded in 1969 in Belfort and was extended to the nearby area of Montbéliard in 1991, which is only 20km away.
  
@@ -5034,7 +5034,7 @@ The IUT does everything in its power to maintain its vocation as an Institute th
 puce The strenght of a network
 The 115 IUT of France are part of a network and work in close collaboration. With more than 200 training places, the IUT are situated all over France and work hand in hand with the local labor pool, through tutored projects and the tranfer of technologies.
  
-Since their creation, the IUT have trained more than 1 million graduates and more than 3000 graduates of professional licences. They offer training programmes in all fields of activity in the secondary and the tertiary sector, that is 26 specialities.</mutableString>
+Since their creation, the IUT have trained more than 1 million graduates and more than 3000 graduates of professional licences. They offer training programmes in all fields of activity in the secondary and the tertiary sector, that is 26 specialities.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>

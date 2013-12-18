@@ -729,7 +729,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ApllicationIUT/mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
 				INFOPLIST_FILE = "ApllicationIUT/mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = mont.bel.iut;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -741,7 +743,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ApllicationIUT/mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
 				INFOPLIST_FILE = "ApllicationIUT/mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = mont.bel.iut;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
