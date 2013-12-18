@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9893F9AE-F6FC-45B1-A602-4E1C05B3EE7A</string>
+	<string>B48E3E5D-D566-47BC-9182-14723CEF33EB</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ApllicationIUT</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/benoitStein/projetTuteureLP.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ApllicationIUT/ApllicationIUT.xcodeproj/project.xcworkspace</string>
+	<string>ApllicationIUT.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6B58A81F-E2E9-402F-A3A0-D21198F628CB</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/benoitStein/projetTuteureLP.git</string>

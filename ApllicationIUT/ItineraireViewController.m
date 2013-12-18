@@ -1,0 +1,42 @@
+//
+//  ItineraireViewController.m
+//  mont.bel.iut
+//
+//  Created by projetlp2013 on 05/12/2013.
+//  Copyright (c) 2013 projetlp2013. All rights reserved.
+//
+
+#import "ItineraireViewController.h"
+
+@interface ItineraireViewController ()
+
+@end
+
+@implementation ItineraireViewController
+
+@synthesize mapView;
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view.
+    
+    self.mapView.showsUserLocation = YES;
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+@end
