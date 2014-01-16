@@ -157,7 +157,7 @@ Les stages en entreprise, de 10 à 14 semaines, se déroulent au cours du 4 seme
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Formations" id="QaP-AB-ox9">
-                        <barButtonItem key="rightBarButtonItem" image="formations_icone.png" id="Enz-HQ-QLY">
+                        <barButtonItem key="leftBarButtonItem" image="formations_icone.png" id="Enz-HQ-QLY">
                             <connections>
                                 <segue destination="3Ub-Oy-RbK" kind="push" id="BqG-pH-5vh"/>
                             </connections>

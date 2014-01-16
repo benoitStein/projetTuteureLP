@@ -286,6 +286,7 @@
 		F00ECE8D184CC14D00C2B668 /* ApllicationIUT */ = {
 			isa = PBXGroup;
 			children = (
+				F0AD050A18630568004EBD96 /* Library */,
 				F00ECE96184CC14D00C2B668 /* AppDelegate.h */,
 				F00ECE97184CC14D00C2B668 /* AppDelegate.m */,
 				F00ECE99184CC14D00C2B668 /* Main.storyboard */,
@@ -435,6 +436,13 @@
 				F0706035184E35A6006DFC2D /* skydb171.jpg */,
 			);
 			name = Ressources;
+			sourceTree = "<group>";
+		};
+		F0AD050A18630568004EBD96 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
