@@ -157,7 +157,7 @@ Les stages en entreprise, de 10 à 14 semaines, se déroulent au cours du 4 seme
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Formations" id="QaP-AB-ox9">
-                        <barButtonItem key="leftBarButtonItem" image="formations_icone.png" id="Enz-HQ-QLY">
+                        <barButtonItem key="leftBarButtonItem" image="menu_icone.png" id="Enz-HQ-QLY">
                             <connections>
                                 <segue destination="3Ub-Oy-RbK" kind="push" id="BqG-pH-5vh"/>
                             </connections>
@@ -2044,10 +2044,10 @@ Cependant, l'admission en IUT étant soumise à sélection, il est indispensable
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LNU-lq-JpA">
                                                 <rect key="frame" x="15" y="85" width="305" height="240"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Le DUT Génie Civil vise à la formation de collaborateurs polyvalents participant à la responsabilité de l'étude et de l'exécution des travaux de génie civil :
+                                                <string key="text">Le DUT Génie Civil vise à la formation de collaborateurs polyvalents participant à la responsabilité de l'étude et de l'exécution des travaux de génie civil :
 dans un bureau d'études, ils secondent les ingénieurs,
 sur le chantier, ils sont en charge de l'exécution, du suivi, de la gestion des opérations et cela a des degrés différents suivant le type de chantier,
-dans les laboratoires d'essais ou de recherche, ils sont chargés de l'organisation, de l'exécution et du dépouillement des programmes d'expériences.</mutableString>
+dans les laboratoires d'essais ou de recherche, ils sont chargés de l'organisation, de l'exécution et du dépouillement des programmes d'expériences.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -4727,7 +4727,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="MA scène nationale" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mwE-YC-og7">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="MA scène nationale (Montbéliard)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mwE-YC-og7">
                                                     <rect key="frame" x="15" y="0.0" width="290" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -4795,7 +4795,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Mégarama (Audincourt)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TAj-05-c91">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Cinéma Mégarama (Audincourt)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TAj-05-c91">
                                                     <rect key="frame" x="15" y="0.0" width="290" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -4812,7 +4812,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Colisée (Montbéliard)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="krN-qC-YBp">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Cinéma Colisée (Montbéliard)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="krN-qC-YBp">
                                                     <rect key="frame" x="15" y="0.0" width="290" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -4863,7 +4863,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Les bains douches" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EgL-fH-nZ2">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Les bains douches (Montbéliard)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EgL-fH-nZ2">
                                                     <rect key="frame" x="15" y="0.0" width="290" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -5402,6 +5402,7 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
         <image name="autres_icone.png" width="30" height="30"/>
         <image name="ecocampus_icone.png" width="30" height="30"/>
         <image name="formations_icone.png" width="30" height="30"/>
+        <image name="menu_icone.png" width="30" height="30"/>
         <image name="slideshow_cp_ecocampus.gif" width="558" height="300"/>
         <image name="slideshow_logos.gif" width="558" height="300"/>
         <image name="vignette_ss_challenge.gif" width="100" height="100"/>

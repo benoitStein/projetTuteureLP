@@ -86,6 +86,7 @@
 		F0CB688A1850BF000041544F /* pageDUTMPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CB68891850BF000041544F /* pageDUTMPViewController.m */; };
 		F0CB688D1850BF150041544F /* pageDUTRTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CB688C1850BF150041544F /* pageDUTRTViewController.m */; };
 		F0CB68901850BF250041544F /* pageDUTMMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CB688F1850BF250041544F /* pageDUTMMIViewController.m */; };
+		F0F7922C18901F7400D8950E /* menu_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F7922B18901F7400D8950E /* menu_icone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -223,6 +224,7 @@
 		F0CB688C1850BF150041544F /* pageDUTRTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pageDUTRTViewController.m; sourceTree = "<group>"; };
 		F0CB688E1850BF250041544F /* pageDUTMMIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pageDUTMMIViewController.h; sourceTree = "<group>"; };
 		F0CB688F1850BF250041544F /* pageDUTMMIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pageDUTMMIViewController.m; sourceTree = "<group>"; };
+		F0F7922B18901F7400D8950E /* menu_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_icone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -410,6 +412,7 @@
 		F0706032184E3515006DFC2D /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
+				F0F7922B18901F7400D8950E /* menu_icone.png */,
 				F0110EAE1861CE6C0094E080 /* twitter_logo.png */,
 				F0110EAF1861CE6C0094E080 /* liens_logo.png */,
 				F0110EB01861CE6C0094E080 /* iut_logo120.png */,
@@ -544,6 +547,7 @@
 				F0110EAB1861B2220094E080 /* slideshow_logos.gif in Resources */,
 				F0110EC01861CE6C0094E080 /* iut_logo80.png in Resources */,
 				F0110EBD1861CE6C0094E080 /* twitter_logo.png in Resources */,
+				F0F7922C18901F7400D8950E /* menu_icone.png in Resources */,
 				F0C5E70918575BD4005CDB39 /* LicenceVEGAGraph2.png in Resources */,
 				F070604C18507667006DFC2D /* LOGO UFC_1.jpg in Resources */,
 				F0110EC11861CE6C0094E080 /* iut_logo58.png in Resources */,
