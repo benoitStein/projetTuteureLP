@@ -27,7 +27,7 @@
 {
     [super viewDidLoad];
     [_scroll setScrollEnabled:YES];
-    [_scroll setContentSize:CGSizeMake(320, 1100)];
+    [_scroll setContentSize:CGSizeMake(320, 920)];
     _scroll.pagingEnabled =YES;
     _scroll.bounces = NO;
 	// Do any additional setup after loading the view.
