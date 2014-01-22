@@ -2177,8 +2177,8 @@ De très nombreuses licences, éventuellement par apprentissage, vous sont propo
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vt3-RN-y6M">
-                                                <rect key="frame" x="0.0" y="68" width="320" height="153"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vt3-RN-y6M">
+                                                <rect key="frame" x="20" y="68" width="300" height="153"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Polyvalent par sa formation en électronique, électrotechnique, informatique industrielle, réseaux locaux industriels et automatismes, ce DUT mène aux emplois dans les industries électriques et électroniques, les télécommunications, les appareillages, l’énergie, les industries de transformation, les transports, l’aéronautique, la santé ou les énergies nouvelles et renouvelables.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2193,7 +2193,7 @@ De très nombreuses licences, éventuellement par apprentissage, vous sont propo
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tDh-c2-O1p">
-                                                <rect key="frame" x="0.0" y="264" width="320" height="42"/>
+                                                <rect key="frame" x="20" y="264" width="300" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">• Signal et transmissions
 • Énergies et systèmes  </string>
@@ -2209,7 +2209,7 @@ De très nombreuses licences, éventuellement par apprentissage, vous sont propo
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="W3f-Xp-EdJ">
-                                                <rect key="frame" x="0.0" y="343" width="320" height="208"/>
+                                                <rect key="frame" x="20" y="343" width="300" height="208"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Admission sur dossier :
 • Baccalauréat S, STI (électronique, électrotechnique), STL (physique de laboratoire)
@@ -2229,7 +2229,7 @@ De très nombreuses licences, éventuellement par apprentissage, vous sont propo
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TNa-Tc-9dw">
-                                                <rect key="frame" x="0.0" y="581" width="320" height="348"/>
+                                                <rect key="frame" x="20" y="581" width="300" height="348"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Industries électriques et électroniques, appareillages et instrumentation, production d’énergie, automobile et transports, aéronautique, biens de consommation :
  
@@ -2249,13 +2249,13 @@ De très nombreuses licences, éventuellement par apprentissage, vous sont propo
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Licence professionnelle :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PRC-Dq-fTs">
-                                                <rect key="frame" x="0.0" y="971" width="320" height="21"/>
+                                                <rect key="frame" x="20" y="971" width="300" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pAP-nw-QYK">
-                                                <rect key="frame" x="0.0" y="1000" width="320" height="59"/>
+                                                <rect key="frame" x="20" y="1000" width="300" height="59"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">• Véhicules : électronique et gestion des automatismes (VEGA)
 • Gestion de projets d’innovation (GPI)</string>
@@ -2263,25 +2263,25 @@ De très nombreuses licences, éventuellement par apprentissage, vous sont propo
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Licence :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8ai-fS-zlp">
-                                                <rect key="frame" x="0.0" y="1067" width="320" height="21"/>
+                                                <rect key="frame" x="20" y="1067" width="300" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Électrotechnique, électronique et automatique (E.E.A)" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TXP-tf-YaU">
-                                                <rect key="frame" x="0.0" y="1090" width="320" height="39"/>
+                                                <rect key="frame" x="20" y="1090" width="300" height="39"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="École d’ingénieurs :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1x9-Q5-3Wy">
-                                                <rect key="frame" x="0.0" y="1148" width="320" height="21"/>
+                                                <rect key="frame" x="20" y="1148" width="300" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instrumentation et techniques bio-médicales à l'Institut Supérieur d’Ingénieurs de Franche-Comté (ISIFC)." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ahf-K3-SKb">
-                                                <rect key="frame" x="0.0" y="1177" width="320" height="53"/>
+                                                <rect key="frame" x="20" y="1177" width="300" height="53"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
