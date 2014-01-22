@@ -1928,20 +1928,22 @@ Dans les entreprises, les diplômés interviennent le plus souvent au sein des l
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LPZ-8R-lmy">
-                                                <rect key="frame" x="20" y="52" width="280" height="93"/>
+                                                <rect key="frame" x="20" y="52" width="300" height="93"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Depuis plus de dix ans, le département Services et réseaux de Communication de Montbéliard forme des professionnels de la conception et de la réalisation de produits et de services multimédias en ligne.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public visé :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Khk-bN-kBc">
-                                                <rect key="frame" x="20" y="159" width="93" height="21"/>
+                                                <rect key="frame" x="0.0" y="159" width="320" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kry-2D-zCi">
-                                                <rect key="frame" x="20" y="188" width="280" height="378"/>
+                                                <rect key="frame" x="20" y="188" width="300" height="378"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Pluridisciplinaire, SRC s'ouvre à tous les étudiants, venus de tous les horizons de l'enseignement secondaire… ou d'autres filières universitaires pour opérer une reconversion.
 
@@ -1952,38 +1954,42 @@ Cependant, l'admission en IUT étant soumise à sélection, il est indispensable
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insertion professionnelle :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vLH-2K-ab1">
-                                                <rect key="frame" x="20" y="574" width="197" height="21"/>
+                                                <rect key="frame" x="0.0" y="574" width="320" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LHt-F6-4ad">
-                                                <rect key="frame" x="20" y="603" width="280" height="176"/>
+                                                <rect key="frame" x="20" y="603" width="300" height="176"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Le secteur du web est en plein développement, tant sur les réseaux classiques que sur ceux de la téléphonie mobile. Les agences de communication et de marketing, les services de communication intégrés aux grands groupes, l'e-commerce, les collectivités locales et territoriales, sont à la recherche de techniciens adaptés à cette nouvelle donne.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Poursuite d'études :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Lsl-Hr-GOn">
-                                                <rect key="frame" x="20" y="787" width="155" height="21"/>
+                                                <rect key="frame" x="0.0" y="787" width="320" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Le DUT SRC permet un accès direct à la vie professionnelle mais également diverses poursuites d’études." lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jp7-3T-KdN">
-                                                <rect key="frame" x="20" y="816" width="280" height="58"/>
+                                                <rect key="frame" x="20" y="816" width="300" height="58"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Licence professionnelle :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OtC-hu-TJS">
-                                                <rect key="frame" x="20" y="882" width="190" height="21"/>
+                                                <rect key="frame" x="20" y="882" width="300" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ND1-Ox-7BY">
-                                                <rect key="frame" x="20" y="911" width="259" height="101"/>
+                                                <rect key="frame" x="20" y="911" width="300" height="101"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">- Licence Pro TAIS CIAN (UFR Ingémédia)
 -Licence PRO MIDEN
@@ -1993,7 +1999,7 @@ Cependant, l'admission en IUT étant soumise à sélection, il est indispensable
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formations Universitaires." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="koh-P8-wrN">
-                                                <rect key="frame" x="20" y="1020" width="200" height="21"/>
+                                                <rect key="frame" x="20" y="1020" width="300" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
@@ -4305,13 +4311,15 @@ Notre département vous propose :
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public visé :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kqb-HT-0ib">
-                                                <rect key="frame" x="22" y="393" width="93" height="21"/>
+                                                <rect key="frame" x="0.0" y="393" width="320" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vv6-Eo-Ltt">
-                                                <rect key="frame" x="22" y="422" width="280" height="244"/>
+                                                <rect key="frame" x="20" y="422" width="300" height="244"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Nous recrutons en priorité des bacheliers des séries scientifiques et technologiques (S, S option SI, STI). 
 D'autres candidatures sont possibles après examen de dossier. 
@@ -4322,13 +4330,15 @@ N'hésitez pas à nous contacter pour plus d'informations ou un entretien auprè
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insertion professinnelle :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1hM-o1-PZy">
-                                                <rect key="frame" x="22" y="674" width="187" height="21"/>
+                                                <rect key="frame" x="0.0" y="674" width="320" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DBM-O4-Frw">
-                                                <rect key="frame" x="20" y="703" width="280" height="222"/>
+                                                <rect key="frame" x="20" y="703" width="300" height="222"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">L'éventail des emplois avec un DUT R&amp;T est assez large. Vous pourrez travailler dans les environnements suivants :
 Administrations ou Entreprises possédant un réseau (donc quasiment toutes !)
@@ -4341,13 +4351,15 @@ Services commerciaux des entreprises pour assurer la commercialisation des outil
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Poursuite d'études" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fsv-t7-wpW">
-                                                <rect key="frame" x="20" y="921" width="145" height="21"/>
+                                                <rect key="frame" x="0.0" y="921" width="320" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Na-BV-stG">
-                                                <rect key="frame" x="20" y="950" width="280" height="105"/>
+                                                <rect key="frame" x="20" y="950" width="300" height="105"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Chaque année, les étudiants qui souhaitent encore enrichir leurs connaissances postulent à des poursuites d'études. Elles varient en durée et en difficultés.
 L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine là aussi :</string>
@@ -4355,37 +4367,39 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ecoles d'Ingénieur :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tUx-T5-WBt">
-                                                <rect key="frame" x="20" y="1063" width="152" height="21"/>
+                                                <rect key="frame" x="20" y="1063" width="300" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-UTBM, Sup Télécoms Bretagne, UTT, Sup Télécoms, Ingénieurs 2000, EFREI, INSA, ..." lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pL8-nR-TjU">
-                                                <rect key="frame" x="20" y="1070" width="280" height="84"/>
+                                                <rect key="frame" x="20" y="1070" width="300" height="84"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Multimédia, Informatique" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GLr-t5-YSw">
-                                                <rect key="frame" x="20" y="1163" width="280" height="41"/>
+                                                <rect key="frame" x="20" y="1163" width="300" height="41"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Licences professionnelles :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="R8T-Uh-mvT">
-                                                <rect key="frame" x="20" y="1147" width="207" height="21"/>
+                                                <rect key="frame" x="20" y="1147" width="300" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation continue et par alternance" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uWF-3V-eTn">
-                                                <rect key="frame" x="22" y="49" width="283" height="21"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation continue et par alternance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uWF-3V-eTn">
+                                                <rect key="frame" x="0.0" y="49" width="320" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ecoles de commerce." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="THe-W5-OMp">
-                                                <rect key="frame" x="20" y="1204" width="166" height="21"/>
+                                                <rect key="frame" x="20" y="1204" width="300" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
