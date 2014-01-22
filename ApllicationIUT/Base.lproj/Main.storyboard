@@ -1447,7 +1447,7 @@ et Socio-culturelle</string>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="dZx-oc-XOA" kind="push" id="vZ8-ja-EZp"/>
+                                            <segue destination="dZx-oc-XOA" kind="push" id="hSr-IF-nhj"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="I38-wV-XsP" imageView="d0X-HK-ESU" style="IBUITableViewCellStyleDefault" id="qJD-8e-4Wz">
@@ -4978,7 +4978,7 @@ http://www.iut-bm.univ-fcomte.fr</string>
                                                 <string key="text">Olivier Prévôt, directeur
 Bruno Viezzi et Damien Charlet, directeurs adjoints
 directeurs@iut-bm.univ-fcomte.fr
- 
+ tel:1-408-555-5555
 Secrétariat de direction
 tél. +33 (0)3 84 58 77 02 | fax +33 (0)3 84 22 29 05 
 secretariat-direction@iut-bm.univ-fcomte.fr
