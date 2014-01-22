@@ -2038,7 +2038,7 @@ Cependant, l'admission en IUT étant soumise à sélection, il est indispensable
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7lC-Ae-Iyj">
-                                                <rect key="frame" x="20" y="371" width="300" height="193"/>
+                                                <rect key="frame" x="15" y="355" width="305" height="135"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">• Baccalauréats série scientifiques ou technologiques
 • Diplôme d'Accès aux Etudes Universitaires B option scientifique
@@ -2048,7 +2048,7 @@ Cependant, l'admission en IUT étant soumise à sélection, il est indispensable
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insertion professionnelle :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="40u-JC-4MF">
-                                                <rect key="frame" x="0.0" y="551" width="320" height="21"/>
+                                                <rect key="frame" x="0.0" y="495" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -2056,13 +2056,13 @@ Cependant, l'admission en IUT étant soumise à sélection, il est indispensable
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Construction durable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YVc-za-Kro">
-                                                <rect key="frame" x="0.0" y="20" width="320" height="21"/>
+                                                <rect key="frame" x="0.0" y="5" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation initiale, formation continue et apprentissage (2e année)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cRx-ed-xgr">
-                                                <rect key="frame" x="0.0" y="49" width="320" height="52"/>
+                                                <rect key="frame" x="0.0" y="30" width="320" height="50"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -2070,17 +2070,17 @@ Cependant, l'admission en IUT étant soumise à sélection, il est indispensable
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LNU-lq-JpA">
-                                                <rect key="frame" x="20" y="110" width="300" height="240"/>
+                                                <rect key="frame" x="15" y="85" width="305" height="240"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Le DUT Génie Civil vise à la formation de collaborateurs polyvalents participant à la responsabilité de l'étude et de l'exécution des travaux de génie civil :
+                                                <mutableString key="text">Le DUT Génie Civil vise à la formation de collaborateurs polyvalents participant à la responsabilité de l'étude et de l'exécution des travaux de génie civil :
 dans un bureau d'études, ils secondent les ingénieurs,
 sur le chantier, ils sont en charge de l'exécution, du suivi, de la gestion des opérations et cela a des degrés différents suivant le type de chantier,
-dans les laboratoires d'essais ou de recherche, ils sont chargés de l'organisation, de l'exécution et du dépouillement des programmes d'expériences.</string>
+dans les laboratoires d'essais ou de recherche, ils sont chargés de l'organisation, de l'exécution et du dépouillement des programmes d'expériences.</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public visé :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pG7-ad-7gX">
-                                                <rect key="frame" x="0.0" y="366" width="320" height="21"/>
+                                                <rect key="frame" x="0.0" y="330" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -2088,14 +2088,14 @@ dans les laboratoires d'essais ou de recherche, ils sont chargés de l'organisat
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tvJ-xE-DGu">
-                                                <rect key="frame" x="20" y="588" width="300" height="139"/>
+                                                <rect key="frame" x="15" y="520" width="305" height="140"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Chef de chantier, conducteur de travaux, technicien supérieur en bureau d’étude, technicien supérieur en bureau des Méthodes, économiste de la construction, technicien de laboratoire, collaborateur de Maître d’œuvre, assistance Maîtrise d’Ouvrage, gestionnaire d’un parc immobilier, responsable d’un service technique...</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Poursuites d'études :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p5T-qs-ROV">
-                                                <rect key="frame" x="0.0" y="727" width="320" height="21"/>
+                                                <rect key="frame" x="0.0" y="665" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -2103,13 +2103,13 @@ dans les laboratoires d'essais ou de recherche, ils sont chargés de l'organisat
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- ESTP, INSA, POLYTECH..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nil-79-NgM">
-                                                <rect key="frame" x="20" y="779" width="300" height="21"/>
+                                                <rect key="frame" x="15" y="715" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Bqy-vk-rhg">
-                                                <rect key="frame" x="20" y="837" width="300" height="104"/>
+                                                <rect key="frame" x="15" y="765" width="305" height="105"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">• Conduite de travaux et Performance Energétique des Bâtiments (Belfort)
 De très nombreuses licences, éventuellement par apprentissage, vous sont proposées dans les fonctions d'ingénierie, d'exécution des travaux, de technico-commercial...</string>
@@ -2117,39 +2117,39 @@ De très nombreuses licences, éventuellement par apprentissage, vous sont propo
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Sciences et techniques" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HAb-Li-7as">
-                                                <rect key="frame" x="20" y="985" width="300" height="21"/>
+                                                <rect key="frame" x="15" y="900" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Licence :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yvB-cd-b3d">
-                                                <rect key="frame" x="20" y="956" width="300" height="21"/>
+                                                <rect key="frame" x="15" y="875" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Master en Génie Civil..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Utk-6h-JQI">
-                                                <rect key="frame" x="20" y="1052" width="300" height="21"/>
+                                                <rect key="frame" x="15" y="950" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ecoles d'ingénieur :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ulV-PE-di6">
-                                                <rect key="frame" x="20" y="756" width="300" height="21"/>
+                                                <rect key="frame" x="15" y="690" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Licence professionnelle :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tRZ-xf-Vb9">
-                                                <rect key="frame" x="20" y="819" width="300" height="21"/>
+                                                <rect key="frame" x="15" y="740" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Autres :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QQV-FL-OXk">
-                                                <rect key="frame" x="20" y="1023" width="300" height="21"/>
+                                                <rect key="frame" x="15" y="925" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
