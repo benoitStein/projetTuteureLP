@@ -5390,7 +5390,8 @@ sec_tc@iut-bm.univ-fcomte.fr</string>
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="1269"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Olivier Prévôt, directeur
+                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="700"/>
+                                <mutableString key="text">Olivier Prévôt, directeur
 Bruno Viezzi et Damien Charlet, directeurs adjoints
 email : directeurs@iut-bm.univ-fcomte.fr
 
@@ -5451,9 +5452,9 @@ email : sec_rt@iut-bm.univ-fcomte.fr
  
 Techniques de Commercialisation
 55 faubourg des Ancêtres | 90000 Belfort
-tél. +33 (0)3 84 58 18 01
-sec_tc@iut-bm.univ-fcomte.fr</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+tel : +33 (0)3 84 58 18 01
+email : sec_tc@iut-bm.univ-fcomte.fr</mutableString>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
                             </textView>
