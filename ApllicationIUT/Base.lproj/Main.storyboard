@@ -3777,11 +3777,11 @@ Exemples : exploitant privé ou communal de site de production d’énergie, cha
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="xc6-Mn-COj">
-                                        <rect key="frame" x="0.0" y="65" width="320" height="1400"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4Q5-Go-EA3">
-                                                <rect key="frame" x="21" y="7" width="281" height="21"/>
+                                                <rect key="frame" x="21" y="5" width="281" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Conduite de Travaux et Performance
 Energétique des Bâtiments</string>
@@ -3789,7 +3789,7 @@ Energétique des Bâtiments</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resp. pédagogique de la licence :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6rc-0K-uWX">
-                                                <rect key="frame" x="0.0" y="45" width="320" height="21"/>
+                                                <rect key="frame" x="0.0" y="30" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -3797,13 +3797,13 @@ Energétique des Bâtiments</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Romain Richard" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nkX-FD-IDO">
-                                                <rect key="frame" x="20" y="74" width="300" height="21"/>
+                                                <rect key="frame" x="15" y="55" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation continue et apprentissage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QRm-QZ-9wr">
-                                                <rect key="frame" x="0.0" y="103" width="320" height="21"/>
+                                                <rect key="frame" x="0.0" y="80" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -3811,7 +3811,7 @@ Energétique des Bâtiments</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PdL-Jx-8jX">
-                                                <rect key="frame" x="20" y="132" width="300" height="518"/>
+                                                <rect key="frame" x="15" y="105" width="305" height="475"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">La licence professionnelle « Conducteur de Travaux en Maisons individuelles - CTMI » a été ouverte en septembre 2008 et reconduite pour deux années jusqu’en 2012. Cette licence professionnelle, dès sa création, a bénéficié d’une étroite collaboration et d’un constant soutien de la part des milieux professionnels du Bâtiment.
  
@@ -3822,7 +3822,7 @@ Cette  nouvelle spécialité "Conduite de Travaux et Performance Energétique de
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public visé :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Acf-Gp-Mox">
-                                                <rect key="frame" x="0.0" y="669" width="320" height="21"/>
+                                                <rect key="frame" x="0.0" y="585" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -3830,7 +3830,7 @@ Cette  nouvelle spécialité "Conduite de Travaux et Performance Energétique de
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c2K-E0-d6g">
-                                                <rect key="frame" x="20" y="698" width="300" height="242"/>
+                                                <rect key="frame" x="15" y="610" width="305" height="240"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Accessible en alternance (contrats d'apprentissage ou de professionnalisation) pour :
 • les étudiants titulaires d'un DEUG, DUT, BTS ayant un rapport avec l'acte de construire ou l'aménagement du territoire
@@ -3842,7 +3842,7 @@ Cette  nouvelle spécialité "Conduite de Travaux et Performance Energétique de
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Après la licence :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nd2-Et-Y6F">
-                                                <rect key="frame" x="0.0" y="953" width="320" height="21"/>
+                                                <rect key="frame" x="0.0" y="855" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -3850,7 +3850,7 @@ Cette  nouvelle spécialité "Conduite de Travaux et Performance Energétique de
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TCx-6G-Ev0">
-                                                <rect key="frame" x="20" y="982" width="300" height="309"/>
+                                                <rect key="frame" x="15" y="880" width="305" height="275"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">• Maîtrise d’ouvrage : Chargé d’opérations
 • Collectivités territoriales : Chargé de mission, Conseiller énergie
