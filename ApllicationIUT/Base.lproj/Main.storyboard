@@ -1435,7 +1435,7 @@ et Socio-culturelle</string>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="dZx-oc-XOA" kind="push" id="hSr-IF-nhj"/>
+                                            <segue destination="I7h-Yq-z7M" kind="push" id="yij-Ta-Ga8"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="I38-wV-XsP" style="IBUITableViewCellStyleDefault" id="qJD-8e-4Wz">
@@ -5260,7 +5260,7 @@ http://www.iut-bm.univ-fcomte.fr</string>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="76" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n9x-Ak-KSY">
                                                 <rect key="frame" x="0.0" y="-63" width="320" height="1543"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Olivier Prévôt, directeur
+                                                <string key="text">Olivier Prévôt, directeur
 Bruno Viezzi et Damien Charlet, directeurs adjoints
 directeurs@iut-bm.univ-fcomte.fr
 
@@ -5322,7 +5322,7 @@ sec_rt@iut-bm.univ-fcomte.fr
 Techniques de Commercialisation
 55 faubourg des Ancêtres | 90000 Belfort
 tél. +33 (0)3 84 58 18 01
-sec_tc@iut-bm.univ-fcomte.fr</mutableString>
+sec_tc@iut-bm.univ-fcomte.fr</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
@@ -5344,6 +5344,36 @@ sec_tc@iut-bm.univ-fcomte.fr</mutableString>
             </objects>
             <point key="canvasLocation" x="-1498" y="1870"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="P9I-LE-mKw">
+            <objects>
+                <viewController id="I7h-Yq-z7M" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="otX-61-0As">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="w8G-4R-hCe">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">tel:03 81 69 92 70
+
+pierrick.tyrode@gmail.com
+
+www.google.fr</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="roe-ZZ-rgy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a9z-rH-C8x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1957" y="1864"/>
+        </scene>
         <!--English View Controller - English-->
         <scene sceneID="9MG-qC-iLz">
             <objects>
@@ -5363,7 +5393,7 @@ sec_tc@iut-bm.univ-fcomte.fr</mutableString>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="66" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="me6-IQ-kwh">
                                                 <rect key="frame" x="0.0" y="-63" width="320" height="1339"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">The University Institute of Technology of Belfort-Montbéliard (IUT Belfort-Montbéliard) is a public institution of higher education and is part of the University of Franche-Comté.
+                                                <string key="text">The University Institute of Technology of Belfort-Montbéliard (IUT Belfort-Montbéliard) is a public institution of higher education and is part of the University of Franche-Comté.
  
 It was founded in 1969 in Belfort and was extended to the nearby area of Montbéliard in 1991, which is only 20km away.
  
@@ -5381,7 +5411,7 @@ The IUT does everything in its power to maintain its vocation as an Institute th
 puce The strenght of a network
 The 115 IUT of France are part of a network and work in close collaboration. With more than 200 training places, the IUT are situated all over France and work hand in hand with the local labor pool, through tutored projects and the tranfer of technologies.
  
-Since their creation, the IUT have trained more than 1 million graduates and more than 3000 graduates of professional licences. They offer training programmes in all fields of activity in the secondary and the tertiary sector, that is 26 specialities.</mutableString>
+Since their creation, the IUT have trained more than 1 million graduates and more than 3000 graduates of professional licences. They offer training programmes in all fields of activity in the secondary and the tertiary sector, that is 26 specialities.</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
