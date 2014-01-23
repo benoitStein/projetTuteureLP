@@ -1435,7 +1435,7 @@ et Socio-culturelle</string>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="dZx-oc-XOA" kind="push" id="hSr-IF-nhj"/>
+                                            <segue destination="I7h-Yq-z7M" kind="push" id="yij-Ta-Ga8"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="I38-wV-XsP" style="IBUITableViewCellStyleDefault" id="qJD-8e-4Wz">
@@ -5377,6 +5377,36 @@ sec_tc@iut-bm.univ-fcomte.fr</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nAI-NF-gap" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1498" y="1870"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="P9I-LE-mKw">
+            <objects>
+                <viewController id="I7h-Yq-z7M" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="otX-61-0As">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="w8G-4R-hCe">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">tel:03 81 69 92 70
+
+pierrick.tyrode@gmail.com
+
+www.google.fr</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="roe-ZZ-rgy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a9z-rH-C8x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1957" y="1864"/>
         </scene>
         <!--English View Controller - English-->
         <scene sceneID="9MG-qC-iLz">
