@@ -5294,7 +5294,7 @@ http://www.iut-bm.univ-fcomte.fr</string>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="76" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n9x-Ak-KSY">
                                                 <rect key="frame" x="0.0" y="-63" width="320" height="1543"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Olivier Prévôt, directeur
+                                                <mutableString key="text">Olivier Prévôt, directeur
 Bruno Viezzi et Damien Charlet, directeurs adjoints
 directeurs@iut-bm.univ-fcomte.fr
 
@@ -5356,7 +5356,7 @@ sec_rt@iut-bm.univ-fcomte.fr
 Techniques de Commercialisation
 55 faubourg des Ancêtres | 90000 Belfort
 tél. +33 (0)3 84 58 18 01
-sec_tc@iut-bm.univ-fcomte.fr</string>
+sec_tc@iut-bm.univ-fcomte.fr</mutableString>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
@@ -5378,7 +5378,7 @@ sec_tc@iut-bm.univ-fcomte.fr</string>
             </objects>
             <point key="canvasLocation" x="-1498" y="1870"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Contacts-->
         <scene sceneID="P9I-LE-mKw">
             <objects>
                 <viewController id="I7h-Yq-z7M" sceneMemberID="viewController">
@@ -5387,14 +5387,72 @@ sec_tc@iut-bm.univ-fcomte.fr</string>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="w8G-4R-hCe">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1252"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">tel:03 81 69 92 70
+                                <mutableString key="text">Olivier Prévôt, directeur
+Bruno Viezzi et Damien Charlet, directeurs adjoints
+directeurs@iut-bm.univ-fcomte.fr
 
-pierrick.tyrode@gmail.com
+Secrétariat de direction
+tél. +33 (0)3 84 58 77 02  
+fax +33 (0)3 84 22 29 05
+secretariat-direction@iut-bm.univ-fcomte.fr
+ 
+Sidhamed Benhadjeba
+Resp. administratif et financier
+tél. +33 (0)3 84 58 77 93
+fax +33 (0)3 84 22 29 05
 
-www.google.fr</string>
+Carrières Sociales
+19 avenue du Maréchal Juin | BP 527 | 90016 Belfort cedex
+tél. +33 (0)3 84 58 76 00
+sec_cs@iut-bm.univ-fcomte.fr
+ 
+Génie Civil - construction durable
+19 avenue du Maréchal Juin | BP 527 | 90016 Belfort cedex
+tél. +33 (0)3 84 58 77 9
+sec_gc@iut-bm.univ-fcomte.fr
+ 
+Génie Electrique et Informatique Industrielle
+19 avenue du Maréchal Juin | BP 527 | 90016 Belfort cedex
+tél. +33 (0)3 84 58 77 47
+sec_geii@iut-bm.univ-fcomte.fr
+   
+Génie Thermique et Energie
+19 avenue du Maréchal Juin | BP 527 | 90016 Belfort cedex
+tél. +33 (0)3 84 58 77 49
+sec_gte@iut-bm.univ-fcomte.fr
+ 
+Gestion Administrative et Commerciale des Organisations
+4 place Tharradin | BP 71427 | 25211 Montbéliard cedex
+tél. +33 (0)3 81 99 46 28
+sec_gaco@iut-bm.univ-fcomte.fr
+ 
+Informatique
+19 avenue du Maréchal Juin BP 527 | 90016 Belfort cedex
+tél. +33 (0)3 84 58 77 82
+sec_info@iut-bm.univ-fcomte.fr
+ 
+Mesures Physiques
+4 place Tharradin | BP 71427 | 25211 Montbéliard cedex
+tél. +33 (0)3 81 99 46 02
+sec_mp@iut-bm.univ-fcomte.fr
+ 
+Métiers du Multimédia et de l'Internet
+4 place Tharradin | BP 71427 | 25211 Montbéliard cedex
+tél. +33 (0)3 81 99 47 34
+sec_src@iut-bm.univ-fcomte.fr
+ 
+Réseaux et Télécommunications
+4 place Tharradin | BP 71427 | 25211 Montbéliard cedex
+tél. +33 (0)3 81 99 47 00
+sec_rt@iut-bm.univ-fcomte.fr
+ 
+Techniques de Commercialisation
+55 faubourg des Ancêtres | 90000 Belfort
+tél. +33 (0)3 84 58 18 01
+sec_tc@iut-bm.univ-fcomte.fr</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
@@ -5402,7 +5460,7 @@ www.google.fr</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="roe-ZZ-rgy"/>
+                    <navigationItem key="navigationItem" title="Contacts" id="roe-ZZ-rgy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a9z-rH-C8x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
