@@ -4102,23 +4102,25 @@ Le parcours TeProW vise à former des cadres de niveau intermédiaire capables d
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="FGs-2v-lCM">
-                                        <rect key="frame" x="0.0" y="65" width="320" height="1500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1250"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Capteurs, Instrumentation, Métrologie" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Dd-jo-wzJ">
-                                                <rect key="frame" x="20" y="0.0" width="291" height="21"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Capteurs, Instrumentation, Métrologie" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Dd-jo-wzJ">
+                                                <rect key="frame" x="0.0" y="5" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation initiale, formation continue et apprentissage" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sCU-gv-hMY">
-                                                <rect key="frame" x="20" y="29" width="261" height="35"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation continue et apprentissage" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sCU-gv-hMY">
+                                                <rect key="frame" x="0.0" y="30" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qw3-6g-1Oh">
-                                                <rect key="frame" x="20" y="85" width="280" height="491"/>
+                                                <rect key="frame" x="15" y="55" width="305" height="445"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Dans le cadre de la démarche par projets, pour répondre aux exigences des clients et rester performant face à la concurrence, les entreprises du secteur industriel sont amenées à mettre en place de nombreux essais sur les produits qu’elles fabriquent.
  
@@ -4132,13 +4134,15 @@ La licence professionnelle CIM a pour objectif de répondre par une formation de
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public visé :" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cMZ-ve-h6o">
-                                                <rect key="frame" x="20" y="586" width="93" height="21"/>
+                                                <rect key="frame" x="0.0" y="505" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jM7-pH-1pX">
-                                                <rect key="frame" x="20" y="621" width="280" height="310"/>
+                                                <rect key="frame" x="15" y="530" width="305" height="275"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">• DUT MP, GMP, GEII, R&amp;T, GIM, SGM, GTE, MCQ,
 • BTS industriel (CIRA, IRIS, TPIL …)
@@ -4150,13 +4154,15 @@ La licence professionnelle CIM a pour objectif de répondre par une formation de
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insertion professionnelle :" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="37q-bp-Jlc">
-                                                <rect key="frame" x="20" y="952" width="197" height="21"/>
+                                                <rect key="frame" x="0.0" y="810" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BOg-LV-Jwf">
-                                                <rect key="frame" x="20" y="981" width="280" height="403"/>
+                                                <rect key="frame" x="15" y="835" width="305" height="375"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Les métiers visés sont dans le secteur secondaire ceux de la mesure, de l’instrumentation et du contrôle comme par exemple :
 • Technicien/technicienne en mesures physiques
