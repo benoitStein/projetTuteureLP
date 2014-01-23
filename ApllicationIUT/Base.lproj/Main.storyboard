@@ -56,11 +56,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="80p-UK-qZg">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
+                                        <rect key="frame" x="0.0" y="-15" width="320" height="900"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Des formations tournées vers l'avenir :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FUd-5u-3jp">
-                                                <rect key="frame" x="0.0" y="16" width="320" height="21"/>
+                                                <rect key="frame" x="0.0" y="5" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="15"/>
@@ -68,7 +68,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stages et projets professionnels : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kVK-9q-Uyb">
-                                                <rect key="frame" x="0.0" y="150" width="320" height="21"/>
+                                                <rect key="frame" x="0.0" y="135" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="15"/>
@@ -76,7 +76,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Une culture de partenariat :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hKA-kF-Sci">
-                                                <rect key="frame" x="0.0" y="434" width="320" height="21"/>
+                                                <rect key="frame" x="0.0" y="405" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="15"/>
@@ -84,7 +84,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enrichir son cursus à l'international :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vw6-Fm-cLz">
-                                                <rect key="frame" x="0.0" y="723" width="320" height="21"/>
+                                                <rect key="frame" x="0.0" y="675" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
@@ -92,7 +92,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Des offres de formation adaptées :" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="crL-BH-RxY">
-                                                <rect key="frame" x="0.0" y="566" width="320" height="20"/>
+                                                <rect key="frame" x="0.0" y="525" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
@@ -100,7 +100,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PES-8p-PEX">
-                                                <rect key="frame" x="15" y="45" width="305" height="100"/>
+                                                <rect key="frame" x="15" y="30" width="305" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Etudier à l’IUT, c’est choisir de suivre une formation universitaire technologique professionnelle : enseignements théoriques alternent avec pratiques et expériences de terrain permettant à chacun d’améliorer ses connaissances et ses compétences. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -108,7 +108,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EgZ-F2-IBk">
-                                                <rect key="frame" x="15" y="181" width="305" height="240"/>
+                                                <rect key="frame" x="15" y="160" width="305" height="240"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Le projet personnel et professionnel de l’étudiant l’accompagne dans la découverte du monde du travail à partir de ses motivations, ses expériences et d’une meilleure connaissance de soi.
  
@@ -120,21 +120,21 @@ Les stages en entreprise, de 10 à 14 semaines, se déroulent au cours du 4 seme
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fk6-P3-tLb">
-                                                <rect key="frame" x="15" y="458" width="305" height="100"/>
+                                                <rect key="frame" x="15" y="430" width="305" height="90"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Les professionnels contribuent à l’enseignement et à la formation. En DUT, au moins 20% des enseignements sont assurés par des professionnels (25% en licence professionnelle).</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jIz-U9-Or6">
-                                                <rect key="frame" x="15" y="595" width="305" height="120"/>
+                                                <rect key="frame" x="15" y="550" width="305" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Formation continue, VAE, apprentissage, contrat de professionnalisation... L’IUT de Belfort-Montbéliard ouvre ses formations à des publics variés et leur propose des diplômes nationaux, soit pour faire évoluer leurs carrières, soit pour une meilleure insertion dans la vie active.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fp3-Ar-6ti">
-                                                <rect key="frame" x="20" y="721" width="305" height="200"/>
+                                                <rect key="frame" x="15" y="700" width="305" height="135"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effectuer des stages ou un semestre d’études à l’étranger, une expérience qui constitue un atout supplémentaire pour l’insertion professionnelle des diplômés. L’établissement accueille également des étudiants venus du monde entier.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3193,7 +3193,7 @@ et au Commerce</string>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TMz-bC-QAo">
                                                 <rect key="frame" x="15" y="75" width="305" height="670"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Entrez dans le domaine du Marketing &amp; de la Communication des Organisations du Spectacle, de l'Evénementiel et des Loisirs, la licence MOSEL.
+                                                <string key="text">Entrez dans le domaine du Marketing &amp; de la Communication des Organisations du Spectacle, de l'Evénementiel et des Loisirs, la licence MOSEL.
 
 Les métiers visés sont nombreux et tendent tous vers une professionnalisation indispensable grâce à l'acquisition de connaissances, de compétences spécifiques et d'une confrontation continue par l'expérience.
 
@@ -3209,7 +3209,7 @@ La promotion 2012-2013, composée de 28 étudiants, a suivi une formation organi
 
 - le BtoB (incentive, grands médias, salons professionnels,..) 
 
-A l'issue de la formation, avec 420 heures de cours, 130 heures de projets et 4 mois de stage rémunéré, les étudiants doivent être capables d'accompagner le développement marketing et commercial de l'organisation.</mutableString>
+A l'issue de la formation, avec 420 heures de cours, 130 heures de projets et 4 mois de stage rémunéré, les étudiants doivent être capables d'accompagner le développement marketing et commercial de l'organisation.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -3545,7 +3545,7 @@ Possibilité de suivre la formation en alternance par apprentissage ou en contra
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xph-dz-lIK">
                                                 <rect key="frame" x="15" y="770" width="305" height="440"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">La licence professionnelle Webdesign s’adresse plus particulièrement :
+                                                <string key="text">La licence professionnelle Webdesign s’adresse plus particulièrement :
 
 -aux étudiants issus de Licence 2 ou Licence 3 en Sciences Humaines &amp; Sociales, Arts Plastiques ou Arts Appliqués
 
@@ -3555,7 +3555,7 @@ Possibilité de suivre la formation en alternance par apprentissage ou en contra
 
 -aux salariés ou demandeurs d’emploi relevant de la formation continue, pour lesquels la validation des acquis d’expérience (V.A.E.) est possible.
 
-Le recrutement est effectué par un jury sur la base d’un dossier de candidature incluant les résultats universitaires antérieurs (relevés de notes), d’une lettre de motivation et, éventuellement, d’un dossier personnel présentant une sélection des travaux du candidat.</mutableString>
+Le recrutement est effectué par un jury sur la base d’un dossier de candidature incluant les résultats universitaires antérieurs (relevés de notes), d’une lettre de motivation et, éventuellement, d’un dossier personnel présentant une sélection des travaux du candidat.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
