@@ -59,6 +59,8 @@
 		F070604C18507667006DFC2D /* LOGO UFC_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F070604B18507667006DFC2D /* LOGO UFC_1.jpg */; };
 		F070604E185076BE006DFC2D /* IUTBM_quadri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F070604D185076BE006DFC2D /* IUTBM_quadri.jpg */; };
 		F0994CC4184CD0F200AB253B /* pagePrincipaleFormationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0994CC3184CD0F200AB253B /* pagePrincipaleFormationViewController.m */; };
+		F0A3C34218916B2B0020242B /* LiensWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A3C34118916B2B0020242B /* LiensWebViewController.m */; };
+		F0A3C34518916D980020242B /* LiensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A3C34418916D980020242B /* LiensViewController.m */; };
 		F0C5E6E118571417005CDB39 /* pageLicenceASSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C5E6E018571417005CDB39 /* pageLicenceASSViewController.m */; };
 		F0C5E6E41857144C005CDB39 /* pageLicenceCTPEBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C5E6E31857144C005CDB39 /* pageLicenceCTPEBViewController.m */; };
 		F0C5E6E718571463005CDB39 /* pageLicenceEnRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C5E6E618571463005CDB39 /* pageLicenceEnRViewController.m */; };
@@ -172,6 +174,10 @@
 		F070604D185076BE006DFC2D /* IUTBM_quadri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IUTBM_quadri.jpg; sourceTree = "<group>"; };
 		F0994CC2184CD0F200AB253B /* pagePrincipaleFormationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pagePrincipaleFormationViewController.h; sourceTree = "<group>"; };
 		F0994CC3184CD0F200AB253B /* pagePrincipaleFormationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pagePrincipaleFormationViewController.m; sourceTree = "<group>"; };
+		F0A3C34018916B2B0020242B /* LiensWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiensWebViewController.h; sourceTree = "<group>"; };
+		F0A3C34118916B2B0020242B /* LiensWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiensWebViewController.m; sourceTree = "<group>"; };
+		F0A3C34318916D980020242B /* LiensViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiensViewController.h; sourceTree = "<group>"; };
+		F0A3C34418916D980020242B /* LiensViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiensViewController.m; sourceTree = "<group>"; };
 		F0C5E6DF18571417005CDB39 /* pageLicenceASSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pageLicenceASSViewController.h; sourceTree = "<group>"; };
 		F0C5E6E018571417005CDB39 /* pageLicenceASSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pageLicenceASSViewController.m; sourceTree = "<group>"; };
 		F0C5E6E21857144C005CDB39 /* pageLicenceCTPEBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pageLicenceCTPEBViewController.h; sourceTree = "<group>"; };
@@ -376,6 +382,10 @@
 				F0478F7D1859C941008A6303 /* pageAgendaViewController.m */,
 				F0110ECE1861D55F0094E080 /* EnglishViewController.h */,
 				F0110ECF1861D55F0094E080 /* EnglishViewController.m */,
+				F0A3C34018916B2B0020242B /* LiensWebViewController.h */,
+				F0A3C34118916B2B0020242B /* LiensWebViewController.m */,
+				F0A3C34318916D980020242B /* LiensViewController.h */,
+				F0A3C34418916D980020242B /* LiensViewController.m */,
 			);
 			path = ApllicationIUT;
 			sourceTree = "<group>";
@@ -591,6 +601,7 @@
 				F0CB686F1850925E0041544F /* pagePresentationGCViewController.m in Sources */,
 				F0CB68901850BF250041544F /* pageDUTMMIViewController.m in Sources */,
 				F0C5E7031857163B005CDB39 /* pageLicenceWDViewController.m in Sources */,
+				F0A3C34518916D980020242B /* LiensViewController.m in Sources */,
 				F00ECE98184CC14D00C2B668 /* AppDelegate.m in Sources */,
 				F0C5E70618575480005CDB39 /* pageLicenceTeprowViewController.m in Sources */,
 				F0CB6872185097660041544F /* pageDUTINFOViewController.m in Sources */,
@@ -598,6 +609,7 @@
 				F0CB688A1850BF000041544F /* pageDUTMPViewController.m in Sources */,
 				F0110E761860C3DA0094E080 /* GoogleViewController.m in Sources */,
 				F0C5E6E718571463005CDB39 /* pageLicenceEnRViewController.m in Sources */,
+				F0A3C34218916B2B0020242B /* LiensWebViewController.m in Sources */,
 				F0C5E6E118571417005CDB39 /* pageLicenceASSViewController.m in Sources */,
 				F0110E851860C4EB0094E080 /* ContactViewController.m in Sources */,
 				F0C5E70018571621005CDB39 /* pageLicenceMOSELViewController.m in Sources */,

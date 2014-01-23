@@ -1415,7 +1415,7 @@ et Socio-culturelle</string>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="Qiy-NB-hFS" kind="push" id="1uH-tn-FTa"/>
+                                            <segue destination="5Rv-QE-9Na" kind="push" id="TXE-GT-2xa"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Dn6-iu-fo6" style="IBUITableViewCellStyleDefault" id="qvX-G8-FX9">
@@ -4517,7 +4517,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                             <tableViewSection id="n2z-Po-0zQ">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Qc6-NE-mKE" style="IBUITableViewCellStyleDefault" id="Uvh-LD-T6u">
-                                        <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Uvh-LD-T6u" id="D22-vD-KfO">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4534,7 +4534,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="w5r-va-m9s" style="IBUITableViewCellStyleDefault" id="RUU-tI-SGk">
-                                        <rect key="frame" x="0.0" y="108" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="44" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RUU-tI-SGk" id="WwN-IR-CnU">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4551,7 +4551,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="TXW-Cm-hhE" style="IBUITableViewCellStyleDefault" id="4XV-kA-apL">
-                                        <rect key="frame" x="0.0" y="152" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="88" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4XV-kA-apL" id="VXV-bm-80w">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4568,7 +4568,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Pkc-uE-Lsw" style="IBUITableViewCellStyleDefault" id="NJN-jI-rVF">
-                                        <rect key="frame" x="0.0" y="196" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="132" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NJN-jI-rVF" id="GL5-Af-52d">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4585,7 +4585,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="gnJ-4T-nwT" style="IBUITableViewCellStyleDefault" id="RhZ-L1-drb">
-                                        <rect key="frame" x="0.0" y="240" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="176" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RhZ-L1-drb" id="XIn-74-fGV">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4602,7 +4602,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="V2i-3F-mpH" style="IBUITableViewCellStyleDefault" id="LXm-6c-K2y">
-                                        <rect key="frame" x="0.0" y="284" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="220" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LXm-6c-K2y" id="lqB-Ms-TDu">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4619,7 +4619,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="2ow-S9-fcd" style="IBUITableViewCellStyleDefault" id="0rm-gx-elK">
-                                        <rect key="frame" x="0.0" y="328" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="264" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0rm-gx-elK" id="2VR-Ai-kaK">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4636,7 +4636,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="WiH-Cj-zYT" style="IBUITableViewCellStyleDefault" id="gtr-yd-5ob">
-                                        <rect key="frame" x="0.0" y="372" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="308" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gtr-yd-5ob" id="kTu-0N-b36">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4653,7 +4653,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="AmE-07-3vZ" style="IBUITableViewCellStyleDefault" id="EGf-V6-rfY">
-                                        <rect key="frame" x="0.0" y="416" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="352" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EGf-V6-rfY" id="fG4-Rb-qrb">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4670,7 +4670,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="1TK-Qs-vDh" style="IBUITableViewCellStyleDefault" id="TIq-2e-PyD">
-                                        <rect key="frame" x="0.0" y="460" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="396" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TIq-2e-PyD" id="hPL-8B-5ET">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4687,7 +4687,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="ztq-j3-Pug" style="IBUITableViewCellStyleDefault" id="ggb-yC-sf1">
-                                        <rect key="frame" x="0.0" y="504" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="440" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ggb-yC-sf1" id="7Re-67-BLT">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4704,7 +4704,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Vf2-1k-4RK" style="IBUITableViewCellStyleDefault" id="ivA-d7-o0X">
-                                        <rect key="frame" x="0.0" y="548" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="484" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ivA-d7-o0X" id="4W2-yY-Lnb">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4721,7 +4721,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="j7V-aB-HN2" style="IBUITableViewCellStyleDefault" id="agL-jC-Q9w">
-                                        <rect key="frame" x="0.0" y="592" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="528" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="agL-jC-Q9w" id="jOa-VD-Ioh">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4738,7 +4738,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="nWq-w3-doS" style="IBUITableViewCellStyleDefault" id="cky-Nd-UZb">
-                                        <rect key="frame" x="0.0" y="636" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="572" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cky-Nd-UZb" id="6Lp-0j-uHT">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4755,7 +4755,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="mwE-YC-og7" style="IBUITableViewCellStyleDefault" id="04k-CF-hnf">
-                                        <rect key="frame" x="0.0" y="680" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="616" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="04k-CF-hnf" id="cvb-2Z-8cI">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4772,7 +4772,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="5mM-hm-1ak" style="IBUITableViewCellStyleDefault" id="Mkn-X6-AQV">
-                                        <rect key="frame" x="0.0" y="724" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="660" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mkn-X6-AQV" id="MRI-Bg-bPx">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4789,7 +4789,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="i8o-NN-JrS" style="IBUITableViewCellStyleDefault" id="Wxv-HH-FKt">
-                                        <rect key="frame" x="0.0" y="768" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="704" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Wxv-HH-FKt" id="atP-rW-YH0">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4806,7 +4806,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="NLZ-IM-hN6" style="IBUITableViewCellStyleDefault" id="0AJ-c4-0VM">
-                                        <rect key="frame" x="0.0" y="812" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="748" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0AJ-c4-0VM" id="VvI-9h-rOB">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4823,7 +4823,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="TAj-05-c91" style="IBUITableViewCellStyleDefault" id="2ee-EU-qaW">
-                                        <rect key="frame" x="0.0" y="856" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="792" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2ee-EU-qaW" id="Hud-eM-HbY">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4840,7 +4840,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="krN-qC-YBp" style="IBUITableViewCellStyleDefault" id="1c1-p6-RjT">
-                                        <rect key="frame" x="0.0" y="900" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="836" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1c1-p6-RjT" id="jdl-so-X4a">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4857,7 +4857,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Oww-AG-Ysh" style="IBUITableViewCellStyleDefault" id="gDH-ap-T4U">
-                                        <rect key="frame" x="0.0" y="944" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="880" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gDH-ap-T4U" id="KBm-WQ-Fyb">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4874,7 +4874,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="xuf-lx-TBe" style="IBUITableViewCellStyleDefault" id="on8-1H-GV8">
-                                        <rect key="frame" x="0.0" y="988" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="924" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="on8-1H-GV8" id="GeS-I0-liU">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4891,7 +4891,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="EgL-fH-nZ2" style="IBUITableViewCellStyleDefault" id="mvo-Ii-pEV">
-                                        <rect key="frame" x="0.0" y="1032" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="968" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mvo-Ii-pEV" id="8st-oU-dgC">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -4908,7 +4908,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="zkL-wX-bWT" style="IBUITableViewCellStyleDefault" id="9ws-SP-TLT">
-                                        <rect key="frame" x="0.0" y="1076" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="1012" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9ws-SP-TLT" id="TLe-Yp-qwY">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -5283,75 +5283,259 @@ http://www.iut-bm.univ-fcomte.fr</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="w8G-4R-hCe">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="w8G-4R-hCe">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="1269"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="700"/>
-                                <mutableString key="text">Olivier Prévôt, directeur
-Bruno Viezzi et Damien Charlet, directeurs adjoints
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Olivier Prévôt, directeur
+Bruno Viezzi et Damien Charlet, directeurs adjoints</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
 email : directeurs@iut-bm.univ-fcomte.fr
 
-Secrétariat de direction
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Secrétariat de direction">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
 tel : +33 (0)3 84 58 77 02  
 fax : +33 (0)3 84 22 29 05
 email : secretariat-direction@iut-bm.univ-fcomte.fr
  
-Sidhamed Benhadjeba
-Resp. administratif et financier
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Sidhamed Benhadjeba
+Resp. administratif et financier</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
 tel : +33 (0)3 84 58 77 93
 fax : +33 (0)3 84 22 29 05
 
-Carrières Sociales
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Carrières Sociales">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
 19 avenue du Maréchal Juin | BP 527 | 90016 Belfort cedex
 tel : +33 (0)3 84 58 76 00
 email : sec_cs@iut-bm.univ-fcomte.fr
  
-Génie Civil - construction durable
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Génie Civil - construction durable">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
 19 avenue du Maréchal Juin | BP 527 | 90016 Belfort cedex
 tel : +33 (0)3 84 58 77 9
 email : sec_gc@iut-bm.univ-fcomte.fr
  
-Génie Electrique et Informatique Industrielle
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Génie Electrique et Informatique Industrielle">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
 19 avenue du Maréchal Juin | BP 527 | 90016 Belfort cedex
 tel : +33 (0)3 84 58 77 47
 email : sec_geii@iut-bm.univ-fcomte.fr
    
-Génie Thermique et Energie
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Génie Thermique et Energie">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
 19 avenue du Maréchal Juin | BP 527 | 90016 Belfort cedex
 tel : +33 (0)3 84 58 77 49
 email : sec_gte@iut-bm.univ-fcomte.fr
  
-Gestion Administrative et Commerciale des Organisations
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Gestion Administrative et Commerciale des Organisations">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
 4 place Tharradin | BP 71427 | 25211 Montbéliard cedex
 tel : +33 (0)3 81 99 46 28
 email : sec_gaco@iut-bm.univ-fcomte.fr
  
-Informatique
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Informatique">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
 19 avenue du Maréchal Juin BP 527 | 90016 Belfort cedex
 tel : +33 (0)3 84 58 77 82
 email : sec_info@iut-bm.univ-fcomte.fr
  
-Mesures Physiques
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Mesures Physiques">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
 4 place Tharradin | BP 71427 | 25211 Montbéliard cedex
 tel : +33 (0)3 81 99 46 02
 email : sec_mp@iut-bm.univ-fcomte.fr
  
-Métiers du Multimédia et de l'Internet
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Métiers du Multimédia et de l'Internet">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
 4 place Tharradin | BP 71427 | 25211 Montbéliard cedex
 tel : +33 (0)3 81 99 47 34
 email : sec_src@iut-bm.univ-fcomte.fr
  
-Réseaux et Télécommunications
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Réseaux et Télécommunications">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
 4 place Tharradin | BP 71427 | 25211 Montbéliard cedex
 tel : +33 (0)3 81 99 47 00
 email : sec_rt@iut-bm.univ-fcomte.fr
  
-Techniques de Commercialisation
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Techniques de Commercialisation">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
 55 faubourg des Ancêtres | 90000 Belfort
 tel : +33 (0)3 84 58 18 01
-email : sec_tc@iut-bm.univ-fcomte.fr</mutableString>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+email : sec_tc@iut-bm.univ-fcomte.fr</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
                             </textView>
@@ -5364,6 +5548,60 @@ email : sec_tc@iut-bm.univ-fcomte.fr</mutableString>
             </objects>
             <point key="canvasLocation" x="-1937" y="1282"/>
         </scene>
+        <!--Liens View Controller-->
+        <scene sceneID="vqL-6k-FTC">
+            <objects>
+                <tableViewController id="5Rv-QE-9Na" customClass="LiensViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Keg-4h-FkH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="4zG-os-DEb">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4zG-os-DEb" id="bBC-Ky-IWh">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Ltt-VI-20R" kind="push" id="cch-od-oon"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="5Rv-QE-9Na" id="vg1-H9-ugx"/>
+                            <outlet property="delegate" destination="5Rv-QE-9Na" id="ga0-P0-8Sg"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="XlV-6a-cBb"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uyS-i5-oxd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1502" y="1956"/>
+        </scene>
+        <!--Liens Web View Controller-->
+        <scene sceneID="o6y-zH-zZ5">
+            <objects>
+                <viewController id="Ltt-VI-20R" customClass="LiensWebViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cqv-C7-jRO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="RyW-e0-qyW">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Gbm-UA-ero"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Ii-HP-zmY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-978" y="1946"/>
+        </scene>
         <!--View Controller - English-->
         <scene sceneID="g85-LL-hHP">
             <objects>
@@ -5372,12 +5610,14 @@ email : sec_tc@iut-bm.univ-fcomte.fr</mutableString>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="67M-Bn-ZaP">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="67M-Bn-ZaP">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="985"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="700"/>
-                                <mutableString key="text">The University Institute of Technology of Belfort-Montbéliard (IUT Belfort-Montbéliard) is a public institution of higher education and is part of the University of Franche-Comté.
+                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="420"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">The University Institute of Technology of Belfort-Montbéliard (IUT Belfort-Montbéliard) is a public institution of higher education and is part of the University of Franche-Comté.
  
 It was founded in 1969 in Belfort and was extended to the nearby area of Montbéliard in 1991, which is only 20km away.
  
@@ -5395,8 +5635,13 @@ The IUT does everything in its power to maintain its vocation as an Institute th
 puce The strenght of a network
 The 115 IUT of France are part of a network and work in close collaboration. With more than 200 training places, the IUT are situated all over France and work hand in hand with the local labor pool, through tutored projects and the tranfer of technologies.
  
-Since their creation, the IUT have trained more than 1 million graduates and more than 3000 graduates of professional licences. They offer training programmes in all fields of activity in the secondary and the tertiary sector, that is 26 specialities.</mutableString>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+Since their creation, the IUT have trained more than 1 million graduates and more than 3000 graduates of professional licences. They offer training programmes in all fields of activity in the secondary and the tertiary sector, that is 26 specialities.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
                             </textView>
