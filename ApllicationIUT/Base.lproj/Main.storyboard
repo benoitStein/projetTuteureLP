@@ -3181,19 +3181,19 @@ et au Commerce</string>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="4oe-9m-96l">
-                                        <rect key="frame" x="0.0" y="65" width="320" height="2200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="2200"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marketing &amp; Communication des Organisations du Spectacle, de l'Evénementiel et des Loisirs" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tbd-T8-34T">
-                                                <rect key="frame" x="34" y="0.0" width="280" height="65"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marketing &amp; Communication des Organisations du Spectacle, de l'Evénementiel et des Loisirs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tbd-T8-34T">
+                                                <rect key="frame" x="0.0" y="5" width="320" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TMz-bC-QAo">
-                                                <rect key="frame" x="27" y="79" width="280" height="488"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TMz-bC-QAo">
+                                                <rect key="frame" x="15" y="75" width="305" height="670"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Entrez dans le domaine du Marketing &amp; de la Communication des Organisations du Spectacle, de l'Evénementiel et des Loisirs, la licence MOSEL.
+                                                <mutableString key="text">Entrez dans le domaine du Marketing &amp; de la Communication des Organisations du Spectacle, de l'Evénementiel et des Loisirs, la licence MOSEL.
 
 Les métiers visés sont nombreux et tendent tous vers une professionnalisation indispensable grâce à l'acquisition de connaissances, de compétences spécifiques et d'une confrontation continue par l'expérience.
 
@@ -3209,20 +3209,20 @@ La promotion 2012-2013, composée de 28 étudiants, a suivi une formation organi
 
 - le BtoB (incentive, grands médias, salons professionnels,..) 
 
-
-
-A l'issue de la formation, avec 420 heures de cours, 130 heures de projets et 4 mois de stage rémunéré, les étudiants doivent être capables d'accompagner le développement marketing et commercial de l'organisation.</string>
+A l'issue de la formation, avec 420 heures de cours, 130 heures de projets et 4 mois de stage rémunéré, les étudiants doivent être capables d'accompagner le développement marketing et commercial de l'organisation.</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public visé :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s3f-Lv-Moj">
-                                                <rect key="frame" x="20" y="575" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="750" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EXf-Ne-JCc">
-                                                <rect key="frame" x="27" y="604" width="280" height="187"/>
+                                                <rect key="frame" x="15" y="775" width="305" height="170"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Licence 2 – Sport / Economie &amp; Gestion / Sciences Humaines / …
  BTS et DUT tertiaires – Communication / NRC Négociation Relation Client / MUC Management des Unités Commerciales / GEA / GACO / TC / …
@@ -3233,13 +3233,15 @@ Demandeurs d'emploi
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Motivation des entrants :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pPE-ce-srM">
-                                                <rect key="frame" x="20" y="799" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="950" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Bcu-rG-tsT">
-                                                <rect key="frame" x="20" y="828" width="280" height="396"/>
+                                                <rect key="frame" x="8" y="975" width="305" height="360"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Pour les étudiants de niveau BAC +2 il s’agit de choisir une orientation professionnelle avec une insertion sur le marché de l’emploi. L’accès au BAC +3 permettra à un certain nombre d’entre eux de passer des concours administratifs (catégorie A), notamment pour le secteur de la culture et les emplois dans les collectivités territoriales.
 Pour les professionnels en formation continue et par accès grâce à la VA et la VAE il s’agit d’acquérir des compétences spécifiques et/ou complémentaires pour le développement de l'organisation dans laquelle ils se trouvent.
@@ -3252,19 +3254,21 @@ essentiels pour des métiers passionnants mais exigeants !</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insertion professionnelle :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gPa-2q-vfm">
-                                                <rect key="frame" x="20" y="1232" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="1340" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cœur de métier :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vz8-1b-0Mn">
-                                                <rect key="frame" x="20" y="1256" width="130" height="21"/>
+                                                <rect key="frame" x="15" y="1365" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EP7-DS-stf">
-                                                <rect key="frame" x="20" y="1272" width="280" height="162"/>
+                                                <rect key="frame" x="15" y="1390" width="305" height="135"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">-Chargé de développement marketing et communication dans le domaine du Spectacle, du Sport, des Loisirs ou de la Culture
 -Chargé du développement et des relations avec le public (promotion des activités)
@@ -3275,13 +3279,13 @@ essentiels pour des métiers passionnants mais exigeants !</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Organisations sportives :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uQF-ro-dPW">
-                                                <rect key="frame" x="20" y="1435" width="199" height="21"/>
+                                                <rect key="frame" x="15" y="1530" width="305" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DMg-ep-Kr3">
-                                                <rect key="frame" x="20" y="1456" width="294" height="175"/>
+                                                <rect key="frame" x="15" y="1555" width="305" height="175"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">-Sociétés d’événements sportifs
 -Fédérations, ligues et comités
@@ -3294,13 +3298,13 @@ essentiels pour des métiers passionnants mais exigeants !</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Organisation en Evénementiel, Loisirs ou Culturelles :" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AdK-Vh-q3y">
-                                                <rect key="frame" x="20" y="1639" width="287" height="35"/>
+                                                <rect key="frame" x="15" y="1735" width="305" height="35"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QoF-ws-SjH">
-                                                <rect key="frame" x="45" y="1787" width="109" height="112"/>
+                                                <rect key="frame" x="15" y="1787" width="305" height="112"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">
 Centre de loisirs, parcs d’animation et d’attraction
@@ -3313,15 +3317,15 @@ Offices de tourisme</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ooe-7V-caK">
-                                                <rect key="frame" x="20" y="1855" width="136" height="22"/>
+                                                <rect key="frame" x="15" y="1935" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Métiers connexes :
 </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LNl-0D-gSV">
-                                                <rect key="frame" x="20" y="1885" width="273" height="229"/>
+                                                <rect key="frame" x="15" y="1960" width="305" height="220"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">-Attaché aux relations publiques
 -Responsable billetterie
@@ -3338,7 +3342,7 @@ marketing
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6f6-hf-RGX">
-                                                <rect key="frame" x="20" y="1682" width="287" height="155"/>
+                                                <rect key="frame" x="20" y="1775" width="305" height="155"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">-Centre de loisirs, parcs d’animation et d’attraction
 -Musées privés et publics
