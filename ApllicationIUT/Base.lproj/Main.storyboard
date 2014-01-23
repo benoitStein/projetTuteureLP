@@ -3507,95 +3507,109 @@ Possibilité de suivre la formation en alternance par apprentissage ou en contra
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="dVx-je-Q4G">
-                                        <rect key="frame" x="0.0" y="-1162" width="320" height="1800"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1550"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Licence professionnelle webdesign" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lSn-6r-xbo">
-                                                <rect key="frame" x="20" y="67" width="280" height="21"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Webdesign" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lSn-6r-xbo">
+                                                <rect key="frame" x="0.0" y="5" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mJx-PU-XDg">
-                                                <rect key="frame" x="20" y="96" width="280" height="173"/>
+                                                <rect key="frame" x="15" y="30" width="305" height="155"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">La licence professionnelle Webdesign propose de former des spécialistes de la communication visuelle sur le Web, capables en outre de dialoguer avec les spécialistes de l’informatique et des réseaux afin d’adapter au mieux leurs créations à l’évolution des techniques de l’édition en ligne. Cette licence professionnelle peut être dispensée en formation initiale ou en alternance.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zzd-IG-IAw">
-                                                <rect key="frame" x="20" y="306" width="280" height="270"/>
+                                                <rect key="frame" x="15" y="215" width="305" height="255"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Il s’agit de donner à des étudiants de niveau Bac + 2 minimum, issus de formations littéraires ou artistiques, des compétences professionnelles dans les domaines de l’interface utilisateur, de l’ergonomie des environnements numériques et de la conception de contenus et services en ligne.Les diplômés seront amenés à participer à toutes les étapes de la conception et de la réalisation de produits ou services interactifs en ligne. À partir d’un cahier des charges, ils rechercheront la solution graphique, ergonomique et technique la mieux adaptée aux services attendus et aux fonctions requises.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public visé :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nfk-mD-1lG">
-                                                <rect key="frame" x="20" y="1333" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="745" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xph-dz-lIK">
-                                                <rect key="frame" x="20" y="937" width="280" height="388"/>
+                                                <rect key="frame" x="15" y="770" width="305" height="440"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">La licence professionnelle Webdesign s’adresse plus particulièrement :
+                                                <mutableString key="text">La licence professionnelle Webdesign s’adresse plus particulièrement :
 
-à des étudiants issus de Licence 2 ou Licence 3 en Sciences Humaines &amp; Sociales, Arts Plastiques ou Arts Appliqués ;
-aux titulaires d’un BTS Communication Visuelle, d’un DUT Info-Com ;
-aux étudiants issus d’une école d’art à même de faire valoir une équivalence de niveau bac + 2 ;
-aux salariés ou demandeurs d’emploi relevant de la formation continue, pour lesquels la validation des acquis d’expérience (V.A.E.) est possible.
-Le recrutement est effectué par un jury sur la base d’un dossier de candidature incluant les résultats universitaires antérieurs (relevés de notes), d’une lettre de motivation et, éventuellement, d’un dossier personnel présentant une sélection des travaux du candidat.</string>
+-aux étudiants issus de Licence 2 ou Licence 3 en Sciences Humaines &amp; Sociales, Arts Plastiques ou Arts Appliqués
+
+-aux titulaires d’un BTS Communication Visuelle, d’un DUT Info-Com
+
+-aux étudiants issus d’une école d’art à même de faire valoir une équivalence de niveau bac + 2
+
+-aux salariés ou demandeurs d’emploi relevant de la formation continue, pour lesquels la validation des acquis d’expérience (V.A.E.) est possible.
+
+Le recrutement est effectué par un jury sur la base d’un dossier de candidature incluant les résultats universitaires antérieurs (relevés de notes), d’une lettre de motivation et, éventuellement, d’un dossier personnel présentant une sélection des travaux du candidat.</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Objectifs :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jlV-sY-WIK">
-                                                <rect key="frame" x="20" y="277" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="190" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insertion professionnelle :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rSO-6X-MdR">
-                                                <rect key="frame" x="20" y="908" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="1215" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CzJ-EQ-Xdb">
-                                                <rect key="frame" x="20" y="1362" width="280" height="173"/>
+                                                <rect key="frame" x="15" y="1240" width="305" height="155"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Le secteur du web est en plein développement, tant sur les réseaux classiques que sur ceux de la téléphonie mobile. Les agences de communication et de marketing, les services de communication intégrés aux grands groupes, l'e-commerce, les collectivités locales et territoriales, sont à la recherche de techniciens adaptés à cette nouvelle donne.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation Initiale :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eG2-37-ebx">
-                                                <rect key="frame" x="20" y="589" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="475" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kAM-pp-Z6s">
-                                                <rect key="frame" x="20" y="618" width="280" height="121"/>
+                                                <rect key="frame" x="15" y="500" width="305" height="105"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">La licence professionnelle en formation initiale est organisée sur une période de 32 semaines : 420 heures d'enseignement, 130 heures de projet tutoré. Afin de parfaire les connaissances théoriques, 16 semaines de stage en entreprise valident la formation.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation Alternance :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TFd-jI-lNZ">
-                                                <rect key="frame" x="20" y="747" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="610" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="m88-bh-7Ti">
-                                                <rect key="frame" x="20" y="776" width="280" height="117"/>
+                                                <rect key="frame" x="15" y="635" width="305" height="105"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">La licence professionnelle en alternance est conçue pour une immersion importante en entreprise. Son rythme est pensé sur 2 semaines : 10 jours en entreprise, 3 jours au département. Sauf condition particulière, les congés sont de 5 semaines.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nfF-wS-jyt">
-                                                <rect key="frame" x="20" y="1577" width="280" height="119"/>
+                                                <rect key="frame" x="15" y="1420" width="305" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">-Animateur multimédia
 -Administrateur réseaux
@@ -3603,14 +3617,14 @@ Le recrutement est effectué par un jury sur la base d’un dossier de candidatu
 -Cadreur/Monteur Vidéo
 -Chargé de communication web
 -Chargé de production vidéo
-......</string>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exemple de débouchées professionnelles :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nZI-FG-FIe">
-                                                <rect key="frame" x="20" y="1548" width="329" height="21"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Débouchées professionnelles :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nZI-FG-FIe">
+                                                <rect key="frame" x="15" y="1395" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
