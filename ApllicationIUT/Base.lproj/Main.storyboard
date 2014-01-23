@@ -3385,23 +3385,25 @@ marketing
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="d3D-vb-u3i">
-                                        <rect key="frame" x="0.0" y="63" width="320" height="1100"/>
+                                        <rect key="frame" x="0.0" y="64" width="320" height="950"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chargé d'Affaires en R&amp;T CART" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XTW-hj-Zk9">
-                                                <rect key="frame" x="57" y="0.0" width="243" height="21"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chargé d'Affaires en R&amp;T CART" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XTW-hj-Zk9">
+                                                <rect key="frame" x="0.0" y="5" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation initiale, continue et apprentissage" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7lP-1c-8so">
-                                                <rect key="frame" x="20" y="29" width="289" height="21"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation initiale, continue et apprentissage" lineBreakMode="characterWrap" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7lP-1c-8so">
+                                                <rect key="frame" x="0.0" y="30" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XuA-Oy-W8e">
-                                                <rect key="frame" x="20" y="58" width="280" height="175"/>
+                                                <rect key="frame" x="15" y="55" width="305" height="170"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Ce cursus répond aux besoins des entreprises spécialisées pour commercialiser leurs produits, services ou solutions dans les domaines des réseaux, des télécommunications et de l’informatique.
  
@@ -3409,14 +3411,16 @@ La licence ajoute une compétence commerciale à des étudiants bac+2 de la fili
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Publics visés :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="twS-O7-U63">
-                                                <rect key="frame" x="20" y="249" width="280" height="21"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Publics visés :" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="twS-O7-U63">
+                                                <rect key="frame" x="0.0" y="230" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="U07-di-o2e">
-                                                <rect key="frame" x="15" y="278" width="280" height="255"/>
+                                                <rect key="frame" x="15" y="255" width="305" height="255"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">• Titulaires de 120 ECTS dans les domaines Informatique, Mathématiques et Applications,
 • DUT GEII, Informatique, R&amp;T, SRC,
@@ -3427,20 +3431,22 @@ Possibilité de suivre la formation en alternance par apprentissage ou en contra
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insertion professionnelle :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PHh-kf-g3k">
-                                                <rect key="frame" x="20" y="549" width="280" height="21"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insertion professionnelle :" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PHh-kf-g3k">
+                                                <rect key="frame" x="0.0" y="515" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compétences :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KF6-uu-axj">
-                                                <rect key="frame" x="24" y="578" width="280" height="21"/>
+                                                <rect key="frame" x="15" y="540" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FKe-TO-rPA">
-                                                <rect key="frame" x="20" y="607" width="280" height="189"/>
+                                                <rect key="frame" x="15" y="565" width="305" height="190"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">- faire de la prospection, établir des devis, effectuer des relances
 - suivre les réunions de chantier
@@ -3451,13 +3457,13 @@ Possibilité de suivre la formation en alternance par apprentissage ou en contra
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Qualités indispensables :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nas-nk-HZy">
-                                                <rect key="frame" x="20" y="811" width="280" height="21"/>
+                                                <rect key="frame" x="15" y="760" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UuT-Cd-kfh">
-                                                <rect key="frame" x="20" y="840" width="280" height="59"/>
+                                                <rect key="frame" x="15" y="785" width="305" height="55"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">- être rigoureux(se),
 - organisé(e)
@@ -3466,13 +3472,13 @@ Possibilité de suivre la formation en alternance par apprentissage ou en contra
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Métiers :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DT9-SA-8uE">
-                                                <rect key="frame" x="20" y="907" width="280" height="21"/>
+                                                <rect key="frame" x="15" y="845" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chargé d’affaires, technico-commercial, suivi d’affaires" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GK5-yy-qvZ">
-                                                <rect key="frame" x="20" y="936" width="280" height="42"/>
+                                                <rect key="frame" x="15" y="870" width="305" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
