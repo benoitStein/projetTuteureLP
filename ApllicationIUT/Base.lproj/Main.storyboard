@@ -1475,7 +1475,7 @@ et Socio-culturelle</string>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="EGI-d5-qMG" kind="push" id="49X-c5-Rfy"/>
+                                            <segue destination="pUX-QI-Yqr" kind="push" id="zfg-u4-ZmU"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -5387,67 +5387,67 @@ sec_tc@iut-bm.univ-fcomte.fr</string>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="w8G-4R-hCe">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1252"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1269"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Olivier Prévôt, directeur
 Bruno Viezzi et Damien Charlet, directeurs adjoints
-directeurs@iut-bm.univ-fcomte.fr
+email : directeurs@iut-bm.univ-fcomte.fr
 
 Secrétariat de direction
-tél. +33 (0)3 84 58 77 02  
-fax +33 (0)3 84 22 29 05
-secretariat-direction@iut-bm.univ-fcomte.fr
+tel : +33 (0)3 84 58 77 02  
+fax : +33 (0)3 84 22 29 05
+email : secretariat-direction@iut-bm.univ-fcomte.fr
  
 Sidhamed Benhadjeba
 Resp. administratif et financier
-tél. +33 (0)3 84 58 77 93
-fax +33 (0)3 84 22 29 05
+tel : +33 (0)3 84 58 77 93
+fax : +33 (0)3 84 22 29 05
 
 Carrières Sociales
 19 avenue du Maréchal Juin | BP 527 | 90016 Belfort cedex
-tél. +33 (0)3 84 58 76 00
-sec_cs@iut-bm.univ-fcomte.fr
+tel : +33 (0)3 84 58 76 00
+email : sec_cs@iut-bm.univ-fcomte.fr
  
 Génie Civil - construction durable
 19 avenue du Maréchal Juin | BP 527 | 90016 Belfort cedex
-tél. +33 (0)3 84 58 77 9
-sec_gc@iut-bm.univ-fcomte.fr
+tel : +33 (0)3 84 58 77 9
+email : sec_gc@iut-bm.univ-fcomte.fr
  
 Génie Electrique et Informatique Industrielle
 19 avenue du Maréchal Juin | BP 527 | 90016 Belfort cedex
-tél. +33 (0)3 84 58 77 47
-sec_geii@iut-bm.univ-fcomte.fr
+tel : +33 (0)3 84 58 77 47
+email : sec_geii@iut-bm.univ-fcomte.fr
    
 Génie Thermique et Energie
 19 avenue du Maréchal Juin | BP 527 | 90016 Belfort cedex
-tél. +33 (0)3 84 58 77 49
-sec_gte@iut-bm.univ-fcomte.fr
+tel : +33 (0)3 84 58 77 49
+email : sec_gte@iut-bm.univ-fcomte.fr
  
 Gestion Administrative et Commerciale des Organisations
 4 place Tharradin | BP 71427 | 25211 Montbéliard cedex
-tél. +33 (0)3 81 99 46 28
-sec_gaco@iut-bm.univ-fcomte.fr
+tel : +33 (0)3 81 99 46 28
+email : sec_gaco@iut-bm.univ-fcomte.fr
  
 Informatique
 19 avenue du Maréchal Juin BP 527 | 90016 Belfort cedex
-tél. +33 (0)3 84 58 77 82
-sec_info@iut-bm.univ-fcomte.fr
+tel : +33 (0)3 84 58 77 82
+email : sec_info@iut-bm.univ-fcomte.fr
  
 Mesures Physiques
 4 place Tharradin | BP 71427 | 25211 Montbéliard cedex
-tél. +33 (0)3 81 99 46 02
-sec_mp@iut-bm.univ-fcomte.fr
+tel : +33 (0)3 81 99 46 02
+email : sec_mp@iut-bm.univ-fcomte.fr
  
 Métiers du Multimédia et de l'Internet
 4 place Tharradin | BP 71427 | 25211 Montbéliard cedex
-tél. +33 (0)3 81 99 47 34
-sec_src@iut-bm.univ-fcomte.fr
+tel : +33 (0)3 81 99 47 34
+email : sec_src@iut-bm.univ-fcomte.fr
  
 Réseaux et Télécommunications
 4 place Tharradin | BP 71427 | 25211 Montbéliard cedex
-tél. +33 (0)3 81 99 47 00
-sec_rt@iut-bm.univ-fcomte.fr
+tel : +33 (0)3 81 99 47 00
+email : sec_rt@iut-bm.univ-fcomte.fr
  
 Techniques de Commercialisation
 55 faubourg des Ancêtres | 90000 Belfort
@@ -5464,28 +5464,22 @@ sec_tc@iut-bm.univ-fcomte.fr</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a9z-rH-C8x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1957" y="1864"/>
+            <point key="canvasLocation" x="-1937" y="1282"/>
         </scene>
-        <!--English View Controller - English-->
-        <scene sceneID="9MG-qC-iLz">
+        <!--View Controller - English-->
+        <scene sceneID="g85-LL-hHP">
             <objects>
-                <viewController id="EGI-d5-qMG" customClass="EnglishViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hDn-q7-CMX">
+                <viewController id="pUX-QI-Yqr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Xb-ae-1ct">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="vyX-gD-1hf">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="67M-Bn-ZaP">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="985"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" id="kEH-Rq-Qg8">
-                                        <rect key="frame" x="0.0" y="65" width="320" height="1200"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="66" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="me6-IQ-kwh">
-                                                <rect key="frame" x="0.0" y="-63" width="320" height="1339"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">The University Institute of Technology of Belfort-Montbéliard (IUT Belfort-Montbéliard) is a public institution of higher education and is part of the University of Franche-Comté.
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="700"/>
+                                <mutableString key="text">The University Institute of Technology of Belfort-Montbéliard (IUT Belfort-Montbéliard) is a public institution of higher education and is part of the University of Franche-Comté.
  
 It was founded in 1969 in Belfort and was extended to the nearby area of Montbéliard in 1991, which is only 20km away.
  
@@ -5503,27 +5497,19 @@ The IUT does everything in its power to maintain its vocation as an Institute th
 puce The strenght of a network
 The 115 IUT of France are part of a network and work in close collaboration. With more than 200 training places, the IUT are situated all over France and work hand in hand with the local labor pool, through tutored projects and the tranfer of technologies.
  
-Since their creation, the IUT have trained more than 1 million graduates and more than 3000 graduates of professional licences. They offer training programmes in all fields of activity in the secondary and the tertiary sector, that is 26 specialities.</string>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                    </view>
-                                </subviews>
-                            </scrollView>
+Since their creation, the IUT have trained more than 1 million graduates and more than 3000 graduates of professional licences. They offer training programmes in all fields of activity in the secondary and the tertiary sector, that is 26 specialities.</mutableString>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="English" id="0fD-Qc-tlm"/>
-                    <connections>
-                        <outlet property="scroll" destination="vyX-gD-1hf" id="gS1-2N-j0t"/>
-                    </connections>
+                    <navigationItem key="navigationItem" title="English" id="1IB-aM-mva"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qoW-yw-lA4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PYT-Vl-Bzg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1868" y="1424"/>
+            <point key="canvasLocation" x="-1509" y="1282"/>
         </scene>
     </scenes>
     <resources>
