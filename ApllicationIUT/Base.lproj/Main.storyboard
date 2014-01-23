@@ -3980,37 +3980,41 @@ Les diplômés seront capables de gérer des projets et de suivre un dossier afi
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="fhO-CA-fVI">
-                                        <rect key="frame" x="0.0" y="65" width="320" height="1350"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nDx-qN-B8n">
-                                                <rect key="frame" x="25" y="-5" width="280" height="89"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nDx-qN-B8n">
+                                                <rect key="frame" x="0.0" y="5" width="320" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Licence professionnelle conception d'applications multi-tiers parcours 
-Technologies de Projets Web et mobiles </string>
+                                                <string key="text">Conception d'Applications Multi-tiers parcours 
+Technologies de Projets Web et Mobiles </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resp. pédagogique de la licence :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FDN-ik-OB0">
-                                                <rect key="frame" x="25" y="92" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="75" width="320" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fabrice Ambert" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iI9-tg-m7R">
+                                                <rect key="frame" x="15" y="100" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fabrice Ambert, tél. +33 (0)3 84 58 77 75" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iI9-tg-m7R">
-                                                <rect key="frame" x="25" y="115" width="280" height="21"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation initiale, formation continue" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aF0-Pl-Xrd">
+                                                <rect key="frame" x="0.0" y="125" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation initiale, formation continue" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aF0-Pl-Xrd">
-                                                <rect key="frame" x="25" y="144" width="280" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jr8-Lk-MhV">
-                                                <rect key="frame" x="25" y="173" width="280" height="260"/>
+                                                <rect key="frame" x="15" y="150" width="305" height="220"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Conçue en partenariat avec l'UFR Sciences et Techniques à Besançon, la licence professionnelle SIL (Systèmes Informatiques et Logiciels) spécialité Conception d'Applications Multi-tiers propose deux parcours, dont celui-ci enseigné à l'IUT de Belfort-Montbéliard.
 Le parcours TeProW vise à former des cadres de niveau intermédiaire capables de s'adapter à l'évolution des nouvelles technologies de développement d'applications web et mobiles. Formés au travail en équipe, les diplômés sauront planifier et piloter un projet réalisé par une équipe de développeurs.</string>
@@ -4018,13 +4022,15 @@ Le parcours TeProW vise à former des cadres de niveau intermédiaire capables d
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public visé :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gAV-l2-OUQ">
-                                                <rect key="frame" x="25" y="451" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="375" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8ZK-gW-aHU">
-                                                <rect key="frame" x="25" y="480" width="280" height="151"/>
+                                                <rect key="frame" x="15" y="400" width="305" height="155"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">• DUT informatique, DUT réseaux et télécommunications,
 • BTS informatique,
@@ -4034,13 +4040,15 @@ Le parcours TeProW vise à former des cadres de niveau intermédiaire capables d
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insertion professionnelle :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mut-nZ-78X">
-                                                <rect key="frame" x="25" y="650" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="560" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NGc-WC-lmo">
-                                                <rect key="frame" x="20" y="679" width="280" height="104"/>
+                                                <rect key="frame" x="15" y="585" width="305" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">• Développement et maintenance d'applications multi-tiers
 • Développement de serveurs et de clients web 
@@ -5391,7 +5399,7 @@ sec_tc@iut-bm.univ-fcomte.fr</string>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="700"/>
-                                <mutableString key="text">Olivier Prévôt, directeur
+                                <string key="text">Olivier Prévôt, directeur
 Bruno Viezzi et Damien Charlet, directeurs adjoints
 email : directeurs@iut-bm.univ-fcomte.fr
 
@@ -5453,7 +5461,7 @@ email : sec_rt@iut-bm.univ-fcomte.fr
 Techniques de Commercialisation
 55 faubourg des Ancêtres | 90000 Belfort
 tel : +33 (0)3 84 58 18 01
-email : sec_tc@iut-bm.univ-fcomte.fr</mutableString>
+email : sec_tc@iut-bm.univ-fcomte.fr</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
@@ -5480,7 +5488,7 @@ email : sec_tc@iut-bm.univ-fcomte.fr</mutableString>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="700"/>
-                                <mutableString key="text">The University Institute of Technology of Belfort-Montbéliard (IUT Belfort-Montbéliard) is a public institution of higher education and is part of the University of Franche-Comté.
+                                <string key="text">The University Institute of Technology of Belfort-Montbéliard (IUT Belfort-Montbéliard) is a public institution of higher education and is part of the University of Franche-Comté.
  
 It was founded in 1969 in Belfort and was extended to the nearby area of Montbéliard in 1991, which is only 20km away.
  
@@ -5498,7 +5506,7 @@ The IUT does everything in its power to maintain its vocation as an Institute th
 puce The strenght of a network
 The 115 IUT of France are part of a network and work in close collaboration. With more than 200 training places, the IUT are situated all over France and work hand in hand with the local labor pool, through tutored projects and the tranfer of technologies.
  
-Since their creation, the IUT have trained more than 1 million graduates and more than 3000 graduates of professional licences. They offer training programmes in all fields of activity in the secondary and the tertiary sector, that is 26 specialities.</mutableString>
+Since their creation, the IUT have trained more than 1 million graduates and more than 3000 graduates of professional licences. They offer training programmes in all fields of activity in the secondary and the tertiary sector, that is 26 specialities.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
