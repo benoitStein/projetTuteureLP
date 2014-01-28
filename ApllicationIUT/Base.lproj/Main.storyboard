@@ -56,11 +56,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="80p-UK-qZg">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
+                                        <rect key="frame" x="0.0" y="-15" width="320" height="900"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Des formations tournées vers l'avenir :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FUd-5u-3jp">
-                                                <rect key="frame" x="0.0" y="16" width="320" height="21"/>
+                                                <rect key="frame" x="0.0" y="5" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="15"/>
@@ -68,7 +68,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stages et projets professionnels : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kVK-9q-Uyb">
-                                                <rect key="frame" x="0.0" y="150" width="320" height="21"/>
+                                                <rect key="frame" x="0.0" y="135" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="15"/>
@@ -76,7 +76,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Une culture de partenariat :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hKA-kF-Sci">
-                                                <rect key="frame" x="0.0" y="434" width="320" height="21"/>
+                                                <rect key="frame" x="0.0" y="405" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="15"/>
@@ -84,7 +84,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enrichir son cursus à l'international :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vw6-Fm-cLz">
-                                                <rect key="frame" x="0.0" y="723" width="320" height="21"/>
+                                                <rect key="frame" x="0.0" y="675" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
@@ -92,7 +92,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Des offres de formation adaptées :" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="crL-BH-RxY">
-                                                <rect key="frame" x="0.0" y="566" width="320" height="20"/>
+                                                <rect key="frame" x="0.0" y="525" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
@@ -100,7 +100,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PES-8p-PEX">
-                                                <rect key="frame" x="15" y="45" width="305" height="100"/>
+                                                <rect key="frame" x="15" y="30" width="305" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Etudier à l’IUT, c’est choisir de suivre une formation universitaire technologique professionnelle : enseignements théoriques alternent avec pratiques et expériences de terrain permettant à chacun d’améliorer ses connaissances et ses compétences. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -108,7 +108,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EgZ-F2-IBk">
-                                                <rect key="frame" x="15" y="181" width="305" height="240"/>
+                                                <rect key="frame" x="15" y="160" width="305" height="240"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Le projet personnel et professionnel de l’étudiant l’accompagne dans la découverte du monde du travail à partir de ses motivations, ses expériences et d’une meilleure connaissance de soi.
  
@@ -120,21 +120,21 @@ Les stages en entreprise, de 10 à 14 semaines, se déroulent au cours du 4 seme
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fk6-P3-tLb">
-                                                <rect key="frame" x="15" y="458" width="305" height="100"/>
+                                                <rect key="frame" x="15" y="430" width="305" height="90"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Les professionnels contribuent à l’enseignement et à la formation. En DUT, au moins 20% des enseignements sont assurés par des professionnels (25% en licence professionnelle).</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jIz-U9-Or6">
-                                                <rect key="frame" x="15" y="595" width="305" height="120"/>
+                                                <rect key="frame" x="15" y="550" width="305" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Formation continue, VAE, apprentissage, contrat de professionnalisation... L’IUT de Belfort-Montbéliard ouvre ses formations à des publics variés et leur propose des diplômes nationaux, soit pour faire évoluer leurs carrières, soit pour une meilleure insertion dans la vie active.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fp3-Ar-6ti">
-                                                <rect key="frame" x="20" y="721" width="305" height="200"/>
+                                                <rect key="frame" x="15" y="700" width="305" height="135"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effectuer des stages ou un semestre d’études à l’étranger, une expérience qui constitue un atout supplémentaire pour l’insertion professionnelle des diplômés. L’établissement accueille également des étudiants venus du monde entier.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2769,29 +2769,31 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="dUf-03-p5T">
-                                        <rect key="frame" x="0.0" y="64" width="320" height="1100"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="850"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Licence professionnelle : Famille, Vieillissement et Problématiques Intergénérationnellles" lineBreakMode="wordWrap" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fZD-pW-73t">
-                                                <rect key="frame" x="23" y="0.0" width="275" height="63"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Famille, Vieillissement et Problématiques Intergénérationnellles" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fZD-pW-73t">
+                                                <rect key="frame" x="0.0" y="5" width="320" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resp. pédagogiques de la licence :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ytG-6O-HQ2">
-                                                <rect key="frame" x="20" y="77" width="280" height="26"/>
+                                                <rect key="frame" x="0.0" y="55" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mabrouka Neffati, Florent Puppis" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5va-52-9M9">
-                                                <rect key="frame" x="20" y="111" width="253" height="21"/>
+                                                <rect key="frame" x="15" y="80" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HR3-wM-IWB">
-                                                <rect key="frame" x="20" y="145" width="280" height="352"/>
+                                                <rect key="frame" x="15" y="105" width="305" height="305"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Le professionnel titulaire de la licence professionnelle FVPI doit être en capacité de :
 • Connaître les politiques publiques menées en direction de ces deux publics
@@ -2807,13 +2809,15 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public visé :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xa6-Jn-D3W">
-                                                <rect key="frame" x="23" y="517" width="93" height="21"/>
+                                                <rect key="frame" x="0.0" y="415" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tvz-ct-38C">
-                                                <rect key="frame" x="23" y="546" width="280" height="135"/>
+                                                <rect key="frame" x="15" y="440" width="305" height="125"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">• Titulaires d’un DEUST, DUT, BTS Conseiller en Économie Sociale et Familiale,
 • L2 ou supérieur en Sciences Humaines et Sociales,
@@ -2822,13 +2826,15 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insertion professionnelle :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zkl-vi-Zet">
-                                                <rect key="frame" x="23" y="694" width="197" height="21"/>
+                                                <rect key="frame" x="0.0" y="575" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="q4s-i5-udk">
-                                                <rect key="frame" x="23" y="723" width="280" height="271"/>
+                                                <rect key="frame" x="15" y="600" width="305" height="240"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Conseiller en gérontologie, animateur référent-famille, animateur coordinateur en EHPAD, responsable d’office de retraités, responsable du bénévolat dans une structure à vocation sociale, auprès des personnes vieillissantes et âgées, conseiller social, informateur social, médiateur familial, délégué à la tutelle, coordinateur de projets éducatifs, agent de développement territorial, chargé de prévention, médiateur local.
  
@@ -3077,17 +3083,19 @@ La licence DORA propose les débouchés suivants :
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="BL6-iQ-Wl6">
-                                        <rect key="frame" x="0.0" y="65" width="320" height="950"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation initiale, continue et apprentissage" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Igb-VY-teA">
-                                                <rect key="frame" x="20" y="51" width="291" height="21"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation continue et apprentissage" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Igb-VY-teA">
+                                                <rect key="frame" x="0.0" y="55" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Wvm-Ud-lZU">
-                                                <rect key="frame" x="20" y="80" width="291" height="170"/>
+                                                <rect key="frame" x="15" y="80" width="305" height="170"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Cette formation a pour but de former des collaborateurs commerciaux polyvalents maîtrisant les TIC :
 • conduite de projets,
@@ -3099,13 +3107,15 @@ La licence DORA propose les débouchés suivants :
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public visé :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5gb-Th-hWL">
-                                                <rect key="frame" x="20" y="265" width="260" height="21"/>
+                                                <rect key="frame" x="0.0" y="255" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MhQ-20-8FK">
-                                                <rect key="frame" x="20" y="294" width="286" height="205"/>
+                                                <rect key="frame" x="15" y="280" width="305" height="185"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">• DUT Tech de Co, GACo, Gestion des Entreprises et des Administrations, Informatique,
 • BTS Management des Unités Commerciales, Négociation et Relation Client, Commerce International, Informatique de Gestion, Assistant PMI/PME,
@@ -3115,13 +3125,15 @@ La licence DORA propose les débouchés suivants :
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insertion professionnelle :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Le6-ho-m8Q">
-                                                <rect key="frame" x="20" y="518" width="260" height="21"/>
+                                                <rect key="frame" x="0.0" y="470" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="w9S-Uh-0Cv">
-                                                <rect key="frame" x="20" y="547" width="280" height="320"/>
+                                                <rect key="frame" x="15" y="490" width="305" height="285"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Commercialisation de produits liés aux nouvelles technologies (sites internet, logiciels...) et tous les secteurs d’activité tertiaires : assurance, commerce, immobilier, intérim, tourisme, communication commerciale.
  
@@ -3131,8 +3143,8 @@ Métiers à dominante « TIC » : data mineur, administrateur de sites Web, cons
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ch0-l3-fnG">
-                                                <rect key="frame" x="20" y="0.0" width="280" height="43"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ch0-l3-fnG">
+                                                <rect key="frame" x="0.0" y="5" width="320" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">TIC Appliquées au Marketing 
 et au Commerce</string>
@@ -3169,17 +3181,17 @@ et au Commerce</string>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="4oe-9m-96l">
-                                        <rect key="frame" x="0.0" y="65" width="320" height="2200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="2200"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marketing &amp; Communication des Organisations du Spectacle, de l'Evénementiel et des Loisirs" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tbd-T8-34T">
-                                                <rect key="frame" x="34" y="0.0" width="280" height="65"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marketing &amp; Communication des Organisations du Spectacle, de l'Evénementiel et des Loisirs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tbd-T8-34T">
+                                                <rect key="frame" x="0.0" y="5" width="320" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TMz-bC-QAo">
-                                                <rect key="frame" x="27" y="79" width="280" height="488"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TMz-bC-QAo">
+                                                <rect key="frame" x="15" y="75" width="305" height="670"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Entrez dans le domaine du Marketing &amp; de la Communication des Organisations du Spectacle, de l'Evénementiel et des Loisirs, la licence MOSEL.
 
@@ -3197,20 +3209,20 @@ La promotion 2012-2013, composée de 28 étudiants, a suivi une formation organi
 
 - le BtoB (incentive, grands médias, salons professionnels,..) 
 
-
-
 A l'issue de la formation, avec 420 heures de cours, 130 heures de projets et 4 mois de stage rémunéré, les étudiants doivent être capables d'accompagner le développement marketing et commercial de l'organisation.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public visé :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s3f-Lv-Moj">
-                                                <rect key="frame" x="20" y="575" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="750" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EXf-Ne-JCc">
-                                                <rect key="frame" x="27" y="604" width="280" height="187"/>
+                                                <rect key="frame" x="15" y="775" width="305" height="170"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Licence 2 – Sport / Economie &amp; Gestion / Sciences Humaines / …
  BTS et DUT tertiaires – Communication / NRC Négociation Relation Client / MUC Management des Unités Commerciales / GEA / GACO / TC / …
@@ -3221,13 +3233,15 @@ Demandeurs d'emploi
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Motivation des entrants :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pPE-ce-srM">
-                                                <rect key="frame" x="20" y="799" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="950" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Bcu-rG-tsT">
-                                                <rect key="frame" x="20" y="828" width="280" height="396"/>
+                                                <rect key="frame" x="8" y="975" width="305" height="360"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Pour les étudiants de niveau BAC +2 il s’agit de choisir une orientation professionnelle avec une insertion sur le marché de l’emploi. L’accès au BAC +3 permettra à un certain nombre d’entre eux de passer des concours administratifs (catégorie A), notamment pour le secteur de la culture et les emplois dans les collectivités territoriales.
 Pour les professionnels en formation continue et par accès grâce à la VA et la VAE il s’agit d’acquérir des compétences spécifiques et/ou complémentaires pour le développement de l'organisation dans laquelle ils se trouvent.
@@ -3240,19 +3254,21 @@ essentiels pour des métiers passionnants mais exigeants !</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insertion professionnelle :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gPa-2q-vfm">
-                                                <rect key="frame" x="20" y="1232" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="1340" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cœur de métier :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vz8-1b-0Mn">
-                                                <rect key="frame" x="20" y="1256" width="130" height="21"/>
+                                                <rect key="frame" x="15" y="1365" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EP7-DS-stf">
-                                                <rect key="frame" x="20" y="1272" width="280" height="162"/>
+                                                <rect key="frame" x="15" y="1390" width="305" height="135"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">-Chargé de développement marketing et communication dans le domaine du Spectacle, du Sport, des Loisirs ou de la Culture
 -Chargé du développement et des relations avec le public (promotion des activités)
@@ -3263,13 +3279,13 @@ essentiels pour des métiers passionnants mais exigeants !</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Organisations sportives :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uQF-ro-dPW">
-                                                <rect key="frame" x="20" y="1435" width="199" height="21"/>
+                                                <rect key="frame" x="15" y="1530" width="305" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DMg-ep-Kr3">
-                                                <rect key="frame" x="20" y="1456" width="294" height="175"/>
+                                                <rect key="frame" x="15" y="1555" width="305" height="175"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">-Sociétés d’événements sportifs
 -Fédérations, ligues et comités
@@ -3282,13 +3298,13 @@ essentiels pour des métiers passionnants mais exigeants !</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Organisation en Evénementiel, Loisirs ou Culturelles :" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AdK-Vh-q3y">
-                                                <rect key="frame" x="20" y="1639" width="287" height="35"/>
+                                                <rect key="frame" x="15" y="1735" width="305" height="35"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QoF-ws-SjH">
-                                                <rect key="frame" x="45" y="1787" width="109" height="112"/>
+                                                <rect key="frame" x="15" y="1787" width="305" height="112"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">
 Centre de loisirs, parcs d’animation et d’attraction
@@ -3301,15 +3317,15 @@ Offices de tourisme</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ooe-7V-caK">
-                                                <rect key="frame" x="20" y="1855" width="136" height="22"/>
+                                                <rect key="frame" x="15" y="1935" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Métiers connexes :
 </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LNl-0D-gSV">
-                                                <rect key="frame" x="20" y="1885" width="273" height="229"/>
+                                                <rect key="frame" x="15" y="1960" width="305" height="220"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">-Attaché aux relations publiques
 -Responsable billetterie
@@ -3326,7 +3342,7 @@ marketing
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6f6-hf-RGX">
-                                                <rect key="frame" x="20" y="1682" width="287" height="155"/>
+                                                <rect key="frame" x="20" y="1775" width="305" height="155"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">-Centre de loisirs, parcs d’animation et d’attraction
 -Musées privés et publics
@@ -3495,95 +3511,109 @@ Possibilité de suivre la formation en alternance par apprentissage ou en contra
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="dVx-je-Q4G">
-                                        <rect key="frame" x="0.0" y="-1162" width="320" height="1800"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1550"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Licence professionnelle webdesign" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lSn-6r-xbo">
-                                                <rect key="frame" x="20" y="67" width="280" height="21"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Webdesign" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lSn-6r-xbo">
+                                                <rect key="frame" x="0.0" y="5" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mJx-PU-XDg">
-                                                <rect key="frame" x="20" y="96" width="280" height="173"/>
+                                                <rect key="frame" x="15" y="30" width="305" height="155"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">La licence professionnelle Webdesign propose de former des spécialistes de la communication visuelle sur le Web, capables en outre de dialoguer avec les spécialistes de l’informatique et des réseaux afin d’adapter au mieux leurs créations à l’évolution des techniques de l’édition en ligne. Cette licence professionnelle peut être dispensée en formation initiale ou en alternance.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zzd-IG-IAw">
-                                                <rect key="frame" x="20" y="306" width="280" height="270"/>
+                                                <rect key="frame" x="15" y="215" width="305" height="255"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Il s’agit de donner à des étudiants de niveau Bac + 2 minimum, issus de formations littéraires ou artistiques, des compétences professionnelles dans les domaines de l’interface utilisateur, de l’ergonomie des environnements numériques et de la conception de contenus et services en ligne.Les diplômés seront amenés à participer à toutes les étapes de la conception et de la réalisation de produits ou services interactifs en ligne. À partir d’un cahier des charges, ils rechercheront la solution graphique, ergonomique et technique la mieux adaptée aux services attendus et aux fonctions requises.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public visé :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nfk-mD-1lG">
-                                                <rect key="frame" x="20" y="1333" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="745" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xph-dz-lIK">
-                                                <rect key="frame" x="20" y="937" width="280" height="388"/>
+                                                <rect key="frame" x="15" y="770" width="305" height="440"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">La licence professionnelle Webdesign s’adresse plus particulièrement :
 
-à des étudiants issus de Licence 2 ou Licence 3 en Sciences Humaines &amp; Sociales, Arts Plastiques ou Arts Appliqués ;
-aux titulaires d’un BTS Communication Visuelle, d’un DUT Info-Com ;
-aux étudiants issus d’une école d’art à même de faire valoir une équivalence de niveau bac + 2 ;
-aux salariés ou demandeurs d’emploi relevant de la formation continue, pour lesquels la validation des acquis d’expérience (V.A.E.) est possible.
+-aux étudiants issus de Licence 2 ou Licence 3 en Sciences Humaines &amp; Sociales, Arts Plastiques ou Arts Appliqués
+
+-aux titulaires d’un BTS Communication Visuelle, d’un DUT Info-Com
+
+-aux étudiants issus d’une école d’art à même de faire valoir une équivalence de niveau bac + 2
+
+-aux salariés ou demandeurs d’emploi relevant de la formation continue, pour lesquels la validation des acquis d’expérience (V.A.E.) est possible.
+
 Le recrutement est effectué par un jury sur la base d’un dossier de candidature incluant les résultats universitaires antérieurs (relevés de notes), d’une lettre de motivation et, éventuellement, d’un dossier personnel présentant une sélection des travaux du candidat.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Objectifs :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jlV-sY-WIK">
-                                                <rect key="frame" x="20" y="277" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="190" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insertion professionnelle :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rSO-6X-MdR">
-                                                <rect key="frame" x="20" y="908" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="1215" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CzJ-EQ-Xdb">
-                                                <rect key="frame" x="20" y="1362" width="280" height="173"/>
+                                                <rect key="frame" x="15" y="1240" width="305" height="155"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Le secteur du web est en plein développement, tant sur les réseaux classiques que sur ceux de la téléphonie mobile. Les agences de communication et de marketing, les services de communication intégrés aux grands groupes, l'e-commerce, les collectivités locales et territoriales, sont à la recherche de techniciens adaptés à cette nouvelle donne.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation Initiale :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eG2-37-ebx">
-                                                <rect key="frame" x="20" y="589" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="475" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kAM-pp-Z6s">
-                                                <rect key="frame" x="20" y="618" width="280" height="121"/>
+                                                <rect key="frame" x="15" y="500" width="305" height="105"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">La licence professionnelle en formation initiale est organisée sur une période de 32 semaines : 420 heures d'enseignement, 130 heures de projet tutoré. Afin de parfaire les connaissances théoriques, 16 semaines de stage en entreprise valident la formation.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation Alternance :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TFd-jI-lNZ">
-                                                <rect key="frame" x="20" y="747" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="610" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="m88-bh-7Ti">
-                                                <rect key="frame" x="20" y="776" width="280" height="117"/>
+                                                <rect key="frame" x="15" y="635" width="305" height="105"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">La licence professionnelle en alternance est conçue pour une immersion importante en entreprise. Son rythme est pensé sur 2 semaines : 10 jours en entreprise, 3 jours au département. Sauf condition particulière, les congés sont de 5 semaines.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nfF-wS-jyt">
-                                                <rect key="frame" x="20" y="1577" width="280" height="119"/>
+                                                <rect key="frame" x="15" y="1420" width="305" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">-Animateur multimédia
 -Administrateur réseaux
@@ -3591,14 +3621,14 @@ Le recrutement est effectué par un jury sur la base d’un dossier de candidatu
 -Cadreur/Monteur Vidéo
 -Chargé de communication web
 -Chargé de production vidéo
-......</string>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exemple de débouchées professionnelles :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nZI-FG-FIe">
-                                                <rect key="frame" x="20" y="1548" width="329" height="21"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Débouchées professionnelles :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nZI-FG-FIe">
+                                                <rect key="frame" x="15" y="1395" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -3634,7 +3664,7 @@ Le recrutement est effectué par un jury sur la base d’un dossier de candidatu
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1100"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Licence professionelle : Énergies Renouvelables" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KvX-bl-UBD">
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Énergies Renouvelables" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KvX-bl-UBD">
                                                 <rect key="frame" x="0.0" y="5" width="320" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -3891,23 +3921,25 @@ Cette  nouvelle spécialité "Conduite de Travaux et Performance Energétique de
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="0hz-5I-kqJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1100"/>
+                                        <rect key="frame" x="0.0" y="-66" width="320" height="1050"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Véhicules : Electronique et Gestion des Automatismes" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TrY-1A-ww5">
-                                                <rect key="frame" x="20" y="0.0" width="280" height="41"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Véhicules : Electronique et Gestion des Automatismes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TrY-1A-ww5">
+                                                <rect key="frame" x="0.0" y="5" width="320" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation initiale, continue et apprentissage" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sam-f1-13E">
-                                                <rect key="frame" x="20" y="49" width="280" height="35"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation continue et apprentissage" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sam-f1-13E">
+                                                <rect key="frame" x="0.0" y="55" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="O0W-40-9Kz">
-                                                <rect key="frame" x="20" y="92" width="280" height="271"/>
+                                                <rect key="frame" x="15" y="80" width="305" height="255"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">La licence professionnelle VEGA a pour but de former des assistants ingénieurs et cadres intermédiaires dans les domaines de l'électronique embarquée, la mise en œuvre de réseaux multiplexés, le développement de bancs de tests pour organes de véhicules, la maintenance et développement de nouvelles technologies sur les véhicules (électriques et hybrides).
  
@@ -3916,13 +3948,15 @@ Les diplômés seront capables de gérer des projets et de suivre un dossier afi
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public visé :" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Eo6-Pk-8tJ">
-                                                <rect key="frame" x="20" y="371" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="340" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ibL-qS-QFW">
-                                                <rect key="frame" x="20" y="400" width="280" height="103"/>
+                                                <rect key="frame" x="15" y="360" width="305" height="105"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">• DUT / BTS / L2 en électronique, électrotechnique, maintenance automobile ou industrielle,
 • Salariés ou demandeurs d’emploi relevant de la formation continue pour lesquels la validation d’acquis est possible.</string>
@@ -3930,24 +3964,26 @@ Les diplômés seront capables de gérer des projets et de suivre un dossier afi
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insertion professionnelle :" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BTJ-HI-fk9">
-                                                <rect key="frame" x="20" y="518" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="470" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aQz-Kg-12n">
-                                                <rect key="frame" x="20" y="547" width="280" height="89"/>
+                                                <rect key="frame" x="15" y="495" width="305" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Les secteurs qui recrutent ces techniciens sont les constructeurs et équipementiers automobiles, les acteurs de la filière transports terrestres, routiers, ferroviaires, urbains ou les infrastructures.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LicenceVEGAGraph1.png" id="VA5-Mu-kwT">
-                                                <rect key="frame" x="0.0" y="645" width="320" height="200"/>
+                                                <rect key="frame" x="0.0" y="585" width="320" height="230"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LicenceVEGAGraph2.png" id="3ci-yV-Izy">
-                                                <rect key="frame" x="0.0" y="845" width="320" height="214"/>
+                                                <rect key="frame" x="0.0" y="820" width="320" height="215"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
@@ -3980,37 +4016,41 @@ Les diplômés seront capables de gérer des projets et de suivre un dossier afi
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="fhO-CA-fVI">
-                                        <rect key="frame" x="0.0" y="65" width="320" height="1350"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nDx-qN-B8n">
-                                                <rect key="frame" x="25" y="-5" width="280" height="89"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nDx-qN-B8n">
+                                                <rect key="frame" x="0.0" y="5" width="320" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Licence professionnelle conception d'applications multi-tiers parcours 
-Technologies de Projets Web et mobiles </string>
+                                                <string key="text">Conception d'Applications Multi-tiers parcours 
+Technologies de Projets Web et Mobiles </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resp. pédagogique de la licence :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FDN-ik-OB0">
-                                                <rect key="frame" x="25" y="92" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="75" width="320" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fabrice Ambert" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iI9-tg-m7R">
+                                                <rect key="frame" x="15" y="100" width="305" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fabrice Ambert, tél. +33 (0)3 84 58 77 75" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iI9-tg-m7R">
-                                                <rect key="frame" x="25" y="115" width="280" height="21"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation initiale, formation continue" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aF0-Pl-Xrd">
+                                                <rect key="frame" x="0.0" y="125" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formation initiale, formation continue" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aF0-Pl-Xrd">
-                                                <rect key="frame" x="25" y="144" width="280" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jr8-Lk-MhV">
-                                                <rect key="frame" x="25" y="173" width="280" height="260"/>
+                                                <rect key="frame" x="15" y="150" width="305" height="220"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Conçue en partenariat avec l'UFR Sciences et Techniques à Besançon, la licence professionnelle SIL (Systèmes Informatiques et Logiciels) spécialité Conception d'Applications Multi-tiers propose deux parcours, dont celui-ci enseigné à l'IUT de Belfort-Montbéliard.
 Le parcours TeProW vise à former des cadres de niveau intermédiaire capables de s'adapter à l'évolution des nouvelles technologies de développement d'applications web et mobiles. Formés au travail en équipe, les diplômés sauront planifier et piloter un projet réalisé par une équipe de développeurs.</string>
@@ -4018,13 +4058,15 @@ Le parcours TeProW vise à former des cadres de niveau intermédiaire capables d
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public visé :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gAV-l2-OUQ">
-                                                <rect key="frame" x="25" y="451" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="375" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8ZK-gW-aHU">
-                                                <rect key="frame" x="25" y="480" width="280" height="151"/>
+                                                <rect key="frame" x="15" y="400" width="305" height="155"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">• DUT informatique, DUT réseaux et télécommunications,
 • BTS informatique,
@@ -4034,13 +4076,15 @@ Le parcours TeProW vise à former des cadres de niveau intermédiaire capables d
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insertion professionnelle :" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mut-nZ-78X">
-                                                <rect key="frame" x="25" y="650" width="280" height="21"/>
+                                                <rect key="frame" x="0.0" y="560" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NGc-WC-lmo">
-                                                <rect key="frame" x="20" y="679" width="280" height="104"/>
+                                                <rect key="frame" x="15" y="585" width="305" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">• Développement et maintenance d'applications multi-tiers
 • Développement de serveurs et de clients web 
@@ -5274,6 +5318,109 @@ http://www.iut-bm.univ-fcomte.fr</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F7X-Jz-56H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3607" y="3467"/>
+        </scene>
+        <!--Contact View Controller - Contacts-->
+        <scene sceneID="6EL-bK-2iE">
+            <objects>
+                <viewController id="dZx-oc-XOA" customClass="ContactViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AcW-Pc-DDi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6MV-BT-xCk">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="HOx-ag-3iU">
+                                        <rect key="frame" x="0.0" y="65" width="320" height="1200"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="76" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n9x-Ak-KSY">
+                                                <rect key="frame" x="0.0" y="-63" width="320" height="1543"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Olivier Prévôt, directeur
+Bruno Viezzi et Damien Charlet, directeurs adjoints
+directeurs@iut-bm.univ-fcomte.fr
+
+Secrétariat de direction
+tél. +33 (0)3 84 58 77 02  
+fax +33 (0)3 84 22 29 05
+secretariat-direction@iut-bm.univ-fcomte.fr
+ 
+Sidhamed Benhadjeba
+Resp. administratif et financier
+tél. +33 (0)3 84 58 77 93
+fax +33 (0)3 84 22 29 05
+
+Carrières Sociales
+19 avenue du Maréchal Juin | BP 527 | 90016 Belfort cedex
+tél. +33 (0)3 84 58 76 00
+sec_cs@iut-bm.univ-fcomte.fr
+ 
+Génie Civil - construction durable
+19 avenue du Maréchal Juin | BP 527 | 90016 Belfort cedex
+tél. +33 (0)3 84 58 77 9
+sec_gc@iut-bm.univ-fcomte.fr
+ 
+Génie Electrique et Informatique Industrielle
+19 avenue du Maréchal Juin | BP 527 | 90016 Belfort cedex
+tél. +33 (0)3 84 58 77 47
+sec_geii@iut-bm.univ-fcomte.fr
+   
+Génie Thermique et Energie
+19 avenue du Maréchal Juin | BP 527 | 90016 Belfort cedex
+tél. +33 (0)3 84 58 77 49
+sec_gte@iut-bm.univ-fcomte.fr
+ 
+Gestion Administrative et Commerciale des Organisations
+4 place Tharradin | BP 71427 | 25211 Montbéliard cedex
+tél. +33 (0)3 81 99 46 28
+sec_gaco@iut-bm.univ-fcomte.fr
+ 
+Informatique
+19 avenue du Maréchal Juin BP 527 | 90016 Belfort cedex
+tél. +33 (0)3 84 58 77 82
+sec_info@iut-bm.univ-fcomte.fr
+ 
+Mesures Physiques
+4 place Tharradin | BP 71427 | 25211 Montbéliard cedex
+tél. +33 (0)3 81 99 46 02
+sec_mp@iut-bm.univ-fcomte.fr
+ 
+Métiers du Multimédia et de l'Internet
+4 place Tharradin | BP 71427 | 25211 Montbéliard cedex
+tél. +33 (0)3 81 99 47 34
+sec_src@iut-bm.univ-fcomte.fr
+ 
+Réseaux et Télécommunications
+4 place Tharradin | BP 71427 | 25211 Montbéliard cedex
+tél. +33 (0)3 81 99 47 00
+sec_rt@iut-bm.univ-fcomte.fr
+ 
+Techniques de Commercialisation
+55 faubourg des Ancêtres | 90000 Belfort
+tél. +33 (0)3 84 58 18 01
+sec_tc@iut-bm.univ-fcomte.fr</string>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Contacts" id="OlE-dD-NoN"/>
+                    <connections>
+                        <outlet property="scroll" destination="6MV-BT-xCk" id="OCd-E8-9by"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nAI-NF-gap" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1498" y="1870"/>
         </scene>
         <!--View Controller - Contacts-->
         <scene sceneID="P9I-LE-mKw">
