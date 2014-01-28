@@ -170,7 +170,7 @@
 {
     if ([[segue identifier] isEqualToString:@"detailSegue"]) {
         NSInteger selectedIndex = [[self.tableView indexPathForSelectedRow] row];
-        DetailViewController *dvc = [segue destinationViewController];
+        LiensWebViewController *dvc = [segue destinationViewController];
         dvc.siteSelectionne = [NSString stringWithFormat:@"%@", [adressesWeb objectAtIndex:selectedIndex]];
     }
 }

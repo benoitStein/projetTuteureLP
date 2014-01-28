@@ -1415,7 +1415,7 @@ et Socio-culturelle</string>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="5Rv-QE-9Na" kind="push" id="TXE-GT-2xa"/>
+                                            <segue destination="5Rv-QE-9Na" kind="push" id="51J-UC-vN9"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Dn6-iu-fo6" style="IBUITableViewCellStyleDefault" id="qvX-G8-FX9">
@@ -4503,7 +4503,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HFa-zb-M4B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2071" y="2620"/>
+            <point key="canvasLocation" x="-2064" y="2633"/>
         </scene>
         <!--Test Table View Controller - Liens-->
         <scene sceneID="LpT-zn-NQZ">
@@ -5557,7 +5557,7 @@ email : sec_tc@iut-bm.univ-fcomte.fr</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="4zG-os-DEb">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Myidentifier" id="4zG-os-DEb">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4zG-os-DEb" id="bBC-Ky-IWh">
@@ -5565,7 +5565,7 @@ email : sec_tc@iut-bm.univ-fcomte.fr</string>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="Ltt-VI-20R" kind="push" id="cch-od-oon"/>
+                                    <segue destination="Ltt-VI-20R" kind="push" identifier="detailSegue" id="cch-od-oon"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -5597,10 +5597,13 @@ email : sec_tc@iut-bm.univ-fcomte.fr</string>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Gbm-UA-ero"/>
+                    <connections>
+                        <outlet property="pageWeb" destination="RyW-e0-qyW" id="PHB-Cl-h2q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ii-HP-zmY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-978" y="1946"/>
+            <point key="canvasLocation" x="-1027" y="1956"/>
         </scene>
         <!--View Controller - English-->
         <scene sceneID="g85-LL-hHP">
