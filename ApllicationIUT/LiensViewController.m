@@ -53,7 +53,7 @@
     [mesFavoris addObject:@"Les bains douches à Montbéliard (restauration et salle de spectacle)"];
     [mesFavoris addObject:@"Agenda des sorties : onfaikoi.com"];
     
-    self.navigationItem.title = @"Mes sites Web préférés";
+    //self.navigationItem.title = @"Mes sites Web préférés";
     
     adressesWeb = [[NSMutableArray alloc] init];
     
@@ -84,10 +84,10 @@
     [adressesWeb addObject:@"http://www.onfaikoi.fr/"];
     
 	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
+    /* self.navigationItem.leftBarButtonItem = self.editButtonItem;
     
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
+    self.navigationItem.rightBarButtonItem = addButton; */
 }
 
 - (void)didReceiveMemoryWarning
