@@ -52,11 +52,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Gq1-nu-Hzj">
-                                <rect key="frame" x="0.0" y="118" width="320" height="401"/>
+                                <rect key="frame" x="0.0" y="115" width="320" height="408"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="80p-UK-qZg">
-                                        <rect key="frame" x="0.0" y="-15" width="320" height="900"/>
+                                        <rect key="frame" x="0.0" y="-15" width="320" height="907"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Des formations tournées vers l'avenir :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FUd-5u-3jp">
@@ -4740,7 +4740,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ZoH-mi-4g2" kind="push" id="ybk-xF-kTu"/>
+                                    <segue destination="g9R-8r-4Ib" kind="push" id="hiI-vd-gaF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XJQ-Uc-up9">
@@ -4814,7 +4814,99 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9qj-YO-cYK">
                                                 <rect key="frame" x="0.0" y="219" width="320" height="1500"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">A Belfort, les bâtiments de l’IUT situés sur le Techn’hom1 ont grand besoin d’être rénovés. Ils datent, pour la plupart, des années 1970 et ne sont plus conformes aux normes actuelles de consommation énergétique et d’accessibilité. Le coût de leur maintenance ne cesse de croître.
+                                                <mutableString key="text">A Belfort, les bâtiments de l’IUT situés sur le Techn’hom1 ont grand besoin d’être rénovés. Ils datent, pour la plupart, des années 1970 et ne sont plus conformes aux normes actuelles de consommation énergétique et d’accessibilité. Le coût de leur maintenance ne cesse de croître.
+Le projet « Eco-campus 2020 » prévoit une rénovation complète de ces locaux selon des critères écologiques. Il s’agit d’un chantier expérimental pilote qui pourrait, à terme, servir de modèle à d’autres campus.
+L’idée est de tester des solutions novatrices de réhabilitation des bâtiments en utilisant les compétences de l’industrie locale, mais aussi celles de l’Université. Belfort concentre en effet un certain nombre de formations et de travaux de recherche orientés vers l’énergie et le génie civil. Les étudiants, enseignants et chercheurs vont donc pouvoir participer à l’élaboration des solutions et à leur expérimentation grandeur nature.
+Certains bâtiments du campus vont être détruits, d’autres construits, mais il s’agira surtout de modifier les locaux existants grâce à des procédés adaptés à chaque cas. On peut donc imaginer utiliser par exemple la cogénération2 ou des systèmes « pile à combustible », deux procédés auxquels les chercheurs du Nord Franche-Comté s’intéressent de près.
+L’IUT de Belfort-Montbéliard n’est pas le seul établissement concerné par ce projet. L’UFR STGI3  et l’institut FEMTO-ST4 sont également impliqués.
+"des campus thématiques"
+Une réorganisation de l’ensemble des sites universitaires belfortains est prévue pour établir une cohérence en rassemblant des filières actuellement dispersées au sein de trois campus thématiques. Toutes les formations liées au commerce, au droit et à la gestion administrative seront accueillies en centre-ville, dans le bâtiment Louis Néel qui a été récemment rénové et agrandi. Les locaux situés Faubourg des ancêtres5 accueilleront le département Carrières sociales de l’IUT. L’ESPE6 étant également localisé dans ce périmètre, l’ensemble formera un campus dédié aux métiers de l’éducation et de l’animation.
+L’actuel site de l’IUT de Belfort sur le Techn’hom, où se trouvent déjà de grandes entreprises du secteur de l’énergie, notamment General Electric et Alstom, le FC Lab7 et l’UTBM8, deviendra un campus scientifique à part entière. Le département sciences de l’UFR STGI et le département ENERGIE de l’institut FEMTO-ST y rejoindront les départements scientifiques et techniques de l’IUT et le département d’Informatique des systèmes complexes déjà présent dans ces locaux. Cette nouvelle implantation favorisera les échanges entre formation et recherche tout en intéressant le plus tôt possible les étudiants aux travaux portés par les laboratoires. « Ceux qui ne se destinent pas à une carrière académique y découvriront la technologie et l’innovation » souligne Nicolas Chaillet. Cela permettra également de mutualiser les plateaux techniques actuellement dupliqués. « Les équipements seront ainsi renouvelés plus souvent afin que les étudiants disposent en permanence de matériel de pointe », note Cyrille Verna, directeur de l’UFR STGI.
+"de nouveaux échanges"
+Ces rapprochements vont induire de nouveaux échanges. Les étudiants de filières différentes pourront suivre des modules d’enseignements transversaux sur des thématiques liées au développement durable. Un nouveau cursus de master en ingénierie (CMI)10 intitulé H3E (Hydrogène, Energie, efficacité énergétique), élaboré de manière conjointe par l’IUT et l’UFR STGI et accessible aux étudiants de ces deux composantes, verra le jour à la rentrée prochaine. « En créant davantage de passerelles entre les cursus professionnels et académiques, nous allons favoriser la réussite des étudiants » affirme Olivier Prévôt, directeur de l’IUT de Belfort-Montbéliard.
+La construction de l’éco-campus devrait débuter en 2015 et s’achever en 2020. Il intéresse d’ores et déjà de nombreux partenaires parmi lesquels : les collectivités locales, la Caisse des dépôts, ERDF11 et les entreprises de la Vallée de l’énergie12.
+Cette nouvelle vitrine écologique et scientifique pourrait avoir un impact notable sur le développement du territoire.
+1 Le Techn’Hom est un parc urbain d’activités industrielles situé à Belfort.
+2 Production conjointe et simultanée de deux énergies différentes, par exemple de la chaleur et de l’électricité
+3 UFR Sciences, techniques et gestion de l’industrie
+4 FEMTO-ST : Franche-Comté électronique, mécanique, thermique, optique – science et technologie. C’est le plus grand laboratoire français dans le secteur des sciences pour l’ingénieur. Il compte 20 % de ses effectifs dans le Nord Franche-Comté. 
+5 Ces locaux sont actuellement occupés par le département Techniques de commercialisation
+6 L’école supérieure du professorat de l’éducation remplace l’IUFM depuis la rentrée 2013
+7 Fuel Cell Lab : fédération de recherche dédiée aux systèmes pile à combustible
+8 L’Université de Technologie Belfort-Montbéliard est une école d’ingénieurs.
+10 Le CMI est un nouveau label du réseau FiGuRe (Formation à l'Ingénierie par des Universités de Recherche)  qui permet aux universités de délivrer des diplômes d’ingénieur en renforçant des licences et masters préexistants conformément à un référentiel national.
+11 Electricité réseau distribution France
+12 Association d’entreprises franc-comtoises liées au secteur de l’énergie et destinée à dynamiser le développement de cette filière.
+ 
+Contact :
+Olivier Prévôt
+Directeur de l’IUT Belfort-Montbéliard
+Tél. 03 84 58 77 01
+olivier.prevot@univ-fcomte.fr
+http://www.iut-bm.univ-fcomte.fr</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vignetteallongeeecocampus.jpg" id="QZf-6N-PDi">
+                                                <rect key="frame" x="10" y="131" width="300" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="iqj-fp-1Ol">
+                                        <rect key="frame" x="46" y="70" width="84" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Eco Campus" id="b3Q-WG-ghF"/>
+                    <connections>
+                        <outlet property="scroll" destination="YjA-ZO-Zhu" id="9Vl-ej-q3w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F7X-Jz-56H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3607" y="3467"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DcE-bd-Sae">
+            <objects>
+                <viewController id="g9R-8r-4Ib" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rbR-0G-5JZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="oFm-i0-uZC">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="2472"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="1900"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="L’avenir des campus belfortains">
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="16" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+« Eco-campus 2020 » est un projet ambitieux de réhabilitation écologique du  site de l’IUT. Il porte de nouvelles perspectives pour l’enseignement, la recherche et le développement du territoire.
+
+A Belfort, les bâtiments de l’IUT situés sur le Techn’hom1 ont grand besoin d’être rénovés. Ils datent, pour la plupart, des années 1970 et ne sont plus conformes aux normes actuelles de consommation énergétique et d’accessibilité. Le coût de leur maintenance ne cesse de croître.
 Le projet « Eco-campus 2020 » prévoit une rénovation complète de ces locaux selon des critères écologiques. Il s’agit d’un chantier expérimental pilote qui pourrait, à terme, servir de modèle à d’autres campus.
 L’idée est de tester des solutions novatrices de réhabilitation des bâtiments en utilisant les compétences de l’industrie locale, mais aussi celles de l’Université. Belfort concentre en effet un certain nombre de formations et de travaux de recherche orientés vers l’énergie et le génie civil. Les étudiants, enseignants et chercheurs vont donc pouvoir participer à l’élaboration des solutions et à leur expérimentation grandeur nature.
 Certains bâtiments du campus vont être détruits, d’autres construits, mais il s’agira surtout de modifier les locaux existants grâce à des procédés adaptés à chaque cas. On peut donc imaginer utiliser par exemple la cogénération2 ou des systèmes « pile à combustible », deux procédés auxquels les chercheurs du Nord Franche-Comté s’intéressent de près.
@@ -4844,29 +4936,22 @@ Directeur de l’IUT Belfort-Montbéliard
 Tél. 03 84 58 77 01
 olivier.prevot@univ-fcomte.fr
 http://www.iut-bm.univ-fcomte.fr</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vignetteallongeeecocampus.jpg" id="QZf-6N-PDi">
-                                                <rect key="frame" x="10" y="131" width="300" height="80"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                    </view>
-                                </subviews>
-                            </scrollView>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Eco Campus" id="b3Q-WG-ghF"/>
-                    <connections>
-                        <outlet property="scroll" destination="YjA-ZO-Zhu" id="9Vl-ej-q3w"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="Au6-hR-9nM"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F7X-Jz-56H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fnk-J6-3w7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3607" y="3467"/>
+            <point key="canvasLocation" x="4002" y="3438"/>
         </scene>
         <!--View Controller - Contacts-->
         <scene sceneID="P9I-LE-mKw">
