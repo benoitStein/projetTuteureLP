@@ -1543,7 +1543,7 @@ et Socio-culturelle</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TEI-Nb-oiw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3556" y="4681"/>
+            <point key="canvasLocation" x="3620" y="4679"/>
         </scene>
         <!--Page Ecocampus Telechargement1 View Controller-->
         <scene sceneID="Ktw-8X-YQ8">
@@ -1568,7 +1568,7 @@ et Socio-culturelle</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Ok-Cm-pad" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3761" y="4104"/>
+            <point key="canvasLocation" x="4094" y="4127"/>
         </scene>
         <!--PageDUT Tech Co View Controller - Département Tech. de Co.-->
         <scene sceneID="CFb-Xi-md8">
@@ -4697,27 +4697,27 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IUTBM_quadri.jpg" id="4VR-hr-1ae">
-                                <rect key="frame" x="0.0" y="70" width="100" height="40"/>
+                                <rect key="frame" x="5" y="70" width="100" height="40"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO UFC_1.jpg" id="K9d-hf-h3e">
-                                <rect key="frame" x="220" y="70" width="100" height="40"/>
+                                <rect key="frame" x="231" y="70" width="83" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vignette_ss_challenge.gif" id="Vg3-vr-kQG">
-                                <rect key="frame" x="60" y="131" width="200" height="170"/>
+                                <rect key="frame" x="84" y="113" width="152" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slideshow_logos.gif" id="CIB-lz-7qa">
-                                <rect key="frame" x="10" y="295" width="300" height="128"/>
+                                <rect key="frame" x="10" y="273" width="300" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slideshow_cp_ecocampus.gif" id="Z7j-OC-oZH">
-                                <rect key="frame" x="20" y="365" width="280" height="150"/>
+                                <rect key="frame" x="20" y="350" width="280" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lancement du projet         " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="anS-6n-mxe">
-                                <rect key="frame" x="20" y="479" width="280" height="20"/>
+                                <rect key="frame" x="20" y="464" width="280" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -4725,7 +4725,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Retour sur la conférence de presse du 18/09/2013 >" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="InM-DN-YSQ">
-                                <rect key="frame" x="20" y="494" width="280" height="21"/>
+                                <rect key="frame" x="20" y="479" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
@@ -4733,7 +4733,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vso-YH-DxB">
-                                <rect key="frame" x="242" y="489" width="58" height="30"/>
+                                <rect key="frame" x="242" y="474" width="58" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Lire l'article">
@@ -4744,7 +4744,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XJQ-Uc-up9">
-                                <rect key="frame" x="27" y="289" width="46" height="30"/>
+                                <rect key="frame" x="20" y="261" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Dossier">
@@ -4755,7 +4755,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Vb-ZR-NkO">
-                                <rect key="frame" x="227" y="288" width="56" height="30"/>
+                                <rect key="frame" x="244" y="261" width="56" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Dépliant">
@@ -4951,7 +4951,7 @@ http://www.iut-bm.univ-fcomte.fr</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fnk-J6-3w7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4002" y="3438"/>
+            <point key="canvasLocation" x="3620" y="3487"/>
         </scene>
         <!--View Controller - Contacts-->
         <scene sceneID="P9I-LE-mKw">
@@ -5875,7 +5875,6 @@ Télécharger le PDF</string>
         <image name="slideshow_cp_ecocampus.gif" width="558" height="300"/>
         <image name="slideshow_logos.gif" width="558" height="300"/>
         <image name="vignette_ss_challenge.gif" width="100" height="100"/>
-        <image name="vignetteallongeeecocampus.jpg" width="510" height="65"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
