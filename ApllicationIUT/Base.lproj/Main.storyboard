@@ -1543,7 +1543,7 @@ et Socio-culturelle</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TEI-Nb-oiw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3556" y="4681"/>
+            <point key="canvasLocation" x="3620" y="4679"/>
         </scene>
         <!--Page Ecocampus Telechargement1 View Controller-->
         <scene sceneID="Ktw-8X-YQ8">
@@ -1568,7 +1568,7 @@ et Socio-culturelle</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Ok-Cm-pad" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3761" y="4104"/>
+            <point key="canvasLocation" x="4094" y="4127"/>
         </scene>
         <!--PageDUT Tech Co View Controller - Département Tech. de Co.-->
         <scene sceneID="CFb-Xi-md8">
@@ -4697,27 +4697,27 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IUTBM_quadri.jpg" id="4VR-hr-1ae">
-                                <rect key="frame" x="0.0" y="70" width="100" height="40"/>
+                                <rect key="frame" x="5" y="70" width="100" height="40"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO UFC_1.jpg" id="K9d-hf-h3e">
-                                <rect key="frame" x="220" y="70" width="100" height="40"/>
+                                <rect key="frame" x="231" y="70" width="83" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vignette_ss_challenge.gif" id="Vg3-vr-kQG">
-                                <rect key="frame" x="60" y="131" width="200" height="170"/>
+                                <rect key="frame" x="84" y="113" width="152" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slideshow_logos.gif" id="CIB-lz-7qa">
-                                <rect key="frame" x="10" y="295" width="300" height="128"/>
+                                <rect key="frame" x="10" y="273" width="300" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slideshow_cp_ecocampus.gif" id="Z7j-OC-oZH">
-                                <rect key="frame" x="20" y="365" width="280" height="150"/>
+                                <rect key="frame" x="20" y="350" width="280" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lancement du projet         " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="anS-6n-mxe">
-                                <rect key="frame" x="20" y="479" width="280" height="20"/>
+                                <rect key="frame" x="20" y="464" width="280" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -4725,7 +4725,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Retour sur la conférence de presse du 18/09/2013 >" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="InM-DN-YSQ">
-                                <rect key="frame" x="20" y="494" width="280" height="21"/>
+                                <rect key="frame" x="20" y="479" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
@@ -4733,7 +4733,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vso-YH-DxB">
-                                <rect key="frame" x="242" y="489" width="58" height="30"/>
+                                <rect key="frame" x="242" y="474" width="58" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Lire l'article">
@@ -4744,7 +4744,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XJQ-Uc-up9">
-                                <rect key="frame" x="27" y="289" width="46" height="30"/>
+                                <rect key="frame" x="20" y="261" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Dossier">
@@ -4755,7 +4755,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Vb-ZR-NkO">
-                                <rect key="frame" x="227" y="288" width="56" height="30"/>
+                                <rect key="frame" x="244" y="261" width="56" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Dépliant">
@@ -4773,104 +4773,6 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                 <placeholder placeholderIdentifier="IBFirstResponder" id="igU-pS-t4S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3084" y="4127"/>
-        </scene>
-        <!--Page Ecocampus Texte View Controller - Eco Campus-->
-        <scene sceneID="9Bf-v4-sCv">
-            <objects>
-                <viewController id="ZoH-mi-4g2" customClass="PageEcocampusTexteViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="d8i-Uc-CJN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" id="YjA-ZO-Zhu">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="520"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO UFC_1.jpg" id="WmZ-1U-hAl">
-                                        <rect key="frame" x="220" y="70" width="100" height="40"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IUTBM_quadri.jpg" id="shX-Fk-OcO">
-                                        <rect key="frame" x="0.0" y="70" width="100" height="0.0"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    </imageView>
-                                    <view contentMode="scaleToFill" id="sSC-NX-muz">
-                                        <rect key="frame" x="0.0" y="118" width="320" height="1020"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="L’avenir des campus belfortains" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ys0-ag-Ey1">
-                                                <rect key="frame" x="0.0" y="11" width="297" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="a0i-29-865">
-                                                <rect key="frame" x="0.0" y="40" width="320" height="83"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">« Eco-campus 2020 » est un projet ambitieux de réhabilitation écologique du  site de l’IUT. Il porte de nouvelles perspectives pour l’enseignement, la recherche et le développement du territoire.</string>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9qj-YO-cYK">
-                                                <rect key="frame" x="0.0" y="219" width="320" height="1500"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">A Belfort, les bâtiments de l’IUT situés sur le Techn’hom1 ont grand besoin d’être rénovés. Ils datent, pour la plupart, des années 1970 et ne sont plus conformes aux normes actuelles de consommation énergétique et d’accessibilité. Le coût de leur maintenance ne cesse de croître.
-Le projet « Eco-campus 2020 » prévoit une rénovation complète de ces locaux selon des critères écologiques. Il s’agit d’un chantier expérimental pilote qui pourrait, à terme, servir de modèle à d’autres campus.
-L’idée est de tester des solutions novatrices de réhabilitation des bâtiments en utilisant les compétences de l’industrie locale, mais aussi celles de l’Université. Belfort concentre en effet un certain nombre de formations et de travaux de recherche orientés vers l’énergie et le génie civil. Les étudiants, enseignants et chercheurs vont donc pouvoir participer à l’élaboration des solutions et à leur expérimentation grandeur nature.
-Certains bâtiments du campus vont être détruits, d’autres construits, mais il s’agira surtout de modifier les locaux existants grâce à des procédés adaptés à chaque cas. On peut donc imaginer utiliser par exemple la cogénération2 ou des systèmes « pile à combustible », deux procédés auxquels les chercheurs du Nord Franche-Comté s’intéressent de près.
-L’IUT de Belfort-Montbéliard n’est pas le seul établissement concerné par ce projet. L’UFR STGI3  et l’institut FEMTO-ST4 sont également impliqués.
-"des campus thématiques"
-Une réorganisation de l’ensemble des sites universitaires belfortains est prévue pour établir une cohérence en rassemblant des filières actuellement dispersées au sein de trois campus thématiques. Toutes les formations liées au commerce, au droit et à la gestion administrative seront accueillies en centre-ville, dans le bâtiment Louis Néel qui a été récemment rénové et agrandi. Les locaux situés Faubourg des ancêtres5 accueilleront le département Carrières sociales de l’IUT. L’ESPE6 étant également localisé dans ce périmètre, l’ensemble formera un campus dédié aux métiers de l’éducation et de l’animation.
-L’actuel site de l’IUT de Belfort sur le Techn’hom, où se trouvent déjà de grandes entreprises du secteur de l’énergie, notamment General Electric et Alstom, le FC Lab7 et l’UTBM8, deviendra un campus scientifique à part entière. Le département sciences de l’UFR STGI et le département ENERGIE de l’institut FEMTO-ST y rejoindront les départements scientifiques et techniques de l’IUT et le département d’Informatique des systèmes complexes déjà présent dans ces locaux. Cette nouvelle implantation favorisera les échanges entre formation et recherche tout en intéressant le plus tôt possible les étudiants aux travaux portés par les laboratoires. « Ceux qui ne se destinent pas à une carrière académique y découvriront la technologie et l’innovation » souligne Nicolas Chaillet. Cela permettra également de mutualiser les plateaux techniques actuellement dupliqués. « Les équipements seront ainsi renouvelés plus souvent afin que les étudiants disposent en permanence de matériel de pointe », note Cyrille Verna, directeur de l’UFR STGI.
-"de nouveaux échanges"
-Ces rapprochements vont induire de nouveaux échanges. Les étudiants de filières différentes pourront suivre des modules d’enseignements transversaux sur des thématiques liées au développement durable. Un nouveau cursus de master en ingénierie (CMI)10 intitulé H3E (Hydrogène, Energie, efficacité énergétique), élaboré de manière conjointe par l’IUT et l’UFR STGI et accessible aux étudiants de ces deux composantes, verra le jour à la rentrée prochaine. « En créant davantage de passerelles entre les cursus professionnels et académiques, nous allons favoriser la réussite des étudiants » affirme Olivier Prévôt, directeur de l’IUT de Belfort-Montbéliard.
-La construction de l’éco-campus devrait débuter en 2015 et s’achever en 2020. Il intéresse d’ores et déjà de nombreux partenaires parmi lesquels : les collectivités locales, la Caisse des dépôts, ERDF11 et les entreprises de la Vallée de l’énergie12.
-Cette nouvelle vitrine écologique et scientifique pourrait avoir un impact notable sur le développement du territoire.
-1 Le Techn’Hom est un parc urbain d’activités industrielles situé à Belfort.
-2 Production conjointe et simultanée de deux énergies différentes, par exemple de la chaleur et de l’électricité
-3 UFR Sciences, techniques et gestion de l’industrie
-4 FEMTO-ST : Franche-Comté électronique, mécanique, thermique, optique – science et technologie. C’est le plus grand laboratoire français dans le secteur des sciences pour l’ingénieur. Il compte 20 % de ses effectifs dans le Nord Franche-Comté. 
-5 Ces locaux sont actuellement occupés par le département Techniques de commercialisation
-6 L’école supérieure du professorat de l’éducation remplace l’IUFM depuis la rentrée 2013
-7 Fuel Cell Lab : fédération de recherche dédiée aux systèmes pile à combustible
-8 L’Université de Technologie Belfort-Montbéliard est une école d’ingénieurs.
-10 Le CMI est un nouveau label du réseau FiGuRe (Formation à l'Ingénierie par des Universités de Recherche)  qui permet aux universités de délivrer des diplômes d’ingénieur en renforçant des licences et masters préexistants conformément à un référentiel national.
-11 Electricité réseau distribution France
-12 Association d’entreprises franc-comtoises liées au secteur de l’énergie et destinée à dynamiser le développement de cette filière.
- 
-Contact :
-Olivier Prévôt
-Directeur de l’IUT Belfort-Montbéliard
-Tél. 03 84 58 77 01
-olivier.prevot@univ-fcomte.fr
-http://www.iut-bm.univ-fcomte.fr</mutableString>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vignetteallongeeecocampus.jpg" id="QZf-6N-PDi">
-                                                <rect key="frame" x="10" y="131" width="300" height="80"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                    </view>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="iqj-fp-1Ol">
-                                        <rect key="frame" x="46" y="70" width="84" height="74"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                </subviews>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Eco Campus" id="b3Q-WG-ghF"/>
-                    <connections>
-                        <outlet property="scroll" destination="YjA-ZO-Zhu" id="9Vl-ej-q3w"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F7X-Jz-56H" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3607" y="3467"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DcE-bd-Sae">
@@ -4951,7 +4853,7 @@ http://www.iut-bm.univ-fcomte.fr</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fnk-J6-3w7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4002" y="3438"/>
+            <point key="canvasLocation" x="3620" y="3487"/>
         </scene>
         <!--View Controller - Contacts-->
         <scene sceneID="P9I-LE-mKw">
@@ -5875,7 +5777,6 @@ Télécharger le PDF</string>
         <image name="slideshow_cp_ecocampus.gif" width="558" height="300"/>
         <image name="slideshow_logos.gif" width="558" height="300"/>
         <image name="vignette_ss_challenge.gif" width="100" height="100"/>
-        <image name="vignetteallongeeecocampus.jpg" width="510" height="65"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
