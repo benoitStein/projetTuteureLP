@@ -56,7 +56,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="80p-UK-qZg">
-                                        <rect key="frame" x="0.0" y="-15" width="320" height="907"/>
+                                        <rect key="frame" x="0.0" y="-8" width="320" height="907"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Des formations tournées vers l'avenir :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FUd-5u-3jp">
@@ -175,15 +175,15 @@ Les stages en entreprise, de 10 à 14 semaines, se déroulent au cours du 4 seme
         <scene sceneID="gcW-5V-Vm8">
             <objects>
                 <tableViewController id="3Ub-Oy-RbK" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ZGk-54-BXp">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="ZGk-54-BXp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
-                            <tableViewSection id="oGb-i3-2hZ">
+                            <tableViewSection headerTitle="Type de formation" id="oGb-i3-2hZ">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="roO-ra-8LW" style="IBUITableViewCellStyleDefault" id="8Zm-UK-E2O">
-                                        <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="119" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8Zm-UK-E2O" id="b0t-qH-9Yl">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -202,14 +202,18 @@ Les stages en entreprise, de 10 à 14 semaines, se déroulent au cours du 4 seme
                                             <segue destination="IQi-W8-XCb" kind="push" id="ak5-28-VoJ"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="v3I-LD-71N" style="IBUITableViewCellStyleDefault" id="oQm-X4-8g8">
-                                        <rect key="frame" x="0.0" y="108" width="320" height="44"/>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="" id="EJE-X7-uwk">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="F7W-dc-KpK" style="IBUITableViewCellStyleDefault" id="Aot-SM-xPH">
+                                        <rect key="frame" x="0.0" y="183" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oQm-X4-8g8" id="lX2-A2-1f5">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Aot-SM-xPH" id="55a-8b-9Rd">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Licences Professionnelles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="v3I-LD-71N">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Licences Professionnelles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="F7W-dc-KpK">
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -219,7 +223,7 @@ Les stages en entreprise, de 10 à 14 semaines, se déroulent au cours du 4 seme
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="PGH-YI-Z4u" kind="push" id="K3y-Y7-DgH"/>
+                                            <segue destination="PGH-YI-Z4u" kind="push" id="nhO-Se-nvi"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -503,15 +507,15 @@ Il peuvent être responsables :
         <scene sceneID="dAg-y4-rew">
             <objects>
                 <tableViewController id="IQi-W8-XCb" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="R5j-UN-4ao">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="R5j-UN-4ao">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
                             <tableViewSection id="Ryl-cr-Sdd">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="WOw-5g-WR1" detailTextLabel="tgX-Vz-1BD" style="IBUITableViewCellStyleSubtitle" id="iLl-Ak-kBF">
-                                        <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="99" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iLl-Ak-kBF" id="5Yi-Nc-k5a">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -538,7 +542,7 @@ Il peuvent être responsables :
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="F2J-WV-0Zy" detailTextLabel="KGc-bu-F01" style="IBUITableViewCellStyleSubtitle" id="kdc-ot-CZe">
-                                        <rect key="frame" x="0.0" y="108" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="143" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kdc-ot-CZe" id="LdP-40-R9T">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -565,7 +569,7 @@ Il peuvent être responsables :
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Ww9-qR-8lD" detailTextLabel="MNk-tS-dFI" style="IBUITableViewCellStyleSubtitle" id="GwF-rd-kuW">
-                                        <rect key="frame" x="0.0" y="152" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="187" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GwF-rd-kuW" id="mma-X9-gid">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -592,7 +596,7 @@ Il peuvent être responsables :
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="J7U-Cx-89v" detailTextLabel="tAB-Ee-XbE" style="IBUITableViewCellStyleSubtitle" id="6JX-0G-mwQ">
-                                        <rect key="frame" x="0.0" y="196" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="231" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6JX-0G-mwQ" id="LN5-hn-z1t">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -619,7 +623,7 @@ Il peuvent être responsables :
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Ztd-Bp-Lrq" detailTextLabel="6QV-Ij-7Dq" style="IBUITableViewCellStyleSubtitle" id="v63-o2-UQA">
-                                        <rect key="frame" x="0.0" y="240" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="275" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="v63-o2-UQA" id="1Ns-Gp-kl4">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -646,7 +650,7 @@ Il peuvent être responsables :
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="LHo-bO-qow" detailTextLabel="0EK-ZZ-24z" style="IBUITableViewCellStyleSubtitle" id="nqk-RN-dZ4">
-                                        <rect key="frame" x="0.0" y="284" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="319" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nqk-RN-dZ4" id="ZvF-7L-PT8">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -673,7 +677,7 @@ Il peuvent être responsables :
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="q4m-xL-7tJ" detailTextLabel="Qjt-eN-qVg" style="IBUITableViewCellStyleSubtitle" id="DPH-vH-GLs">
-                                        <rect key="frame" x="0.0" y="328" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="363" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DPH-vH-GLs" id="A3M-aq-vi6">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -700,7 +704,7 @@ Il peuvent être responsables :
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="qAf-j5-EFH" detailTextLabel="kqt-Nl-srr" style="IBUITableViewCellStyleSubtitle" id="z7R-9M-CcR">
-                                        <rect key="frame" x="0.0" y="372" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="407" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z7R-9M-CcR" id="dWd-kf-teD">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -727,7 +731,7 @@ Il peuvent être responsables :
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="EzQ-XE-gmW" detailTextLabel="VeY-BX-RZE" style="IBUITableViewCellStyleSubtitle" id="YfL-HI-pOX">
-                                        <rect key="frame" x="0.0" y="416" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="451" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YfL-HI-pOX" id="0o9-a8-XpT">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -754,7 +758,7 @@ Il peuvent être responsables :
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="TtH-xC-VP4" detailTextLabel="nMv-BT-4zr" style="IBUITableViewCellStyleSubtitle" id="2TI-Au-kuY">
-                                        <rect key="frame" x="0.0" y="460" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="495" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2TI-Au-kuY" id="pSZ-Af-gia">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -781,7 +785,7 @@ Il peuvent être responsables :
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="RbF-AI-tum" detailTextLabel="OtL-sW-d4y" style="IBUITableViewCellStyleSubtitle" id="MFV-uy-a8r">
-                                        <rect key="frame" x="0.0" y="504" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="539" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MFV-uy-a8r" id="tVc-cw-5X3">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -808,7 +812,7 @@ Il peuvent être responsables :
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="y35-Tg-YFq" detailTextLabel="epR-qw-5dK" style="IBUITableViewCellStyleSubtitle" id="3Gu-Qr-MpE">
-                                        <rect key="frame" x="0.0" y="548" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="583" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3Gu-Qr-MpE" id="OjS-so-VXJ">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -852,15 +856,15 @@ Il peuvent être responsables :
         <scene sceneID="blx-hC-87j">
             <objects>
                 <tableViewController id="PGH-YI-Z4u" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="1Ta-IU-LTF">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="1Ta-IU-LTF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
                             <tableViewSection id="B3C-Sa-hVl">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="SoV-CD-Nln" detailTextLabel="AN9-LE-ljX" style="IBUITableViewCellStyleSubtitle" id="znf-p8-EBx">
-                                        <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="99" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="znf-p8-EBx" id="hgg-xe-Lob">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -887,7 +891,7 @@ Il peuvent être responsables :
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="du2-dn-bQ4" detailTextLabel="pkS-OX-HfN" style="IBUITableViewCellStyleSubtitle" id="QZg-t6-e8P">
-                                        <rect key="frame" x="0.0" y="108" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="143" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QZg-t6-e8P" id="rGY-7m-566">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -916,7 +920,7 @@ et Socio-culturelle</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="T3l-3a-Xeg" detailTextLabel="5gU-BX-dmi" style="IBUITableViewCellStyleSubtitle" id="W7J-Dr-AYP">
-                                        <rect key="frame" x="0.0" y="152" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="187" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="W7J-Dr-AYP" id="f7y-Eb-rNg">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -943,7 +947,7 @@ et Socio-culturelle</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Mzf-R3-NBg" detailTextLabel="gLf-rQ-TlG" style="IBUITableViewCellStyleSubtitle" id="zZL-WT-NYq">
-                                        <rect key="frame" x="0.0" y="196" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="231" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zZL-WT-NYq" id="mz0-YM-ohs">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -970,7 +974,7 @@ et Socio-culturelle</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Ro5-jh-bIG" detailTextLabel="h4J-fH-65t" style="IBUITableViewCellStyleSubtitle" id="9wx-Ot-L71">
-                                        <rect key="frame" x="0.0" y="240" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="275" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9wx-Ot-L71" id="cyx-dd-I0U">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -997,7 +1001,7 @@ et Socio-culturelle</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="CsQ-bs-ZPi" detailTextLabel="L2J-8e-dwD" style="IBUITableViewCellStyleSubtitle" id="rp6-Sb-4Lo">
-                                        <rect key="frame" x="0.0" y="284" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="319" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rp6-Sb-4Lo" id="7hh-VN-X6E">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -1024,7 +1028,7 @@ et Socio-culturelle</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="mvM-eZ-W6Z" detailTextLabel="4Ye-nk-9s6" style="IBUITableViewCellStyleSubtitle" id="4ox-0F-XR0">
-                                        <rect key="frame" x="0.0" y="328" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="363" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4ox-0F-XR0" id="fk8-Ug-7Um">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -1051,7 +1055,7 @@ et Socio-culturelle</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="EQK-6A-8oJ" detailTextLabel="hen-mf-fHx" style="IBUITableViewCellStyleSubtitle" id="HGp-eS-v0z">
-                                        <rect key="frame" x="0.0" y="372" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="407" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HGp-eS-v0z" id="s5m-k7-6OF">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -1078,7 +1082,7 @@ et Socio-culturelle</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="3Pz-AW-u32" detailTextLabel="hHv-zP-qV8" style="IBUITableViewCellStyleSubtitle" id="069-cR-FwE">
-                                        <rect key="frame" x="0.0" y="416" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="451" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="069-cR-FwE" id="dUd-BN-fNR">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -1107,7 +1111,7 @@ et Socio-culturelle</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="RbK-1r-AMo" detailTextLabel="cwj-TZ-Os2" style="IBUITableViewCellStyleSubtitle" id="jbh-kY-7N7">
-                                        <rect key="frame" x="0.0" y="460" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="495" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jbh-kY-7N7" id="5uH-yU-El9">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -1134,7 +1138,7 @@ et Socio-culturelle</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="fRm-ap-bQF" detailTextLabel="KqN-6M-TmE" style="IBUITableViewCellStyleSubtitle" id="CRI-Vp-vkV">
-                                        <rect key="frame" x="0.0" y="504" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="539" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CRI-Vp-vkV" id="7N6-hf-weM">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -1161,7 +1165,7 @@ et Socio-culturelle</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="UmM-fz-3Z2" detailTextLabel="xjg-om-0Tv" style="IBUITableViewCellStyleSubtitle" id="8Lr-Ry-Hjy">
-                                        <rect key="frame" x="0.0" y="548" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="583" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8Lr-Ry-Hjy" id="xYP-0M-83J">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -1188,7 +1192,7 @@ et Socio-culturelle</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="NlC-Xo-CKH" detailTextLabel="ptH-AT-qfh" style="IBUITableViewCellStyleSubtitle" id="CAL-RT-SNU">
-                                        <rect key="frame" x="0.0" y="592" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="627" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CAL-RT-SNU" id="nS4-a1-Ol5">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -1226,7 +1230,7 @@ et Socio-culturelle</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yor-Pq-owP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3348" y="-1259"/>
+            <point key="canvasLocation" x="2770" y="-1659"/>
         </scene>
         <!--Page Agenda View Controller - Agenda-->
         <scene sceneID="Nnb-w5-CTU">
@@ -5875,6 +5879,7 @@ Télécharger le PDF</string>
         <image name="slideshow_cp_ecocampus.gif" width="558" height="300"/>
         <image name="slideshow_logos.gif" width="558" height="300"/>
         <image name="vignette_ss_challenge.gif" width="100" height="100"/>
+        <image name="vignetteallongeeecocampus.jpg" width="510" height="65"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
