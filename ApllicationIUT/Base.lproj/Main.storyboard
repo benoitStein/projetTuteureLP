@@ -374,7 +374,7 @@ Possibilité d'intégration directe en 3e semestre pour certaines formations sci
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wsz-X4-0lL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3498" y="-3125"/>
+            <point key="canvasLocation" x="5282" y="-4781"/>
         </scene>
         <!--PageDUTINFO View Controller - Département Informatique-->
         <scene sceneID="jCL-dE-3hz">
@@ -501,7 +501,7 @@ Il peuvent être responsables :
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WY5-W1-25F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2910" y="-5012"/>
+            <point key="canvasLocation" x="3870" y="-4744"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="dAg-y4-rew">
@@ -512,10 +512,10 @@ Il peuvent être responsables :
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
-                            <tableViewSection id="Ryl-cr-Sdd">
+                            <tableViewSection headerTitle="Site de Belfort" id="Ryl-cr-Sdd">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="WOw-5g-WR1" detailTextLabel="tgX-Vz-1BD" style="IBUITableViewCellStyleSubtitle" id="iLl-Ak-kBF">
-                                        <rect key="frame" x="0.0" y="99" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="119" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iLl-Ak-kBF" id="5Yi-Nc-k5a">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -538,11 +538,11 @@ Il peuvent être responsables :
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="VhG-v8-MgA" kind="push" id="rqW-cb-2IM"/>
+                                            <segue destination="VhG-v8-MgA" kind="push" id="by9-Ug-SnD"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="F2J-WV-0Zy" detailTextLabel="KGc-bu-F01" style="IBUITableViewCellStyleSubtitle" id="kdc-ot-CZe">
-                                        <rect key="frame" x="0.0" y="143" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="163" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kdc-ot-CZe" id="LdP-40-R9T">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -565,65 +565,11 @@ Il peuvent être responsables :
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="Jrh-nd-Tij" kind="push" id="ED8-UM-nvu"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Ww9-qR-8lD" detailTextLabel="MNk-tS-dFI" style="IBUITableViewCellStyleSubtitle" id="GwF-rd-kuW">
-                                        <rect key="frame" x="0.0" y="187" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GwF-rd-kuW" id="mma-X9-gid">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ww9-qR-8lD">
-                                                    <rect key="frame" x="15" y="3" width="31" height="22"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Informatique" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MNk-tS-dFI">
-                                                    <rect key="frame" x="15" y="25" width="71" height="15"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="LTc-Ng-DLe" kind="push" id="usa-DH-WHx"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="J7U-Cx-89v" detailTextLabel="tAB-Ee-XbE" style="IBUITableViewCellStyleSubtitle" id="6JX-0G-mwQ">
-                                        <rect key="frame" x="0.0" y="231" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6JX-0G-mwQ" id="LN5-hn-z1t">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="GACO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="J7U-Cx-89v">
-                                                    <rect key="frame" x="15" y="3" width="53" height="22"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Gestion Administrative et Commerciale des Organisations" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tAB-Ee-XbE">
-                                                    <rect key="frame" x="15" y="25" width="270" height="15"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="dfH-4W-yKi" kind="push" id="eKv-eZ-GkV"/>
+                                            <segue destination="Jrh-nd-Tij" kind="push" id="HKb-u5-T2f"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Ztd-Bp-Lrq" detailTextLabel="6QV-Ij-7Dq" style="IBUITableViewCellStyleSubtitle" id="v63-o2-UQA">
-                                        <rect key="frame" x="0.0" y="275" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="207" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="v63-o2-UQA" id="1Ns-Gp-kl4">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -646,11 +592,11 @@ Il peuvent être responsables :
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="CVY-o5-7q9" kind="push" id="Q7z-AI-ODQ"/>
+                                            <segue destination="CVY-o5-7q9" kind="push" id="Jkt-U5-cH0"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="LHo-bO-qow" detailTextLabel="0EK-ZZ-24z" style="IBUITableViewCellStyleSubtitle" id="nqk-RN-dZ4">
-                                        <rect key="frame" x="0.0" y="319" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="251" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nqk-RN-dZ4" id="ZvF-7L-PT8">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -673,11 +619,11 @@ Il peuvent être responsables :
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="Nwl-bC-gao" kind="push" id="y1H-E0-Oh2"/>
+                                            <segue destination="Nwl-bC-gao" kind="push" id="pcA-uW-f44"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="q4m-xL-7tJ" detailTextLabel="Qjt-eN-qVg" style="IBUITableViewCellStyleSubtitle" id="DPH-vH-GLs">
-                                        <rect key="frame" x="0.0" y="363" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="295" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DPH-vH-GLs" id="A3M-aq-vi6">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -700,106 +646,52 @@ Il peuvent être responsables :
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="YnO-lb-WR8" kind="push" id="kxp-lU-gKu"/>
+                                            <segue destination="YnO-lb-WR8" kind="push" id="3Bi-Wk-09t"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Ww9-qR-8lD" detailTextLabel="MNk-tS-dFI" style="IBUITableViewCellStyleSubtitle" id="GwF-rd-kuW">
+                                        <rect key="frame" x="0.0" y="339" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GwF-rd-kuW" id="mma-X9-gid">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ww9-qR-8lD">
+                                                    <rect key="frame" x="15" y="3" width="31" height="22"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Informatique" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MNk-tS-dFI">
+                                                    <rect key="frame" x="15" y="25" width="71" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="LTc-Ng-DLe" kind="push" id="Fyh-nl-PCi"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="qAf-j5-EFH" detailTextLabel="kqt-Nl-srr" style="IBUITableViewCellStyleSubtitle" id="z7R-9M-CcR">
-                                        <rect key="frame" x="0.0" y="407" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="383" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z7R-9M-CcR" id="dWd-kf-teD">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="MP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qAf-j5-EFH">
-                                                    <rect key="frame" x="15" y="3" width="28" height="22"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Mesures physiques" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kqt-Nl-srr">
-                                                    <rect key="frame" x="15" y="25" width="108" height="15"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="uw4-7x-sc1" kind="push" id="z6J-hN-Zlj"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="EzQ-XE-gmW" detailTextLabel="VeY-BX-RZE" style="IBUITableViewCellStyleSubtitle" id="YfL-HI-pOX">
-                                        <rect key="frame" x="0.0" y="451" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YfL-HI-pOX" id="0o9-a8-XpT">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="MMI" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EzQ-XE-gmW">
-                                                    <rect key="frame" x="15" y="3" width="37" height="22"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Métier du Multimédia et de l'Internet" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VeY-BX-RZE">
-                                                    <rect key="frame" x="15" y="25" width="203" height="15"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="S4C-5X-KGu" kind="push" id="YS2-3f-Hm7"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="TtH-xC-VP4" detailTextLabel="nMv-BT-4zr" style="IBUITableViewCellStyleSubtitle" id="2TI-Au-kuY">
-                                        <rect key="frame" x="0.0" y="495" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2TI-Au-kuY" id="pSZ-Af-gia">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="R&amp;T" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TtH-xC-VP4">
-                                                    <rect key="frame" x="15" y="3" width="35" height="22"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Réseaux &amp; Télécommunication" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nMv-BT-4zr">
-                                                    <rect key="frame" x="15" y="25" width="172" height="15"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="SJK-i2-Zua" kind="push" id="kPu-wQ-q50"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="RbF-AI-tum" detailTextLabel="OtL-sW-d4y" style="IBUITableViewCellStyleSubtitle" id="MFV-uy-a8r">
-                                        <rect key="frame" x="0.0" y="539" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MFV-uy-a8r" id="tVc-cw-5X3">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="SaP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RbF-AI-tum">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="SaP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qAf-j5-EFH">
                                                     <rect key="frame" x="15" y="3" width="33" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Service à la Personne" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OtL-sW-d4y">
-                                                    <rect key="frame" x="15" y="25" width="121" height="15"/>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Services à la Personne" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kqt-Nl-srr">
+                                                    <rect key="frame" x="15" y="25" width="127" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -808,24 +700,24 @@ Il peuvent être responsables :
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="XHh-6y-Lop" kind="push" id="dvO-QE-Ram"/>
+                                            <segue destination="XHh-6y-Lop" kind="push" id="DyH-C4-QOG"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="y35-Tg-YFq" detailTextLabel="epR-qw-5dK" style="IBUITableViewCellStyleSubtitle" id="3Gu-Qr-MpE">
-                                        <rect key="frame" x="0.0" y="583" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3Gu-Qr-MpE" id="OjS-so-VXJ">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="J7U-Cx-89v" detailTextLabel="tAB-Ee-XbE" style="IBUITableViewCellStyleSubtitle" id="6JX-0G-mwQ">
+                                        <rect key="frame" x="0.0" y="427" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6JX-0G-mwQ" id="LN5-hn-z1t">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Tech. de Co." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="y35-Tg-YFq">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Tech. de Co." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="J7U-Cx-89v">
                                                     <rect key="frame" x="15" y="3" width="102" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Techniques de Commercialisation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="epR-qw-5dK">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Techniques de Commercialisation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tAB-Ee-XbE">
                                                     <rect key="frame" x="15" y="25" width="188" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -835,7 +727,119 @@ Il peuvent être responsables :
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="jdd-gW-p1f" kind="push" id="Clj-ok-yYw"/>
+                                            <segue destination="jdd-gW-p1f" kind="push" id="30k-JR-vO1"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Site de Montbéliard" id="0OM-te-BO0">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="YZP-5C-wUs" detailTextLabel="c39-ov-2or" style="IBUITableViewCellStyleSubtitle" id="Wf9-Om-959">
+                                        <rect key="frame" x="0.0" y="519" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Wf9-Om-959" id="nuV-Ld-nxk">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="GACO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YZP-5C-wUs">
+                                                    <rect key="frame" x="15" y="3" width="53" height="22"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Gestion Administrative et Commerciale des Organisations" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c39-ov-2or">
+                                                    <rect key="frame" x="15" y="25" width="270" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="dfH-4W-yKi" kind="push" id="gV5-Ab-92Q"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="gXj-qG-mIG" detailTextLabel="vxi-fP-Y17" style="IBUITableViewCellStyleSubtitle" id="apa-yI-UV5">
+                                        <rect key="frame" x="0.0" y="563" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="apa-yI-UV5" id="SbX-UT-WGo">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="MMI" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gXj-qG-mIG">
+                                                    <rect key="frame" x="15" y="3" width="37" height="22"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Métiers du Multimédia et de l'Internet" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vxi-fP-Y17">
+                                                    <rect key="frame" x="15" y="25" width="209" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="S4C-5X-KGu" kind="push" id="fa3-KA-TAv"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="XxI-dE-qwB" detailTextLabel="1e5-0q-DB2" style="IBUITableViewCellStyleSubtitle" id="vJQ-cg-jIh">
+                                        <rect key="frame" x="0.0" y="607" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vJQ-cg-jIh" id="H32-6E-hTR">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="MP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XxI-dE-qwB">
+                                                    <rect key="frame" x="15" y="3" width="28" height="22"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Mesures Physiques" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1e5-0q-DB2">
+                                                    <rect key="frame" x="15" y="25" width="109" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="uw4-7x-sc1" kind="push" id="6UO-BU-7Ne"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Nt4-AQ-yKc" detailTextLabel="DPk-9U-dAW" style="IBUITableViewCellStyleSubtitle" id="nbB-B6-Ee0">
+                                        <rect key="frame" x="0.0" y="651" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nbB-B6-Ee0" id="gJ5-oR-9eB">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="R&amp;T" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nt4-AQ-yKc">
+                                                    <rect key="frame" x="15" y="3" width="35" height="22"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Réseaux &amp; Télécommunications" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DPk-9U-dAW">
+                                                    <rect key="frame" x="15" y="25" width="178" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="SJK-i2-Zua" kind="push" id="zWo-UH-pXP"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -1724,7 +1728,7 @@ Recrutement en 2 temps :
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UfQ-mu-MgR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4094" y="-5012"/>
+            <point key="canvasLocation" x="4900" y="-4768"/>
         </scene>
         <!--PageDUTMP View Controller - Département Mesures Physiques-->
         <scene sceneID="hjA-yl-k0S">
@@ -1870,7 +1874,7 @@ Dans les entreprises, les diplômés interviennent le plus souvent au sein des l
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dgd-9f-U0S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4468" y="-5012"/>
+            <point key="canvasLocation" x="2940" y="-3212"/>
         </scene>
         <!--PageDUTMMI View Controller - Département SRC-->
         <scene sceneID="cuw-wt-dAR">
@@ -1986,7 +1990,7 @@ Cependant, l'admission en IUT étant soumise à sélection, il est indispensable
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dMj-nh-zEr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4294" y="-3116"/>
+            <point key="canvasLocation" x="3306" y="-3212"/>
         </scene>
         <!--Page PresentationGC View Controller - Départment Génie Civil-->
         <scene sceneID="ZRr-T9-FbL">
@@ -2134,7 +2138,7 @@ De très nombreuses licences, éventuellement par apprentissage, vous sont propo
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tgf-gR-jyc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2424" y="-5012"/>
+            <point key="canvasLocation" x="3534" y="-4736"/>
         </scene>
         <!--PageDUTGEII View Controller - Département GElI-->
         <scene sceneID="eDt-dB-vzj">
@@ -2290,7 +2294,7 @@ De très nombreuses licences, éventuellement par apprentissage, vous sont propo
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gn7-zG-PUx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3338" y="-5021"/>
+            <point key="canvasLocation" x="4202" y="-4744"/>
         </scene>
         <!--Page PresentationDUTASS View Controller - Département Carrières Sociales-->
         <scene sceneID="qE2-na-1BR">
@@ -2446,7 +2450,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G0y-rt-qGy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1996" y="-5012"/>
+            <point key="canvasLocation" x="2840" y="-4720"/>
         </scene>
         <!--PageDUTGACO View Controller - Dépt. Gestion Adminitrative-->
         <scene sceneID="Hkh-9H-8S8">
@@ -2589,7 +2593,7 @@ Chargé de communication
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Vm-15-S9X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4662" y="-3105"/>
+            <point key="canvasLocation" x="4078" y="-3205"/>
         </scene>
         <!--PageDUT SaP View Controller - Département Carrières Sociales-->
         <scene sceneID="ipq-YX-l0h">
@@ -2749,7 +2753,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TrI-sp-To4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3122" y="-3116"/>
+            <point key="canvasLocation" x="3181" y="-4720"/>
         </scene>
         <!--Page LicenceFVPI View Controller - Département Carrières Soicales-->
         <scene sceneID="56h-Oh-9SF">
@@ -4468,7 +4472,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yor-1i-5iF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3921" y="-3105"/>
+            <point key="canvasLocation" x="3676" y="-3221"/>
         </scene>
         <!--Google View Controller - Google+-->
         <scene sceneID="BsT-pu-6fd">
@@ -4696,7 +4700,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qZ9-zr-4vv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3685" y="-5012"/>
+            <point key="canvasLocation" x="4557" y="-4776"/>
         </scene>
         <!--Page Ecocampus Principal View Controller - Eco Campus-->
         <scene sceneID="7hR-D5-NIl">
