@@ -156,6 +156,9 @@ Les stages en entreprise, de 10 à 14 semaines, se déroulent au cours du 4 seme
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="9YK-mZ-DMf"/>
+                    </toolbarItems>
                     <navigationItem key="navigationItem" title="Formations" id="QaP-AB-ox9">
                         <barButtonItem key="leftBarButtonItem" image="menu_icone.png" id="Enz-HQ-QLY">
                             <connections>
@@ -163,6 +166,7 @@ Les stages en entreprise, de 10 à 14 semaines, se déroulent au cours du 4 seme
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="scroll" destination="Gq1-nu-Hzj" id="Ktq-Yw-Kns"/>
                     </connections>
@@ -5525,7 +5529,9 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                             <outlet property="delegate" destination="QFr-w8-7wl" id="sah-XU-R4i"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Accueil" id="rxQ-a9-eQ4"/>
+                    <navigationItem key="navigationItem" title="Accueil" id="rxQ-a9-eQ4">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="bZy-B3-bd3"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4xd-pN-dfg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
