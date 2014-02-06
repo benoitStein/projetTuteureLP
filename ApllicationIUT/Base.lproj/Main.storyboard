@@ -4,22 +4,87 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller - Eco Campus-->
+        <!--Navigation Controller - Contacts-->
         <scene sceneID="2Il-Tc-ipf">
             <objects>
                 <navigationController definesPresentationContext="YES" id="eVw-0P-6pw" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Eco Campus" image="ecocampus_icone.png" id="Coe-Jb-Sp3"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="ecocampus_icone.png" id="Coe-Jb-Sp3"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="XI4-Bj-nSP">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.57647058819999997" green="0.070588235289999995" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="ABa-FT-RVs" kind="relationship" relationship="rootViewController" id="Fvs-CH-Aqc"/>
+                        <segue destination="TPb-nt-diX" kind="relationship" relationship="rootViewController" id="QGU-0G-80K"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IGx-wD-4Bl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2223" y="4133"/>
+            <point key="canvasLocation" x="919" y="2187"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="SB3-hc-i4U">
+            <objects>
+                <tableViewController id="TPb-nt-diX" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="zlG-zS-zn3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="pkD-fo-hYb">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="sPs-s9-JMu" style="IBUITableViewCellStyleDefault" id="KLk-Pd-lML">
+                                        <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KLk-Pd-lML" id="GVg-3S-Mg5">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Contacts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sPs-s9-JMu">
+                                                    <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="I7h-Yq-z7M" kind="push" id="2AE-7w-R4U"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="mOv-df-Ogy" style="IBUITableViewCellStyleDefault" id="yEc-QX-e18">
+                                        <rect key="frame" x="0.0" y="108" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yEc-QX-e18" id="jHg-br-vuk">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Itinéraire" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mOv-df-Ogy">
+                                                    <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="P9n-1R-pRf" kind="push" id="hhx-mX-smx"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="TPb-nt-diX" id="bUx-5u-cqz"/>
+                            <outlet property="delegate" destination="TPb-nt-diX" id="13k-uB-vBT"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="t4I-N5-G2u"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XjC-Bs-Utt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1418" y="2187"/>
         </scene>
         <!--Navigation Controller - Formations-->
         <scene sceneID="cUi-kZ-frf">
@@ -41,7 +106,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eq9-QA-ai8" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="925" y="-2237"/>
+            <point key="canvasLocation" x="37" y="-2285"/>
         </scene>
         <!--Page Principale Formation View Controller - Formations-->
         <scene sceneID="uIC-sZ-EaH">
@@ -156,9 +221,7 @@ Les stages en entreprise, de 10 à 14 semaines, se déroulent au cours du 4 seme
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="9YK-mZ-DMf"/>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="Formations" id="QaP-AB-ox9">
                         <barButtonItem key="leftBarButtonItem" image="menu_icone.png" id="Enz-HQ-QLY">
                             <connections>
@@ -173,7 +236,7 @@ Les stages en entreprise, de 10 à 14 semaines, se déroulent au cours du 4 seme
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UUe-iK-Fqk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1497" y="-2237"/>
+            <point key="canvasLocation" x="605" y="-2285"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="gcW-5V-Vm8">
@@ -242,7 +305,7 @@ Les stages en entreprise, de 10 à 14 semaines, se déroulent au cours du 4 seme
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9mY-ki-XZl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2036" y="-2234"/>
+            <point key="canvasLocation" x="1180" y="-2285"/>
         </scene>
         <!--PageDUTGTE View Controller - Dépt. Génie Thermique et Énergie-->
         <scene sceneID="f1G-AF-GlD">
@@ -378,7 +441,7 @@ Possibilité d'intégration directe en 3e semestre pour certaines formations sci
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wsz-X4-0lL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5282" y="-4781"/>
+            <point key="canvasLocation" x="5362" y="-4680"/>
         </scene>
         <!--PageDUTINFO View Controller - Département Informatique-->
         <scene sceneID="jCL-dE-3hz">
@@ -505,7 +568,7 @@ Il peuvent être responsables :
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WY5-W1-25F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3870" y="-4744"/>
+            <point key="canvasLocation" x="3718" y="-4680"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="dAg-y4-rew">
@@ -858,7 +921,7 @@ Il peuvent être responsables :
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XQy-RR-bOY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3096" y="-3996"/>
+            <point key="canvasLocation" x="1713" y="-3508"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="blx-hC-87j">
@@ -1244,7 +1307,7 @@ Technologies de Projets Web et mobiles </string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yor-Pq-owP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2985" y="-1327"/>
+            <point key="canvasLocation" x="1721" y="-1127"/>
         </scene>
         <!--Page Agenda View Controller - Agenda-->
         <scene sceneID="Nnb-w5-CTU">
@@ -1254,7 +1317,7 @@ Technologies de Projets Web et mobiles </string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" scalesPageToFit="YES" id="HJB-BG-9DN">
+                            <webView contentMode="scaleToFill" id="HJB-BG-9DN">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1270,7 +1333,7 @@ Technologies de Projets Web et mobiles </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LrD-XW-5BA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2969" y="316"/>
+            <point key="canvasLocation" x="1721" y="288"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="cKs-l3-TGi">
@@ -1296,11 +1359,11 @@ Technologies de Projets Web et mobiles </string>
             </objects>
             <point key="canvasLocation" x="-500" y="288"/>
         </scene>
-        <!--Navigation Controller - Accueil-->
+        <!--Navigation Controller - Actualités-->
         <scene sceneID="l9Q-ZK-W36">
             <objects>
                 <navigationController definesPresentationContext="YES" id="S2P-vT-BNu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Accueil" image="accueil_icone.png" id="EmP-bT-rzU"/>
+                    <tabBarItem key="tabBarItem" title="Actualités" image="accueil_icone.png" id="EmP-bT-rzU"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ud0-av-q5x">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.57647058819999997" green="0.070588235289999995" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -1311,7 +1374,7 @@ Technologies de Projets Web et mobiles </string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ic-Ip-qTd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2998" y="-1823"/>
+            <point key="canvasLocation" x="-2958" y="-2767"/>
         </scene>
         <!--Navigation Controller - Autres-->
         <scene sceneID="SoF-BC-5RZ">
@@ -1328,7 +1391,7 @@ Technologies de Projets Web et mobiles </string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mxk-AO-f1i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2889" y="1864"/>
+            <point key="canvasLocation" x="-3729" y="1888"/>
         </scene>
         <!--Table View Controller - Autres-->
         <scene sceneID="pcq-rN-rd5">
@@ -1401,14 +1464,34 @@ Technologies de Projets Web et mobiles </string>
                                             <segue destination="NWz-w1-ZJX" kind="push" id="G0e-zS-5wf"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="lGy-Ww-Yny" style="IBUITableViewCellStyleDefault" id="lDj-UG-w8l">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="IWI-VW-dK0" style="IBUITableViewCellStyleDefault" id="znq-Yb-G6s">
                                         <rect key="frame" x="0.0" y="196" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="znq-Yb-G6s" id="unn-fc-h7t">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Liens" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IWI-VW-dK0">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="5Rv-QE-9Na" kind="push" id="aCA-m6-EjZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="lGy-Ww-Yny" style="IBUITableViewCellStyleDefault" id="lDj-UG-w8l">
+                                        <rect key="frame" x="0.0" y="240" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lDj-UG-w8l" id="872-j6-fnT">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Liens" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lGy-Ww-Yny">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Eco Campus" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lGy-Ww-Yny">
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -1418,51 +1501,11 @@ Technologies de Projets Web et mobiles </string>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="5Rv-QE-9Na" kind="push" id="51J-UC-vN9"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Dn6-iu-fo6" style="IBUITableViewCellStyleDefault" id="qvX-G8-FX9">
-                                        <rect key="frame" x="0.0" y="240" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qvX-G8-FX9" id="28X-ji-7ox">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Contacts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Dn6-iu-fo6">
-                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="I7h-Yq-z7M" kind="push" id="yij-Ta-Ga8"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="I38-wV-XsP" style="IBUITableViewCellStyleDefault" id="qJD-8e-4Wz">
-                                        <rect key="frame" x="0.0" y="284" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qJD-8e-4Wz" id="C9M-Eh-B3g">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Itinéraire" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="I38-wV-XsP">
-                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="P9n-1R-pRf" kind="push" id="AXp-Mb-ZIf"/>
+                                            <segue destination="i3w-v6-dPz" kind="push" id="kci-KO-rpW"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="UU6-4U-fHt" style="IBUITableViewCellStyleDefault" id="due-FH-Joq">
-                                        <rect key="frame" x="0.0" y="328" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="284" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="due-FH-Joq" id="Ijl-e3-dYK">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -1493,7 +1536,7 @@ Technologies de Projets Web et mobiles </string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1NG-ay-wyl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2471" y="1864"/>
+            <point key="canvasLocation" x="-3311" y="1888"/>
         </scene>
         <!--Facebook View Controller - Facebook-->
         <scene sceneID="8pZ-la-Uoh">
@@ -1518,7 +1561,7 @@ Technologies de Projets Web et mobiles </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ji-Le-X4G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3294" y="2672"/>
+            <point key="canvasLocation" x="-2326" y="2352"/>
         </scene>
         <!--Navigation Controller - Agenda-->
         <scene sceneID="9DA-SE-7Py">
@@ -1536,57 +1579,7 @@ Technologies de Projets Web et mobiles </string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Le7-V4-SYX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1901" y="316"/>
-        </scene>
-        <!--Page Ecocampus Telechargement2 View Controller-->
-        <scene sceneID="Rem-At-WkS">
-            <objects>
-                <viewController id="0vT-dv-Zry" customClass="PageEcocampusTelechargement2ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="0pw-zg-dsB">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" scalesPageToFit="YES" id="qjD-Us-hyN">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="FXT-mS-zSa"/>
-                    <connections>
-                        <outlet property="dl2" destination="qjD-Us-hyN" id="bfb-KO-HQV"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TEI-Nb-oiw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3620" y="4679"/>
-        </scene>
-        <!--Page Ecocampus Telechargement1 View Controller-->
-        <scene sceneID="Ktw-8X-YQ8">
-            <objects>
-                <viewController id="XXE-64-mwz" customClass="PageEcocampusTelechargement1ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3gX-HF-t5T">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" scalesPageToFit="YES" id="RXm-to-64v">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="cFM-GQ-ZtO"/>
-                    <connections>
-                        <outlet property="dl1" destination="RXm-to-64v" id="vHo-T8-MsX"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2Ok-Cm-pad" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4094" y="4127"/>
+            <point key="canvasLocation" x="1005" y="288"/>
         </scene>
         <!--PageDUT Tech Co View Controller - Département Tech. de Co.-->
         <scene sceneID="CFb-Xi-md8">
@@ -1732,7 +1725,7 @@ Recrutement en 2 temps :
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UfQ-mu-MgR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4900" y="-4768"/>
+            <point key="canvasLocation" x="4956" y="-4680"/>
         </scene>
         <!--PageDUTMP View Controller - Département Mesures Physiques-->
         <scene sceneID="hjA-yl-k0S">
@@ -1878,7 +1871,7 @@ Dans les entreprises, les diplômés interviennent le plus souvent au sein des l
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dgd-9f-U0S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2940" y="-3212"/>
+            <point key="canvasLocation" x="2472" y="-3292"/>
         </scene>
         <!--PageDUTMMI View Controller - Département SRC-->
         <scene sceneID="cuw-wt-dAR">
@@ -1994,7 +1987,7 @@ Cependant, l'admission en IUT étant soumise à sélection, il est indispensable
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dMj-nh-zEr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3306" y="-3212"/>
+            <point key="canvasLocation" x="2885" y="-3292"/>
         </scene>
         <!--Page PresentationGC View Controller - Départment Génie Civil-->
         <scene sceneID="ZRr-T9-FbL">
@@ -2142,7 +2135,7 @@ De très nombreuses licences, éventuellement par apprentissage, vous sont propo
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tgf-gR-jyc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3534" y="-4736"/>
+            <point key="canvasLocation" x="3306" y="-4680"/>
         </scene>
         <!--PageDUTGEII View Controller - Département GElI-->
         <scene sceneID="eDt-dB-vzj">
@@ -2298,7 +2291,7 @@ De très nombreuses licences, éventuellement par apprentissage, vous sont propo
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gn7-zG-PUx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4202" y="-4744"/>
+            <point key="canvasLocation" x="4130" y="-4680"/>
         </scene>
         <!--Page PresentationDUTASS View Controller - Département Carrières Sociales-->
         <scene sceneID="qE2-na-1BR">
@@ -2454,7 +2447,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G0y-rt-qGy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2840" y="-4720"/>
+            <point key="canvasLocation" x="2472" y="-4680"/>
         </scene>
         <!--PageDUTGACO View Controller - Dépt. Gestion Adminitrative-->
         <scene sceneID="Hkh-9H-8S8">
@@ -2597,7 +2590,7 @@ Chargé de communication
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Vm-15-S9X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4078" y="-3205"/>
+            <point key="canvasLocation" x="3718" y="-3292"/>
         </scene>
         <!--PageDUT SaP View Controller - Département Carrières Sociales-->
         <scene sceneID="ipq-YX-l0h">
@@ -2757,7 +2750,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TrI-sp-To4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3181" y="-4720"/>
+            <point key="canvasLocation" x="2885" y="-4680"/>
         </scene>
         <!--Page LicenceFVPI View Controller - Département Carrières Soicales-->
         <scene sceneID="56h-Oh-9SF">
@@ -2860,7 +2853,7 @@ Le stage permet à chaque étudiant d’affiner l’acquisition de compétences 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iJ6-2J-gLh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4778" y="-1979"/>
+            <point key="canvasLocation" x="4130" y="-2061"/>
         </scene>
         <!--Page LicenceADIO View Controller - Dépt. Gestion Adminitrative-->
         <scene sceneID="vP6-KJ-EvX">
@@ -2974,7 +2967,7 @@ Financement, recouvrement, gestion des risques ;
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MgB-x2-HNR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2880" y="-557"/>
+            <point key="canvasLocation" x="2472" y="-477"/>
         </scene>
         <!--Page LicenceDORA View Controller - Département Mesures Physiques-->
         <scene sceneID="J3E-TD-6Ac">
@@ -3071,7 +3064,7 @@ La licence DORA propose les débouchés suivants :
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rTD-0a-g6D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3978" y="-499"/>
+            <point key="canvasLocation" x="3718" y="-477"/>
         </scene>
         <!--Page LicenceTI Ca Ma Co View Controller - Département Tech. de Co.-->
         <scene sceneID="w20-h2-uFX">
@@ -3169,7 +3162,7 @@ et au Commerce</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8eR-Xj-5pu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5518" y="-1986"/>
+            <point key="canvasLocation" x="4956" y="-2061"/>
         </scene>
         <!--Page LicenceMOSEL View Controller - Dépt. Gestion Adminitrative-->
         <scene sceneID="Pvi-kB-Kwb">
@@ -3371,7 +3364,7 @@ marketing
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ECG-J9-B35" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4752" y="-477"/>
+            <point key="canvasLocation" x="4541" y="-477"/>
         </scene>
         <!--Page LicenceCART View Controller - Département R&T-->
         <scene sceneID="YLm-Ej-xUU">
@@ -3499,7 +3492,7 @@ Possibilité de suivre la formation en alternance par apprentissage ou en contra
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ore-CQ-Fb5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3263" y="-545"/>
+            <point key="canvasLocation" x="2885" y="-477"/>
         </scene>
         <!--Page LicenceWD View Controller - Département SRC-->
         <scene sceneID="svR-Oa-Vth">
@@ -3649,7 +3642,7 @@ Le recrutement est effectué par un jury sur la base d’un dossier de candidatu
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mMf-2W-lPX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4362" y="-483"/>
+            <point key="canvasLocation" x="4130" y="-477"/>
         </scene>
         <!--Page Licence EnR View Controller - Dépt. Génie Thermique et Énergie-->
         <scene sceneID="hdB-wa-SC7">
@@ -3795,7 +3788,7 @@ Exemples : exploitant privé ou communal de site de production d’énergie, cha
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bEb-mz-XRY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4058" y="-1960"/>
+            <point key="canvasLocation" x="3306" y="-2061"/>
         </scene>
         <!--Page LicenceCTPEB View Controller - Département Génie Civil-->
         <scene sceneID="2zp-Iy-OoT">
@@ -3909,7 +3902,7 @@ Cette  nouvelle spécialité "Conduite de Travaux et Performance Energétique de
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VrW-fa-9Y5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3696" y="-1973"/>
+            <point key="canvasLocation" x="2890" y="-2061"/>
         </scene>
         <!--Page LicenceVEGA View Controller - Département GElI-->
         <scene sceneID="gEX-MS-rud">
@@ -4004,7 +3997,7 @@ Les diplômés seront capables de gérer des projets et de suivre un dossier afi
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PMd-iQ-VrN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5146" y="-1979"/>
+            <point key="canvasLocation" x="4541" y="-2061"/>
         </scene>
         <!--Page Licence Teprow View Controller - Département Informatique-->
         <scene sceneID="BGE-aw-4x1">
@@ -4110,7 +4103,7 @@ Le parcours TeProW vise à former des cadres de niveau intermédiaire capables d
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WvW-kA-JjH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4422" y="-1973"/>
+            <point key="canvasLocation" x="3718" y="-2061"/>
         </scene>
         <!--Page LicenceCIM View Controller - Département Mesures Physiques-->
         <scene sceneID="fK1-x8-mJa">
@@ -4215,7 +4208,7 @@ Au sein des entreprises, les diplômés exerceront des responsabilités d'encadr
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iNb-Ef-o64" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3614" y="-499"/>
+            <point key="canvasLocation" x="3306" y="-477"/>
         </scene>
         <!--Page LicenceASS View Controller - Département Carrières Sociales-->
         <scene sceneID="BSY-qe-kaC">
@@ -4330,7 +4323,7 @@ Les compétences visées :
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ou-hR-5kI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3338" y="-1973"/>
+            <point key="canvasLocation" x="2472" y="-2061"/>
         </scene>
         <!--PageDUTRT View Controller - Département R&T-->
         <scene sceneID="dLw-I7-QJ4">
@@ -4476,7 +4469,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yor-1i-5iF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3676" y="-3221"/>
+            <point key="canvasLocation" x="3306" y="-3292"/>
         </scene>
         <!--Google View Controller - Google+-->
         <scene sceneID="BsT-pu-6fd">
@@ -4501,7 +4494,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zg0-2D-6SS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2870" y="2672"/>
+            <point key="canvasLocation" x="-1806" y="2352"/>
         </scene>
         <!--Twitter View Controller - Twitter-->
         <scene sceneID="66l-02-cMI">
@@ -4526,7 +4519,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bSB-Jq-97f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2446" y="2672"/>
+            <point key="canvasLocation" x="-1286" y="2352"/>
         </scene>
         <!--Itineraire View Controller - Itinéraire-->
         <scene sceneID="O9n-Sn-aMV">
@@ -4550,7 +4543,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HFa-zb-M4B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2016" y="2672"/>
+            <point key="canvasLocation" x="1963" y="1784"/>
         </scene>
         <!--PageDUTGU View Controller - Département Carrières Sociales-->
         <scene sceneID="5De-Cz-BlR">
@@ -4704,272 +4697,7 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qZ9-zr-4vv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4557" y="-4776"/>
-        </scene>
-        <!--Page Ecocampus Principal View Controller - Eco Campus-->
-        <scene sceneID="7hR-D5-NIl">
-            <objects>
-                <viewController id="ABa-FT-RVs" customClass="PageEcocampusPrincipalViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="v06-93-NfO">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IUTBM_quadri.jpg" id="4VR-hr-1ae">
-                                <rect key="frame" x="5" y="70" width="100" height="40"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO UFC_1.jpg" id="K9d-hf-h3e">
-                                <rect key="frame" x="231" y="70" width="83" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vignette_ss_challenge.gif" id="Vg3-vr-kQG">
-                                <rect key="frame" x="84" y="113" width="152" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slideshow_logos.gif" id="CIB-lz-7qa">
-                                <rect key="frame" x="10" y="273" width="300" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slideshow_cp_ecocampus.gif" id="Z7j-OC-oZH">
-                                <rect key="frame" x="20" y="350" width="280" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lancement du projet         " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="anS-6n-mxe">
-                                <rect key="frame" x="20" y="464" width="280" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Retour sur la conférence de presse du 18/09/2013 >" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="InM-DN-YSQ">
-                                <rect key="frame" x="20" y="479" width="280" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vso-YH-DxB">
-                                <rect key="frame" x="242" y="474" width="58" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                <state key="normal" title="Lire l'article">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="g9R-8r-4Ib" kind="push" id="hiI-vd-gaF"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XJQ-Uc-up9">
-                                <rect key="frame" x="20" y="261" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Dossier">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="XXE-64-mwz" kind="push" id="csH-3Z-qVk"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Vb-ZR-NkO">
-                                <rect key="frame" x="244" y="261" width="56" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Dépliant">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="0vT-dv-Zry" kind="push" id="f9I-JN-ogN"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Eco Campus" id="tPT-pv-lSY"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="igU-pS-t4S" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3084" y="4127"/>
-        </scene>
-        <!--Page Ecocampus Texte View Controller - Eco Campus-->
-        <scene sceneID="9Bf-v4-sCv">
-            <objects>
-                <viewController id="ZoH-mi-4g2" customClass="PageEcocampusTexteViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="d8i-Uc-CJN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" id="YjA-ZO-Zhu">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="520"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO UFC_1.jpg" id="WmZ-1U-hAl">
-                                        <rect key="frame" x="220" y="70" width="100" height="40"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IUTBM_quadri.jpg" id="shX-Fk-OcO">
-                                        <rect key="frame" x="0.0" y="70" width="100" height="0.0"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    </imageView>
-                                    <view contentMode="scaleToFill" id="sSC-NX-muz">
-                                        <rect key="frame" x="0.0" y="118" width="320" height="1020"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="L’avenir des campus belfortains" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ys0-ag-Ey1">
-                                                <rect key="frame" x="0.0" y="11" width="297" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="a0i-29-865">
-                                                <rect key="frame" x="0.0" y="40" width="320" height="83"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">« Eco-campus 2020 » est un projet ambitieux de réhabilitation écologique du  site de l’IUT. Il porte de nouvelles perspectives pour l’enseignement, la recherche et le développement du territoire.</string>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9qj-YO-cYK">
-                                                <rect key="frame" x="0.0" y="219" width="320" height="1500"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">A Belfort, les bâtiments de l’IUT situés sur le Techn’hom1 ont grand besoin d’être rénovés. Ils datent, pour la plupart, des années 1970 et ne sont plus conformes aux normes actuelles de consommation énergétique et d’accessibilité. Le coût de leur maintenance ne cesse de croître.
-Le projet « Eco-campus 2020 » prévoit une rénovation complète de ces locaux selon des critères écologiques. Il s’agit d’un chantier expérimental pilote qui pourrait, à terme, servir de modèle à d’autres campus.
-L’idée est de tester des solutions novatrices de réhabilitation des bâtiments en utilisant les compétences de l’industrie locale, mais aussi celles de l’Université. Belfort concentre en effet un certain nombre de formations et de travaux de recherche orientés vers l’énergie et le génie civil. Les étudiants, enseignants et chercheurs vont donc pouvoir participer à l’élaboration des solutions et à leur expérimentation grandeur nature.
-Certains bâtiments du campus vont être détruits, d’autres construits, mais il s’agira surtout de modifier les locaux existants grâce à des procédés adaptés à chaque cas. On peut donc imaginer utiliser par exemple la cogénération2 ou des systèmes « pile à combustible », deux procédés auxquels les chercheurs du Nord Franche-Comté s’intéressent de près.
-L’IUT de Belfort-Montbéliard n’est pas le seul établissement concerné par ce projet. L’UFR STGI3  et l’institut FEMTO-ST4 sont également impliqués.
-"des campus thématiques"
-Une réorganisation de l’ensemble des sites universitaires belfortains est prévue pour établir une cohérence en rassemblant des filières actuellement dispersées au sein de trois campus thématiques. Toutes les formations liées au commerce, au droit et à la gestion administrative seront accueillies en centre-ville, dans le bâtiment Louis Néel qui a été récemment rénové et agrandi. Les locaux situés Faubourg des ancêtres5 accueilleront le département Carrières sociales de l’IUT. L’ESPE6 étant également localisé dans ce périmètre, l’ensemble formera un campus dédié aux métiers de l’éducation et de l’animation.
-L’actuel site de l’IUT de Belfort sur le Techn’hom, où se trouvent déjà de grandes entreprises du secteur de l’énergie, notamment General Electric et Alstom, le FC Lab7 et l’UTBM8, deviendra un campus scientifique à part entière. Le département sciences de l’UFR STGI et le département ENERGIE de l’institut FEMTO-ST y rejoindront les départements scientifiques et techniques de l’IUT et le département d’Informatique des systèmes complexes déjà présent dans ces locaux. Cette nouvelle implantation favorisera les échanges entre formation et recherche tout en intéressant le plus tôt possible les étudiants aux travaux portés par les laboratoires. « Ceux qui ne se destinent pas à une carrière académique y découvriront la technologie et l’innovation » souligne Nicolas Chaillet. Cela permettra également de mutualiser les plateaux techniques actuellement dupliqués. « Les équipements seront ainsi renouvelés plus souvent afin que les étudiants disposent en permanence de matériel de pointe », note Cyrille Verna, directeur de l’UFR STGI.
-"de nouveaux échanges"
-Ces rapprochements vont induire de nouveaux échanges. Les étudiants de filières différentes pourront suivre des modules d’enseignements transversaux sur des thématiques liées au développement durable. Un nouveau cursus de master en ingénierie (CMI)10 intitulé H3E (Hydrogène, Energie, efficacité énergétique), élaboré de manière conjointe par l’IUT et l’UFR STGI et accessible aux étudiants de ces deux composantes, verra le jour à la rentrée prochaine. « En créant davantage de passerelles entre les cursus professionnels et académiques, nous allons favoriser la réussite des étudiants » affirme Olivier Prévôt, directeur de l’IUT de Belfort-Montbéliard.
-La construction de l’éco-campus devrait débuter en 2015 et s’achever en 2020. Il intéresse d’ores et déjà de nombreux partenaires parmi lesquels : les collectivités locales, la Caisse des dépôts, ERDF11 et les entreprises de la Vallée de l’énergie12.
-Cette nouvelle vitrine écologique et scientifique pourrait avoir un impact notable sur le développement du territoire.
-1 Le Techn’Hom est un parc urbain d’activités industrielles situé à Belfort.
-2 Production conjointe et simultanée de deux énergies différentes, par exemple de la chaleur et de l’électricité
-3 UFR Sciences, techniques et gestion de l’industrie
-4 FEMTO-ST : Franche-Comté électronique, mécanique, thermique, optique – science et technologie. C’est le plus grand laboratoire français dans le secteur des sciences pour l’ingénieur. Il compte 20 % de ses effectifs dans le Nord Franche-Comté. 
-5 Ces locaux sont actuellement occupés par le département Techniques de commercialisation
-6 L’école supérieure du professorat de l’éducation remplace l’IUFM depuis la rentrée 2013
-7 Fuel Cell Lab : fédération de recherche dédiée aux systèmes pile à combustible
-8 L’Université de Technologie Belfort-Montbéliard est une école d’ingénieurs.
-10 Le CMI est un nouveau label du réseau FiGuRe (Formation à l'Ingénierie par des Universités de Recherche)  qui permet aux universités de délivrer des diplômes d’ingénieur en renforçant des licences et masters préexistants conformément à un référentiel national.
-11 Electricité réseau distribution France
-12 Association d’entreprises franc-comtoises liées au secteur de l’énergie et destinée à dynamiser le développement de cette filière.
- 
-Contact :
-Olivier Prévôt
-Directeur de l’IUT Belfort-Montbéliard
-Tél. 03 84 58 77 01
-olivier.prevot@univ-fcomte.fr
-http://www.iut-bm.univ-fcomte.fr</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vignetteallongeeecocampus.jpg" id="QZf-6N-PDi">
-                                                <rect key="frame" x="10" y="131" width="300" height="80"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                    </view>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="iqj-fp-1Ol">
-                                        <rect key="frame" x="46" y="70" width="84" height="74"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                </subviews>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Eco Campus" id="b3Q-WG-ghF"/>
-                    <connections>
-                        <outlet property="scroll" destination="YjA-ZO-Zhu" id="9Vl-ej-q3w"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F7X-Jz-56H" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3607" y="3467"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="DcE-bd-Sae">
-            <objects>
-                <viewController id="g9R-8r-4Ib" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="rbR-0G-5JZ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="oFm-i0-uZC">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="2472"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="1900"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="L’avenir des campus belfortains">
-                                        <attributes>
-                                            <font key="NSFont" size="16" name="HelveticaNeue-Bold"/>
-                                            <font key="NSOriginalFont" size="16" name="HelveticaNeue-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                        <attributes>
-                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">
-« Eco-campus 2020 » est un projet ambitieux de réhabilitation écologique du  site de l’IUT. Il porte de nouvelles perspectives pour l’enseignement, la recherche et le développement du territoire.
-
-A Belfort, les bâtiments de l’IUT situés sur le Techn’hom1 ont grand besoin d’être rénovés. Ils datent, pour la plupart, des années 1970 et ne sont plus conformes aux normes actuelles de consommation énergétique et d’accessibilité. Le coût de leur maintenance ne cesse de croître.
-Le projet « Eco-campus 2020 » prévoit une rénovation complète de ces locaux selon des critères écologiques. Il s’agit d’un chantier expérimental pilote qui pourrait, à terme, servir de modèle à d’autres campus.
-L’idée est de tester des solutions novatrices de réhabilitation des bâtiments en utilisant les compétences de l’industrie locale, mais aussi celles de l’Université. Belfort concentre en effet un certain nombre de formations et de travaux de recherche orientés vers l’énergie et le génie civil. Les étudiants, enseignants et chercheurs vont donc pouvoir participer à l’élaboration des solutions et à leur expérimentation grandeur nature.
-Certains bâtiments du campus vont être détruits, d’autres construits, mais il s’agira surtout de modifier les locaux existants grâce à des procédés adaptés à chaque cas. On peut donc imaginer utiliser par exemple la cogénération2 ou des systèmes « pile à combustible », deux procédés auxquels les chercheurs du Nord Franche-Comté s’intéressent de près.
-L’IUT de Belfort-Montbéliard n’est pas le seul établissement concerné par ce projet. L’UFR STGI3  et l’institut FEMTO-ST4 sont également impliqués.
-"des campus thématiques"
-Une réorganisation de l’ensemble des sites universitaires belfortains est prévue pour établir une cohérence en rassemblant des filières actuellement dispersées au sein de trois campus thématiques. Toutes les formations liées au commerce, au droit et à la gestion administrative seront accueillies en centre-ville, dans le bâtiment Louis Néel qui a été récemment rénové et agrandi. Les locaux situés Faubourg des ancêtres5 accueilleront le département Carrières sociales de l’IUT. L’ESPE6 étant également localisé dans ce périmètre, l’ensemble formera un campus dédié aux métiers de l’éducation et de l’animation.
-L’actuel site de l’IUT de Belfort sur le Techn’hom, où se trouvent déjà de grandes entreprises du secteur de l’énergie, notamment General Electric et Alstom, le FC Lab7 et l’UTBM8, deviendra un campus scientifique à part entière. Le département sciences de l’UFR STGI et le département ENERGIE de l’institut FEMTO-ST y rejoindront les départements scientifiques et techniques de l’IUT et le département d’Informatique des systèmes complexes déjà présent dans ces locaux. Cette nouvelle implantation favorisera les échanges entre formation et recherche tout en intéressant le plus tôt possible les étudiants aux travaux portés par les laboratoires. « Ceux qui ne se destinent pas à une carrière académique y découvriront la technologie et l’innovation » souligne Nicolas Chaillet. Cela permettra également de mutualiser les plateaux techniques actuellement dupliqués. « Les équipements seront ainsi renouvelés plus souvent afin que les étudiants disposent en permanence de matériel de pointe », note Cyrille Verna, directeur de l’UFR STGI.
-"de nouveaux échanges"
-Ces rapprochements vont induire de nouveaux échanges. Les étudiants de filières différentes pourront suivre des modules d’enseignements transversaux sur des thématiques liées au développement durable. Un nouveau cursus de master en ingénierie (CMI)10 intitulé H3E (Hydrogène, Energie, efficacité énergétique), élaboré de manière conjointe par l’IUT et l’UFR STGI et accessible aux étudiants de ces deux composantes, verra le jour à la rentrée prochaine. « En créant davantage de passerelles entre les cursus professionnels et académiques, nous allons favoriser la réussite des étudiants » affirme Olivier Prévôt, directeur de l’IUT de Belfort-Montbéliard.
-La construction de l’éco-campus devrait débuter en 2015 et s’achever en 2020. Il intéresse d’ores et déjà de nombreux partenaires parmi lesquels : les collectivités locales, la Caisse des dépôts, ERDF11 et les entreprises de la Vallée de l’énergie12.
-Cette nouvelle vitrine écologique et scientifique pourrait avoir un impact notable sur le développement du territoire.
-1 Le Techn’Hom est un parc urbain d’activités industrielles situé à Belfort.
-2 Production conjointe et simultanée de deux énergies différentes, par exemple de la chaleur et de l’électricité
-3 UFR Sciences, techniques et gestion de l’industrie
-4 FEMTO-ST : Franche-Comté électronique, mécanique, thermique, optique – science et technologie. C’est le plus grand laboratoire français dans le secteur des sciences pour l’ingénieur. Il compte 20 % de ses effectifs dans le Nord Franche-Comté. 
-5 Ces locaux sont actuellement occupés par le département Techniques de commercialisation
-6 L’école supérieure du professorat de l’éducation remplace l’IUFM depuis la rentrée 2013
-7 Fuel Cell Lab : fédération de recherche dédiée aux systèmes pile à combustible
-8 L’Université de Technologie Belfort-Montbéliard est une école d’ingénieurs.
-10 Le CMI est un nouveau label du réseau FiGuRe (Formation à l'Ingénierie par des Universités de Recherche)  qui permet aux universités de délivrer des diplômes d’ingénieur en renforçant des licences et masters préexistants conformément à un référentiel national.
-11 Electricité réseau distribution France
-12 Association d’entreprises franc-comtoises liées au secteur de l’énergie et destinée à dynamiser le développement de cette filière.
- 
-Contact :
-Olivier Prévôt
-Directeur de l’IUT Belfort-Montbéliard
-Tél. 03 84 58 77 01
-olivier.prevot@univ-fcomte.fr
-http://www.iut-bm.univ-fcomte.fr</string>
-                                        <attributes>
-                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Au6-hR-9nM"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Fnk-J6-3w7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3620" y="3487"/>
+            <point key="canvasLocation" x="4541" y="-4680"/>
         </scene>
         <!--View Controller - Contacts-->
         <scene sceneID="P9I-LE-mKw">
@@ -5242,7 +4970,7 @@ email : sec_tc@iut-bm.univ-fcomte.fr</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a9z-rH-C8x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1945" y="902"/>
+            <point key="canvasLocation" x="1963" y="2680"/>
         </scene>
         <!--Liens View Controller - Liens-->
         <scene sceneID="vqL-6k-FTC">
@@ -5276,7 +5004,7 @@ email : sec_tc@iut-bm.univ-fcomte.fr</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uyS-i5-oxd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1666" y="1864"/>
+            <point key="canvasLocation" x="-2338" y="1392"/>
         </scene>
         <!--Liens Web View Controller-->
         <scene sceneID="o6y-zH-zZ5">
@@ -5303,7 +5031,7 @@ email : sec_tc@iut-bm.univ-fcomte.fr</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ii-HP-zmY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1143" y="1864"/>
+            <point key="canvasLocation" x="-1815" y="1392"/>
         </scene>
         <!--View Controller - English-->
         <scene sceneID="g85-LL-hHP">
@@ -5388,7 +5116,7 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PYT-Vl-Bzg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1401" y="902"/>
+            <point key="canvasLocation" x="-2769" y="574"/>
         </scene>
         <!--Table View Controller - Accueil-->
         <scene sceneID="dP1-qD-siP">
@@ -5529,9 +5257,7 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                             <outlet property="delegate" destination="QFr-w8-7wl" id="sah-XU-R4i"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Accueil" id="rxQ-a9-eQ4">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="bZy-B3-bd3"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Accueil" id="rxQ-a9-eQ4"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4xd-pN-dfg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -5593,7 +5319,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qI3-rw-od5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1877" y="-3601"/>
+            <point key="canvasLocation" x="-1833" y="-3593"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="40e-eO-FSA">
@@ -5647,7 +5373,7 @@ Le résultat est un livre de textes accompagnés d'illustrations personnelles, l
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UQH-l8-ga6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1877" y="-2767"/>
+            <point key="canvasLocation" x="-1833" y="-2767"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MHU-gR-iNb">
@@ -5696,7 +5422,7 @@ Cgo
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wlm-pQ-HZ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1345" y="-3601"/>
+            <point key="canvasLocation" x="-1301" y="-3593"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="n4d-Lg-Jjs">
@@ -5755,7 +5481,7 @@ En cas de problème | enquete-sphinx@iut-bm.univ-fcomte.fr</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Mt-Mk-vI6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1345" y="-2767"/>
+            <point key="canvasLocation" x="-1301" y="-2767"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="svc-U1-1qA">
@@ -5812,7 +5538,7 @@ L'exposition, conçue pour être itinérante (les portraits sont imprimés sur b
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yJB-xA-gJg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1877" y="-1939"/>
+            <point key="canvasLocation" x="-1833" y="-1947"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ZaO-Lg-qO6">
@@ -5878,7 +5604,224 @@ Télécharger le PDF</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3A9-wK-NGL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1345" y="-1939"/>
+            <point key="canvasLocation" x="-1301" y="-1947"/>
+        </scene>
+        <!--Page Ecocampus Telechargement2 View Controller-->
+        <scene sceneID="CIg-qF-RwT">
+            <objects>
+                <viewController id="lHL-3z-Mxm" customClass="PageEcocampusTelechargement2ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MKH-6s-yle">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" id="S9l-22-3Oo">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Prp-kW-nKc"/>
+                    <connections>
+                        <outlet property="dl2" destination="S9l-22-3Oo" id="Kjo-nT-vcz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2OI-Xi-JN7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2230" y="3992"/>
+        </scene>
+        <!--Page Ecocampus Telechargement1 View Controller-->
+        <scene sceneID="wUC-mF-9p5">
+            <objects>
+                <viewController id="Wz6-jF-bNv" customClass="PageEcocampusTelechargement1ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d1i-i6-cGk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" id="33O-v2-DeL">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fID-zf-C8Q"/>
+                    <connections>
+                        <outlet property="dl1" destination="33O-v2-DeL" id="Akx-fS-s9w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e2z-EZ-8MU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1666" y="3520"/>
+        </scene>
+        <!--Page Ecocampus Principal View Controller - Eco Campus-->
+        <scene sceneID="KtC-Xi-8aN">
+            <objects>
+                <viewController id="i3w-v6-dPz" customClass="PageEcocampusPrincipalViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mmf-03-a6W">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IUTBM_quadri.jpg" id="LQe-tr-6vV">
+                                <rect key="frame" x="5" y="70" width="100" height="40"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO UFC_1.jpg" id="ZAP-8I-geO">
+                                <rect key="frame" x="231" y="70" width="83" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vignette_ss_challenge.gif" id="Hwj-G6-UOF">
+                                <rect key="frame" x="84" y="113" width="152" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slideshow_logos.gif" id="kpM-c5-uGN">
+                                <rect key="frame" x="10" y="273" width="300" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slideshow_cp_ecocampus.gif" id="iIG-0M-ppS">
+                                <rect key="frame" x="20" y="350" width="280" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lancement du projet         " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wVZ-vV-d3b">
+                                <rect key="frame" x="20" y="464" width="280" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Retour sur la conférence de presse du 18/09/2013 >" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BBK-cO-UGy">
+                                <rect key="frame" x="20" y="479" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Psm-5E-9Mb">
+                                <rect key="frame" x="242" y="474" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Lire l'article">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9tM-NA-Ex4" kind="push" id="xx5-OH-Sq2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vbn-hJ-Bpl">
+                                <rect key="frame" x="20" y="261" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Dossier">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Wz6-jF-bNv" kind="push" id="tgP-NM-dZ9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="A1M-0f-YEC">
+                                <rect key="frame" x="244" y="261" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Dépliant">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lHL-3z-Mxm" kind="push" id="jnJ-Ow-6hE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Eco Campus" id="CP5-NQ-nOT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cZn-XI-YLV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2769" y="3200"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Nng-QU-1b1">
+            <objects>
+                <viewController id="9tM-NA-Ex4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JPT-iN-QKz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="0Qh-Ig-JL8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="2472"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="1900"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="L’avenir des campus belfortains">
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="16" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+« Eco-campus 2020 » est un projet ambitieux de réhabilitation écologique du  site de l’IUT. Il porte de nouvelles perspectives pour l’enseignement, la recherche et le développement du territoire.
+
+A Belfort, les bâtiments de l’IUT situés sur le Techn’hom1 ont grand besoin d’être rénovés. Ils datent, pour la plupart, des années 1970 et ne sont plus conformes aux normes actuelles de consommation énergétique et d’accessibilité. Le coût de leur maintenance ne cesse de croître.
+Le projet « Eco-campus 2020 » prévoit une rénovation complète de ces locaux selon des critères écologiques. Il s’agit d’un chantier expérimental pilote qui pourrait, à terme, servir de modèle à d’autres campus.
+L’idée est de tester des solutions novatrices de réhabilitation des bâtiments en utilisant les compétences de l’industrie locale, mais aussi celles de l’Université. Belfort concentre en effet un certain nombre de formations et de travaux de recherche orientés vers l’énergie et le génie civil. Les étudiants, enseignants et chercheurs vont donc pouvoir participer à l’élaboration des solutions et à leur expérimentation grandeur nature.
+Certains bâtiments du campus vont être détruits, d’autres construits, mais il s’agira surtout de modifier les locaux existants grâce à des procédés adaptés à chaque cas. On peut donc imaginer utiliser par exemple la cogénération2 ou des systèmes « pile à combustible », deux procédés auxquels les chercheurs du Nord Franche-Comté s’intéressent de près.
+L’IUT de Belfort-Montbéliard n’est pas le seul établissement concerné par ce projet. L’UFR STGI3  et l’institut FEMTO-ST4 sont également impliqués.
+"des campus thématiques"
+Une réorganisation de l’ensemble des sites universitaires belfortains est prévue pour établir une cohérence en rassemblant des filières actuellement dispersées au sein de trois campus thématiques. Toutes les formations liées au commerce, au droit et à la gestion administrative seront accueillies en centre-ville, dans le bâtiment Louis Néel qui a été récemment rénové et agrandi. Les locaux situés Faubourg des ancêtres5 accueilleront le département Carrières sociales de l’IUT. L’ESPE6 étant également localisé dans ce périmètre, l’ensemble formera un campus dédié aux métiers de l’éducation et de l’animation.
+L’actuel site de l’IUT de Belfort sur le Techn’hom, où se trouvent déjà de grandes entreprises du secteur de l’énergie, notamment General Electric et Alstom, le FC Lab7 et l’UTBM8, deviendra un campus scientifique à part entière. Le département sciences de l’UFR STGI et le département ENERGIE de l’institut FEMTO-ST y rejoindront les départements scientifiques et techniques de l’IUT et le département d’Informatique des systèmes complexes déjà présent dans ces locaux. Cette nouvelle implantation favorisera les échanges entre formation et recherche tout en intéressant le plus tôt possible les étudiants aux travaux portés par les laboratoires. « Ceux qui ne se destinent pas à une carrière académique y découvriront la technologie et l’innovation » souligne Nicolas Chaillet. Cela permettra également de mutualiser les plateaux techniques actuellement dupliqués. « Les équipements seront ainsi renouvelés plus souvent afin que les étudiants disposent en permanence de matériel de pointe », note Cyrille Verna, directeur de l’UFR STGI.
+"de nouveaux échanges"
+Ces rapprochements vont induire de nouveaux échanges. Les étudiants de filières différentes pourront suivre des modules d’enseignements transversaux sur des thématiques liées au développement durable. Un nouveau cursus de master en ingénierie (CMI)10 intitulé H3E (Hydrogène, Energie, efficacité énergétique), élaboré de manière conjointe par l’IUT et l’UFR STGI et accessible aux étudiants de ces deux composantes, verra le jour à la rentrée prochaine. « En créant davantage de passerelles entre les cursus professionnels et académiques, nous allons favoriser la réussite des étudiants » affirme Olivier Prévôt, directeur de l’IUT de Belfort-Montbéliard.
+La construction de l’éco-campus devrait débuter en 2015 et s’achever en 2020. Il intéresse d’ores et déjà de nombreux partenaires parmi lesquels : les collectivités locales, la Caisse des dépôts, ERDF11 et les entreprises de la Vallée de l’énergie12.
+Cette nouvelle vitrine écologique et scientifique pourrait avoir un impact notable sur le développement du territoire.
+1 Le Techn’Hom est un parc urbain d’activités industrielles situé à Belfort.
+2 Production conjointe et simultanée de deux énergies différentes, par exemple de la chaleur et de l’électricité
+3 UFR Sciences, techniques et gestion de l’industrie
+4 FEMTO-ST : Franche-Comté électronique, mécanique, thermique, optique – science et technologie. C’est le plus grand laboratoire français dans le secteur des sciences pour l’ingénieur. Il compte 20 % de ses effectifs dans le Nord Franche-Comté. 
+5 Ces locaux sont actuellement occupés par le département Techniques de commercialisation
+6 L’école supérieure du professorat de l’éducation remplace l’IUFM depuis la rentrée 2013
+7 Fuel Cell Lab : fédération de recherche dédiée aux systèmes pile à combustible
+8 L’Université de Technologie Belfort-Montbéliard est une école d’ingénieurs.
+10 Le CMI est un nouveau label du réseau FiGuRe (Formation à l'Ingénierie par des Universités de Recherche)  qui permet aux universités de délivrer des diplômes d’ingénieur en renforçant des licences et masters préexistants conformément à un référentiel national.
+11 Electricité réseau distribution France
+12 Association d’entreprises franc-comtoises liées au secteur de l’énergie et destinée à dynamiser le développement de cette filière.
+ 
+Contact :
+Olivier Prévôt
+Directeur de l’IUT Belfort-Montbéliard
+Tél. 03 84 58 77 01
+olivier.prevot@univ-fcomte.fr
+http://www.iut-bm.univ-fcomte.fr</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cZW-lm-5gV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XGn-97-XKJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2223" y="3144"/>
         </scene>
     </scenes>
     <resources>
@@ -5895,7 +5838,6 @@ Télécharger le PDF</string>
         <image name="slideshow_cp_ecocampus.gif" width="558" height="300"/>
         <image name="slideshow_logos.gif" width="558" height="300"/>
         <image name="vignette_ss_challenge.gif" width="100" height="100"/>
-        <image name="vignetteallongeeecocampus.jpg" width="510" height="65"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

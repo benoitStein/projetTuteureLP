@@ -59,6 +59,15 @@
 		F070604C18507667006DFC2D /* LOGO UFC_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F070604B18507667006DFC2D /* LOGO UFC_1.jpg */; };
 		F070604E185076BE006DFC2D /* IUTBM_quadri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F070604D185076BE006DFC2D /* IUTBM_quadri.jpg */; };
 		F0994CC4184CD0F200AB253B /* pagePrincipaleFormationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0994CC3184CD0F200AB253B /* pagePrincipaleFormationViewController.m */; };
+		F09DCE9318A29649002633D9 /* vue_3r.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DCE8B18A29649002633D9 /* vue_3r.png */; };
+		F09DCE9418A29649002633D9 /* vue_4.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DCE8C18A29649002633D9 /* vue_4.png */; };
+		F09DCE9518A29649002633D9 /* vue_4r.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DCE8D18A29649002633D9 /* vue_4r.png */; };
+		F09DCE9618A29649002633D9 /* vue_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DCE8E18A29649002633D9 /* vue_3.png */; };
+		F09DCE9718A29649002633D9 /* vue_2r.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DCE8F18A29649002633D9 /* vue_2r.png */; };
+		F09DCE9818A29649002633D9 /* vue_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DCE9018A29649002633D9 /* vue_2.png */; };
+		F09DCE9918A29649002633D9 /* vue_1r.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DCE9118A29649002633D9 /* vue_1r.png */; };
+		F09DCE9A18A29649002633D9 /* vue_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DCE9218A29649002633D9 /* vue_1.png */; };
+		F09DCE9C18A296F8002633D9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F09DCE9B18A296F8002633D9 /* Default-568h@2x.png */; };
 		F0A3C34218916B2B0020242B /* LiensWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A3C34118916B2B0020242B /* LiensWebViewController.m */; };
 		F0A3C34518916D980020242B /* LiensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A3C34418916D980020242B /* LiensViewController.m */; };
 		F0C5E6E118571417005CDB39 /* pageLicenceASSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C5E6E018571417005CDB39 /* pageLicenceASSViewController.m */; };
@@ -174,6 +183,15 @@
 		F070604D185076BE006DFC2D /* IUTBM_quadri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IUTBM_quadri.jpg; sourceTree = "<group>"; };
 		F0994CC2184CD0F200AB253B /* pagePrincipaleFormationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pagePrincipaleFormationViewController.h; sourceTree = "<group>"; };
 		F0994CC3184CD0F200AB253B /* pagePrincipaleFormationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pagePrincipaleFormationViewController.m; sourceTree = "<group>"; };
+		F09DCE8B18A29649002633D9 /* vue_3r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vue_3r.png; path = ../../Downloads/vue_3r.png; sourceTree = "<group>"; };
+		F09DCE8C18A29649002633D9 /* vue_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vue_4.png; path = ../../Downloads/vue_4.png; sourceTree = "<group>"; };
+		F09DCE8D18A29649002633D9 /* vue_4r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vue_4r.png; path = ../../Downloads/vue_4r.png; sourceTree = "<group>"; };
+		F09DCE8E18A29649002633D9 /* vue_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vue_3.png; path = ../../Downloads/vue_3.png; sourceTree = "<group>"; };
+		F09DCE8F18A29649002633D9 /* vue_2r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vue_2r.png; path = ../../Downloads/vue_2r.png; sourceTree = "<group>"; };
+		F09DCE9018A29649002633D9 /* vue_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vue_2.png; path = ../../Downloads/vue_2.png; sourceTree = "<group>"; };
+		F09DCE9118A29649002633D9 /* vue_1r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vue_1r.png; path = ../../Downloads/vue_1r.png; sourceTree = "<group>"; };
+		F09DCE9218A29649002633D9 /* vue_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vue_1.png; path = ../../Downloads/vue_1.png; sourceTree = "<group>"; };
+		F09DCE9B18A296F8002633D9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F0A3C34018916B2B0020242B /* LiensWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiensWebViewController.h; sourceTree = "<group>"; };
 		F0A3C34118916B2B0020242B /* LiensWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiensWebViewController.m; sourceTree = "<group>"; };
 		F0A3C34318916D980020242B /* LiensViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiensViewController.h; sourceTree = "<group>"; };
@@ -261,6 +279,7 @@
 		F00ECE7B184CC14D00C2B668 = {
 			isa = PBXGroup;
 			children = (
+				F09DCE9B18A296F8002633D9 /* Default-568h@2x.png */,
 				F0706032184E3515006DFC2D /* Ressources */,
 				F00ECE8D184CC14D00C2B668 /* ApllicationIUT */,
 				F00ECEAF184CC14E00C2B668 /* ApllicationIUTTests */,
@@ -422,6 +441,14 @@
 		F0706032184E3515006DFC2D /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
+				F09DCE8B18A29649002633D9 /* vue_3r.png */,
+				F09DCE8C18A29649002633D9 /* vue_4.png */,
+				F09DCE8D18A29649002633D9 /* vue_4r.png */,
+				F09DCE8E18A29649002633D9 /* vue_3.png */,
+				F09DCE8F18A29649002633D9 /* vue_2r.png */,
+				F09DCE9018A29649002633D9 /* vue_2.png */,
+				F09DCE9118A29649002633D9 /* vue_1r.png */,
+				F09DCE9218A29649002633D9 /* vue_1.png */,
 				F0F7922B18901F7400D8950E /* menu_icone.png */,
 				F0110EAE1861CE6C0094E080 /* twitter_logo.png */,
 				F0110EAF1861CE6C0094E080 /* liens_logo.png */,
@@ -534,24 +561,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F09DCE9718A29649002633D9 /* vue_2r.png in Resources */,
+				F09DCE9518A29649002633D9 /* vue_4r.png in Resources */,
 				F00ECEA3184CC14D00C2B668 /* Images.xcassets in Resources */,
+				F09DCE9C18A296F8002633D9 /* Default-568h@2x.png in Resources */,
 				F00ECE92184CC14D00C2B668 /* InfoPlist.strings in Resources */,
 				F0110EC91861CE6C0094E080 /* autres_icone.png in Resources */,
 				F0110EBE1861CE6C0094E080 /* liens_logo.png in Resources */,
 				F070604E185076BE006DFC2D /* IUTBM_quadri.jpg in Resources */,
+				F09DCE9318A29649002633D9 /* vue_3r.png in Resources */,
 				F0110EC51861CE6C0094E080 /* facebook_logo.png in Resources */,
 				F0706036184E35A6006DFC2D /* skydb171.jpg in Resources */,
 				F0110EBF1861CE6C0094E080 /* iut_logo120.png in Resources */,
 				F0110EAC1861B2220094E080 /* vignette_ss_challenge.gif in Resources */,
+				F09DCE9918A29649002633D9 /* vue_1r.png in Resources */,
 				F0110EC71861CE6C0094E080 /* ecocampus_icone.png in Resources */,
 				F0110EAD1861B2220094E080 /* vignetteallongeeecocampus.jpg in Resources */,
 				F0110EC21861CE6C0094E080 /* itineraire_logo.png in Resources */,
 				F0110ECA1861CE6C0094E080 /* agenda_icone.png in Resources */,
 				F0110EC81861CE6C0094E080 /* contacts_logo.png in Resources */,
+				F09DCE9418A29649002633D9 /* vue_4.png in Resources */,
 				F0110EAA1861B2220094E080 /* slideshow_cp_ecocampus.gif in Resources */,
 				F0110EC61861CE6C0094E080 /* english_logo.png in Resources */,
 				F0110ECB1861CE6C0094E080 /* accueil_icone.png in Resources */,
+				F09DCE9818A29649002633D9 /* vue_2.png in Resources */,
 				F0110EC41861CE6C0094E080 /* formations_icone.png in Resources */,
+				F09DCE9A18A29649002633D9 /* vue_1.png in Resources */,
 				F00ECE9B184CC14D00C2B668 /* Main.storyboard in Resources */,
 				F0110EC31861CE6C0094E080 /* google_logo.png in Resources */,
 				F0110EAB1861B2220094E080 /* slideshow_logos.gif in Resources */,
@@ -561,6 +596,7 @@
 				F0C5E70918575BD4005CDB39 /* LicenceVEGAGraph2.png in Resources */,
 				F070604C18507667006DFC2D /* LOGO UFC_1.jpg in Resources */,
 				F0110EC11861CE6C0094E080 /* iut_logo58.png in Resources */,
+				F09DCE9618A29649002633D9 /* vue_3.png in Resources */,
 				F0C5E70A18575BD4005CDB39 /* LicenceVEGAGraph1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -749,7 +785,6 @@
 		F00ECEBA184CC14E00C2B668 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ApllicationIUT/mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
 				INFOPLIST_FILE = "ApllicationIUT/mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist";
@@ -763,7 +798,6 @@
 		F00ECEBB184CC14E00C2B668 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ApllicationIUT/mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
 				INFOPLIST_FILE = "ApllicationIUT/mont.bel.iut.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist";
