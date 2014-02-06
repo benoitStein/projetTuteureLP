@@ -55,6 +55,8 @@
 		F0110ECD1861D4720094E080 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0110ECC1861D4720094E080 /* MapKit.framework */; };
 		F0110ED01861D55F0094E080 /* EnglishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0110ECF1861D55F0094E080 /* EnglishViewController.m */; };
 		F0478F7E1859C941008A6303 /* pageAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0478F7D1859C941008A6303 /* pageAgendaViewController.m */; };
+		F05F548C18A38E7500C5009C /* diplome-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F05F548A18A38E7500C5009C /* diplome-icone.png */; };
+		F05F548D18A38E7500C5009C /* ordinateur-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F05F548B18A38E7500C5009C /* ordinateur-icone.png */; };
 		F0706036184E35A6006DFC2D /* skydb171.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0706035184E35A6006DFC2D /* skydb171.jpg */; };
 		F070604C18507667006DFC2D /* LOGO UFC_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F070604B18507667006DFC2D /* LOGO UFC_1.jpg */; };
 		F070604E185076BE006DFC2D /* IUTBM_quadri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F070604D185076BE006DFC2D /* IUTBM_quadri.jpg */; };
@@ -178,6 +180,8 @@
 		F0110ECF1861D55F0094E080 /* EnglishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnglishViewController.m; sourceTree = "<group>"; };
 		F0478F7C1859C941008A6303 /* pageAgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pageAgendaViewController.h; sourceTree = "<group>"; };
 		F0478F7D1859C941008A6303 /* pageAgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pageAgendaViewController.m; sourceTree = "<group>"; };
+		F05F548A18A38E7500C5009C /* diplome-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "diplome-icone.png"; path = "../../Downloads/diplome-icone.png"; sourceTree = "<group>"; };
+		F05F548B18A38E7500C5009C /* ordinateur-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ordinateur-icone.png"; path = "../../Downloads/ordinateur-icone.png"; sourceTree = "<group>"; };
 		F0706035184E35A6006DFC2D /* skydb171.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skydb171.jpg; sourceTree = "<group>"; };
 		F070604B18507667006DFC2D /* LOGO UFC_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LOGO UFC_1.jpg"; sourceTree = "<group>"; };
 		F070604D185076BE006DFC2D /* IUTBM_quadri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IUTBM_quadri.jpg; sourceTree = "<group>"; };
@@ -441,6 +445,8 @@
 		F0706032184E3515006DFC2D /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
+				F05F548A18A38E7500C5009C /* diplome-icone.png */,
+				F05F548B18A38E7500C5009C /* ordinateur-icone.png */,
 				F09DCE8B18A29649002633D9 /* vue_3r.png */,
 				F09DCE8C18A29649002633D9 /* vue_4.png */,
 				F09DCE8D18A29649002633D9 /* vue_4r.png */,
@@ -575,11 +581,13 @@
 				F0110EBF1861CE6C0094E080 /* iut_logo120.png in Resources */,
 				F0110EAC1861B2220094E080 /* vignette_ss_challenge.gif in Resources */,
 				F09DCE9918A29649002633D9 /* vue_1r.png in Resources */,
+				F05F548D18A38E7500C5009C /* ordinateur-icone.png in Resources */,
 				F0110EC71861CE6C0094E080 /* ecocampus_icone.png in Resources */,
 				F0110EAD1861B2220094E080 /* vignetteallongeeecocampus.jpg in Resources */,
 				F0110EC21861CE6C0094E080 /* itineraire_logo.png in Resources */,
 				F0110ECA1861CE6C0094E080 /* agenda_icone.png in Resources */,
 				F0110EC81861CE6C0094E080 /* contacts_logo.png in Resources */,
+				F05F548C18A38E7500C5009C /* diplome-icone.png in Resources */,
 				F09DCE9418A29649002633D9 /* vue_4.png in Resources */,
 				F0110EAA1861B2220094E080 /* slideshow_cp_ecocampus.gif in Resources */,
 				F0110EC61861CE6C0094E080 /* english_logo.png in Resources */,
