@@ -80,7 +80,13 @@
                             <outlet property="delegate" destination="TPb-nt-diX" id="13k-uB-vBT"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="t4I-N5-G2u"/>
+                    <navigationItem key="navigationItem" id="t4I-N5-G2u">
+                        <barButtonItem key="leftBarButtonItem" image="menu_icone.png" id="FDu-Ns-zxR">
+                            <connections>
+                                <segue destination="3Ub-Oy-RbK" kind="push" id="DJc-gP-Xcw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XjC-Bs-Utt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1326,14 +1332,20 @@ Technologies de Projets Web et mobiles </string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Agenda" id="L6C-2y-YbX"/>
+                    <navigationItem key="navigationItem" title="Agenda" id="L6C-2y-YbX">
+                        <barButtonItem key="leftBarButtonItem" image="menu_icone.png" id="o5p-Bi-l28">
+                            <connections>
+                                <segue destination="3Ub-Oy-RbK" kind="push" id="V59-ZD-Wz8"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="webView" destination="HJB-BG-9DN" id="4gR-Nk-Dj9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LrD-XW-5BA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1721" y="288"/>
+            <point key="canvasLocation" x="1741" y="208"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="cKs-l3-TGi">
@@ -5257,11 +5269,17 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                             <outlet property="delegate" destination="QFr-w8-7wl" id="sah-XU-R4i"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Accueil" id="rxQ-a9-eQ4"/>
+                    <navigationItem key="navigationItem" title="Accueil" id="rxQ-a9-eQ4">
+                        <barButtonItem key="leftBarButtonItem" image="menu_icone.png" id="fyN-70-nAb">
+                            <connections>
+                                <segue destination="3Ub-Oy-RbK" kind="push" id="XU7-L0-Jfp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4xd-pN-dfg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2385" y="-2767"/>
+            <point key="canvasLocation" x="-2561" y="-2855"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rDn-ag-08I">
@@ -5844,4 +5862,7 @@ http://www.iut-bm.univ-fcomte.fr</string>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="DJc-gP-Xcw"/>
+    </inferredMetricsTieBreakers>
 </document>
