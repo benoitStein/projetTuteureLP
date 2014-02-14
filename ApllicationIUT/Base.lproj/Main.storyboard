@@ -4,11 +4,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller - Contacts-->
+        <!--Navigation Controller - Informations-->
         <scene sceneID="2Il-Tc-ipf">
             <objects>
                 <navigationController definesPresentationContext="YES" id="eVw-0P-6pw" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Contacts" image="ecocampus_icone.png" id="Coe-Jb-Sp3"/>
+                    <tabBarItem key="tabBarItem" title="Informations" image="informations_icone.png" id="Coe-Jb-Sp3"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="XI4-Bj-nSP">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.57647058819999997" green="0.070588235289999995" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -25,51 +25,91 @@
         <scene sceneID="SB3-hc-i4U">
             <objects>
                 <tableViewController id="TPb-nt-diX" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="zlG-zS-zn3">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="zlG-zS-zn3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
-                            <tableViewSection id="pkD-fo-hYb">
+                            <tableViewSection headerTitle="Contact" id="pkD-fo-hYb">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="sPs-s9-JMu" style="IBUITableViewCellStyleDefault" id="KLk-Pd-lML">
-                                        <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="sPs-s9-JMu" imageView="ZmJ-Zv-OqP" style="IBUITableViewCellStyleDefault" id="KLk-Pd-lML">
+                                        <rect key="frame" x="0.0" y="119" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KLk-Pd-lML" id="GVg-3S-Mg5">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Contacts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sPs-s9-JMu">
-                                                    <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                                    <rect key="frame" x="73" y="0.0" width="212" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="contact-icone.png" id="ZmJ-Zv-OqP">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="I7h-Yq-z7M" kind="push" id="2AE-7w-R4U"/>
+                                            <segue destination="I7h-Yq-z7M" kind="push" id="YZQ-Wy-oEn"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="mOv-df-Ogy" style="IBUITableViewCellStyleDefault" id="yEc-QX-e18">
-                                        <rect key="frame" x="0.0" y="108" width="320" height="44"/>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Localisation" id="Wui-Cm-iKH">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="rjt-x3-lgb" imageView="5Ph-Vn-D94" style="IBUITableViewCellStyleDefault" id="y4K-2F-ybu">
+                                        <rect key="frame" x="0.0" y="211" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yEc-QX-e18" id="jHg-br-vuk">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y4K-2F-ybu" id="ozl-D6-2ce">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Itinéraire" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mOv-df-Ogy">
-                                                    <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Itinéraire" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rjt-x3-lgb">
+                                                    <rect key="frame" x="73" y="0.0" width="212" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="punaise-icone.png" id="5Ph-Vn-D94">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="P9n-1R-pRf" kind="push" id="hhx-mX-smx"/>
+                                            <segue destination="P9n-1R-pRf" kind="push" id="GTL-De-Hn5"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Aide" id="T4f-iv-W2m">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="fk1-jr-fz6" imageView="a4K-aK-dTB" style="IBUITableViewCellStyleDefault" id="0ez-Dl-MOp">
+                                        <rect key="frame" x="0.0" y="303" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0ez-Dl-MOp" id="Jjr-l1-4W5">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Guide Utilisation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fk1-jr-fz6">
+                                                    <rect key="frame" x="73" y="0.0" width="212" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="aide.png" id="a4K-aK-dTB">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="jwt-C3-nng" kind="push" id="ghA-wX-Bdf"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -255,7 +295,7 @@ Les stages en entreprise, de 10 à 14 semaines, se déroulent au cours du 4 seme
                         <sections>
                             <tableViewSection headerTitle="Type de formation" id="oGb-i3-2hZ">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="roO-ra-8LW" style="IBUITableViewCellStyleDefault" id="8Zm-UK-E2O">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="roO-ra-8LW" imageView="Jfu-2p-3z2" style="IBUITableViewCellStyleDefault" id="8Zm-UK-E2O">
                                         <rect key="frame" x="0.0" y="119" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8Zm-UK-E2O" id="b0t-qH-9Yl">
@@ -263,12 +303,16 @@ Les stages en entreprise, de 10 à 14 semaines, se déroulent au cours du 4 seme
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Formations DUT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="roO-ra-8LW">
-                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <rect key="frame" x="73" y="0.0" width="212" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="icone-dut.png" id="Jfu-2p-3z2">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
@@ -618,7 +662,7 @@ Il peuvent être responsables :
                                             <segue destination="VhG-v8-MgA" kind="push" id="by9-Ug-SnD"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="F2J-WV-0Zy" detailTextLabel="KGc-bu-F01" style="IBUITableViewCellStyleSubtitle" id="kdc-ot-CZe">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="F2J-WV-0Zy" detailTextLabel="KGc-bu-F01" imageView="i2g-vW-Zim" style="IBUITableViewCellStyleSubtitle" id="kdc-ot-CZe">
                                         <rect key="frame" x="0.0" y="163" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kdc-ot-CZe" id="LdP-40-R9T">
@@ -626,26 +670,30 @@ Il peuvent être responsables :
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="G2CD" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="F2J-WV-0Zy">
-                                                    <rect key="frame" x="15" y="3" width="50" height="22"/>
+                                                    <rect key="frame" x="73" y="3" width="50" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Génie civile - Construction Durable" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KGc-bu-F01">
-                                                    <rect key="frame" x="15" y="25" width="195" height="15"/>
+                                                    <rect key="frame" x="73" y="25" width="195" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="construction-durable.jpg" id="i2g-vW-Zim">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="Jrh-nd-Tij" kind="push" id="HKb-u5-T2f"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Ztd-Bp-Lrq" detailTextLabel="6QV-Ij-7Dq" style="IBUITableViewCellStyleSubtitle" id="v63-o2-UQA">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Ztd-Bp-Lrq" detailTextLabel="6QV-Ij-7Dq" imageView="qwb-qD-c8i" style="IBUITableViewCellStyleSubtitle" id="v63-o2-UQA">
                                         <rect key="frame" x="0.0" y="207" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="v63-o2-UQA" id="1Ns-Gp-kl4">
@@ -653,26 +701,30 @@ Il peuvent être responsables :
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="GEII" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ztd-Bp-Lrq">
-                                                    <rect key="frame" x="15" y="3" width="34" height="22"/>
+                                                    <rect key="frame" x="73" y="3" width="34" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Génie électronique et Informatique Industrielle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6QV-Ij-7Dq">
-                                                    <rect key="frame" x="15" y="25" width="257" height="15"/>
+                                                    <rect key="frame" x="73" y="25" width="212" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="GEII.jpg" id="qwb-qD-c8i">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="CVY-o5-7q9" kind="push" id="Jkt-U5-cH0"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="LHo-bO-qow" detailTextLabel="0EK-ZZ-24z" style="IBUITableViewCellStyleSubtitle" id="nqk-RN-dZ4">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="LHo-bO-qow" detailTextLabel="0EK-ZZ-24z" imageView="YQL-mj-xjX" style="IBUITableViewCellStyleSubtitle" id="nqk-RN-dZ4">
                                         <rect key="frame" x="0.0" y="251" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nqk-RN-dZ4" id="ZvF-7L-PT8">
@@ -680,26 +732,30 @@ Il peuvent être responsables :
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="GTE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LHo-bO-qow">
-                                                    <rect key="frame" x="15" y="3" width="35" height="22"/>
+                                                    <rect key="frame" x="73" y="3" width="35" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Génie Thermique et Energie" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0EK-ZZ-24z">
-                                                    <rect key="frame" x="15" y="25" width="155" height="15"/>
+                                                    <rect key="frame" x="73" y="25" width="155" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="termometer.png" id="YQL-mj-xjX">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="Nwl-bC-gao" kind="push" id="pcA-uW-f44"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="q4m-xL-7tJ" detailTextLabel="Qjt-eN-qVg" style="IBUITableViewCellStyleSubtitle" id="DPH-vH-GLs">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="q4m-xL-7tJ" detailTextLabel="Qjt-eN-qVg" imageView="dbD-fC-XhY" style="IBUITableViewCellStyleSubtitle" id="DPH-vH-GLs">
                                         <rect key="frame" x="0.0" y="295" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DPH-vH-GLs" id="A3M-aq-vi6">
@@ -707,19 +763,23 @@ Il peuvent être responsables :
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="GU" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="q4m-xL-7tJ">
-                                                    <rect key="frame" x="15" y="3" width="27" height="22"/>
+                                                    <rect key="frame" x="73" y="3" width="27" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Gestion Urbaine" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qjt-eN-qVg">
-                                                    <rect key="frame" x="15" y="25" width="91" height="15"/>
+                                                    <rect key="frame" x="73" y="25" width="91" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="gestion-urbaine.png" id="dbD-fC-XhY">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
@@ -757,7 +817,7 @@ Il peuvent être responsables :
                                             <segue destination="LTc-Ng-DLe" kind="push" id="Fyh-nl-PCi"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="qAf-j5-EFH" detailTextLabel="kqt-Nl-srr" style="IBUITableViewCellStyleSubtitle" id="z7R-9M-CcR">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="qAf-j5-EFH" detailTextLabel="kqt-Nl-srr" imageView="bH8-y2-gDN" style="IBUITableViewCellStyleSubtitle" id="z7R-9M-CcR">
                                         <rect key="frame" x="0.0" y="383" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z7R-9M-CcR" id="dWd-kf-teD">
@@ -765,19 +825,23 @@ Il peuvent être responsables :
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="SaP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qAf-j5-EFH">
-                                                    <rect key="frame" x="15" y="3" width="33" height="22"/>
+                                                    <rect key="frame" x="73" y="3" width="33" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Services à la Personne" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kqt-Nl-srr">
-                                                    <rect key="frame" x="15" y="25" width="127" height="15"/>
+                                                    <rect key="frame" x="73" y="25" width="127" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Sap.png" id="bH8-y2-gDN">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
@@ -842,7 +906,7 @@ Il peuvent être responsables :
                                             <segue destination="dfH-4W-yKi" kind="push" id="gV5-Ab-92Q"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="gXj-qG-mIG" detailTextLabel="vxi-fP-Y17" style="IBUITableViewCellStyleSubtitle" id="apa-yI-UV5">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="gXj-qG-mIG" detailTextLabel="vxi-fP-Y17" imageView="OFW-og-GEj" style="IBUITableViewCellStyleSubtitle" id="apa-yI-UV5">
                                         <rect key="frame" x="0.0" y="563" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="apa-yI-UV5" id="SbX-UT-WGo">
@@ -850,26 +914,30 @@ Il peuvent être responsables :
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="MMI" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gXj-qG-mIG">
-                                                    <rect key="frame" x="15" y="3" width="37" height="22"/>
+                                                    <rect key="frame" x="73" y="3" width="37" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Métiers du Multimédia et de l'Internet" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vxi-fP-Y17">
-                                                    <rect key="frame" x="15" y="25" width="209" height="15"/>
+                                                    <rect key="frame" x="73" y="25" width="209" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="web-icone.png" id="OFW-og-GEj">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="S4C-5X-KGu" kind="push" id="fa3-KA-TAv"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="XxI-dE-qwB" detailTextLabel="1e5-0q-DB2" style="IBUITableViewCellStyleSubtitle" id="vJQ-cg-jIh">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="XxI-dE-qwB" detailTextLabel="1e5-0q-DB2" imageView="yFG-SP-ZKf" style="IBUITableViewCellStyleSubtitle" id="vJQ-cg-jIh">
                                         <rect key="frame" x="0.0" y="607" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vJQ-cg-jIh" id="H32-6E-hTR">
@@ -877,26 +945,30 @@ Il peuvent être responsables :
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="MP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XxI-dE-qwB">
-                                                    <rect key="frame" x="15" y="3" width="28" height="22"/>
+                                                    <rect key="frame" x="70" y="3" width="28" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Mesures Physiques" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1e5-0q-DB2">
-                                                    <rect key="frame" x="15" y="25" width="109" height="15"/>
+                                                    <rect key="frame" x="70" y="25" width="109" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="MP.jpeg" id="yFG-SP-ZKf">
+                                                    <rect key="frame" x="15" y="1" width="40" height="40"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="uw4-7x-sc1" kind="push" id="6UO-BU-7Ne"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Nt4-AQ-yKc" detailTextLabel="DPk-9U-dAW" style="IBUITableViewCellStyleSubtitle" id="nbB-B6-Ee0">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Nt4-AQ-yKc" detailTextLabel="DPk-9U-dAW" imageView="PSA-pf-LzM" style="IBUITableViewCellStyleSubtitle" id="nbB-B6-Ee0">
                                         <rect key="frame" x="0.0" y="651" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nbB-B6-Ee0" id="gJ5-oR-9eB">
@@ -904,19 +976,23 @@ Il peuvent être responsables :
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="R&amp;T" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nt4-AQ-yKc">
-                                                    <rect key="frame" x="15" y="3" width="35" height="22"/>
+                                                    <rect key="frame" x="73" y="3" width="35" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Réseaux &amp; Télécommunications" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DPk-9U-dAW">
-                                                    <rect key="frame" x="15" y="25" width="178" height="15"/>
+                                                    <rect key="frame" x="73" y="25" width="178" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="icone-telecom.png" id="PSA-pf-LzM">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
@@ -977,7 +1053,7 @@ et Socio-culturelle</string>
                                             <segue destination="Lir-U3-BD0" kind="push" id="CeI-8h-8sL"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="wnV-Lz-hfY" detailTextLabel="S7Z-Fb-JuW" style="IBUITableViewCellStyleSubtitle" id="7Dq-Hm-KZs">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="wnV-Lz-hfY" detailTextLabel="S7Z-Fb-JuW" imageView="G81-25-CAn" style="IBUITableViewCellStyleSubtitle" id="7Dq-Hm-KZs">
                                         <rect key="frame" x="0.0" y="163" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7Dq-Hm-KZs" id="zhE-kd-4hL">
@@ -985,14 +1061,14 @@ et Socio-culturelle</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="CTPEB" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wnV-Lz-hfY">
-                                                    <rect key="frame" x="15" y="3" width="59" height="22"/>
+                                                    <rect key="frame" x="73" y="3" width="59" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="S7Z-Fb-JuW">
-                                                    <rect key="frame" x="15" y="25" width="270" height="15"/>
+                                                    <rect key="frame" x="73" y="25" width="212" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <string key="text">Conduite de Travaux et Performance Energétique des Bâtiments
 Energétique des Bâtiments</string>
@@ -1000,13 +1076,17 @@ Energétique des Bâtiments</string>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="icone-chantier.gif" id="G81-25-CAn">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="xP6-HG-xf6" kind="push" id="88X-9M-pEF"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Mc2-Z2-nUo" detailTextLabel="ldr-d4-xDF" style="IBUITableViewCellStyleSubtitle" id="bhJ-qN-wEA">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Mc2-Z2-nUo" detailTextLabel="ldr-d4-xDF" imageView="C2Q-4v-BA3" style="IBUITableViewCellStyleSubtitle" id="bhJ-qN-wEA">
                                         <rect key="frame" x="0.0" y="207" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bhJ-qN-wEA" id="z3b-Go-UhN">
@@ -1014,26 +1094,30 @@ Energétique des Bâtiments</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="EnR" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mc2-Z2-nUo">
-                                                    <rect key="frame" x="15" y="3" width="34" height="22"/>
+                                                    <rect key="frame" x="73" y="3" width="34" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Énergies Renouvelables" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ldr-d4-xDF">
-                                                    <rect key="frame" x="15" y="25" width="133" height="15"/>
+                                                    <rect key="frame" x="73" y="25" width="133" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="icone-energie.gif" id="C2Q-4v-BA3">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="JrA-Ab-GsE" kind="push" id="Ncb-nr-rw8"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Ach-uw-bqT" detailTextLabel="g45-BW-XDm" style="IBUITableViewCellStyleSubtitle" id="OLf-lc-sPX">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Ach-uw-bqT" detailTextLabel="g45-BW-XDm" imageView="EjL-uS-Agi" style="IBUITableViewCellStyleSubtitle" id="OLf-lc-sPX">
                                         <rect key="frame" x="0.0" y="251" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OLf-lc-sPX" id="syi-Kw-Sb2">
@@ -1041,26 +1125,30 @@ Energétique des Bâtiments</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="FVPI" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ach-uw-bqT">
-                                                    <rect key="frame" x="15" y="3" width="38" height="22"/>
+                                                    <rect key="frame" x="73" y="3" width="38" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Famille, Vieillissement et Problématiques Intergénérationnellles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="g45-BW-XDm">
-                                                    <rect key="frame" x="15" y="25" width="270" height="15"/>
+                                                    <rect key="frame" x="73" y="25" width="212" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="famille-icone.png" id="EjL-uS-Agi">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="ESl-20-T7r" kind="push" id="RH8-0J-dgo"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="0Gh-lh-pb7" detailTextLabel="6vC-3F-jRZ" style="IBUITableViewCellStyleSubtitle" id="IEM-0t-DQU">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="0Gh-lh-pb7" detailTextLabel="6vC-3F-jRZ" imageView="uAK-Xa-ws6" style="IBUITableViewCellStyleSubtitle" id="IEM-0t-DQU">
                                         <rect key="frame" x="0.0" y="295" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IEM-0t-DQU" id="XMc-zS-dsP">
@@ -1068,19 +1156,23 @@ Energétique des Bâtiments</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="VEGA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0Gh-lh-pb7">
-                                                    <rect key="frame" x="15" y="3" width="48" height="22"/>
+                                                    <rect key="frame" x="73" y="3" width="48" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Véhicules : Electronique et Gestion des Automatismes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6vC-3F-jRZ">
-                                                    <rect key="frame" x="15" y="25" width="270" height="15"/>
+                                                    <rect key="frame" x="73" y="25" width="212" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="voiture-icone.png" id="uAK-Xa-ws6">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
@@ -1178,7 +1270,7 @@ Technologies de Projets Web et mobiles </string>
                                             <segue destination="18e-xe-30A" kind="push" id="qvs-PS-35o"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="i2B-vX-rGS" detailTextLabel="Tql-7b-bWK" style="IBUITableViewCellStyleSubtitle" id="pof-ma-t18">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="i2B-vX-rGS" detailTextLabel="Tql-7b-bWK" imageView="CqD-Kk-Jal" style="IBUITableViewCellStyleSubtitle" id="pof-ma-t18">
                                         <rect key="frame" x="0.0" y="519" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pof-ma-t18" id="Koc-cE-YHb">
@@ -1186,26 +1278,30 @@ Technologies de Projets Web et mobiles </string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="CIM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="i2B-vX-rGS">
-                                                    <rect key="frame" x="15" y="3" width="34" height="22"/>
+                                                    <rect key="frame" x="73" y="3" width="34" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Capteurs, Instrumentation, Métrologie" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tql-7b-bWK">
-                                                    <rect key="frame" x="15" y="25" width="212" height="15"/>
+                                                    <rect key="frame" x="73" y="25" width="212" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="meteo-icone.png" id="CqD-Kk-Jal">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="X1q-Ba-JeT" kind="push" id="G2U-Xf-Zq2"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="tXB-9D-2BW" detailTextLabel="tmh-b6-ypf" style="IBUITableViewCellStyleSubtitle" id="Jgf-sN-Jrb">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="tXB-9D-2BW" detailTextLabel="tmh-b6-ypf" imageView="LDh-C5-4I6" style="IBUITableViewCellStyleSubtitle" id="Jgf-sN-Jrb">
                                         <rect key="frame" x="0.0" y="563" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jgf-sN-Jrb" id="JQ9-TZ-Qxm">
@@ -1213,26 +1309,30 @@ Technologies de Projets Web et mobiles </string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="CART" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tXB-9D-2BW">
-                                                    <rect key="frame" x="15" y="3" width="47" height="22"/>
+                                                    <rect key="frame" x="73" y="3" width="47" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Chargé d'Affaires en R&amp;T" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tmh-b6-ypf">
-                                                    <rect key="frame" x="15" y="25" width="141" height="15"/>
+                                                    <rect key="frame" x="73" y="25" width="141" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Charge-affaire.jpg" id="LDh-C5-4I6">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="mTI-Hg-cE0" kind="push" id="Fqu-41-rxM"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="caL-2w-9UT" detailTextLabel="XWG-RJ-YoT" style="IBUITableViewCellStyleSubtitle" id="wO6-pN-mW7">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="caL-2w-9UT" detailTextLabel="XWG-RJ-YoT" imageView="cM6-8N-Mlm" style="IBUITableViewCellStyleSubtitle" id="wO6-pN-mW7">
                                         <rect key="frame" x="0.0" y="607" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wO6-pN-mW7" id="w0x-kw-hdP">
@@ -1240,26 +1340,30 @@ Technologies de Projets Web et mobiles </string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="MOSEL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="caL-2w-9UT">
-                                                    <rect key="frame" x="15" y="3" width="63" height="22"/>
+                                                    <rect key="frame" x="73" y="3" width="63" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Marketing &amp; Communication des Organisations du Spectacle, de l'Evénementiel et des Loisirs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XWG-RJ-YoT">
-                                                    <rect key="frame" x="15" y="25" width="270" height="15"/>
+                                                    <rect key="frame" x="73" y="25" width="212" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Marketing.jpg" id="cM6-8N-Mlm">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="GFR-5R-wAO" kind="push" id="KsK-jD-kJV"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="ikA-RU-O6I" detailTextLabel="bIb-bR-L6o" style="IBUITableViewCellStyleSubtitle" id="O8R-IG-WTr">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="ikA-RU-O6I" detailTextLabel="bIb-bR-L6o" imageView="eak-gD-4kI" style="IBUITableViewCellStyleSubtitle" id="O8R-IG-WTr">
                                         <rect key="frame" x="0.0" y="651" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O8R-IG-WTr" id="qa3-qn-rAu">
@@ -1267,26 +1371,30 @@ Technologies de Projets Web et mobiles </string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="DORA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ikA-RU-O6I">
-                                                    <rect key="frame" x="15" y="3" width="51" height="22"/>
+                                                    <rect key="frame" x="73" y="3" width="51" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Dosimétrie et Radioprotections Médicales " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bIb-bR-L6o">
-                                                    <rect key="frame" x="15" y="25" width="237" height="15"/>
+                                                    <rect key="frame" x="73" y="25" width="212" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="icone-medicale.png" id="eak-gD-4kI">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="no7-n2-qsa" kind="push" id="U1E-p3-0ce"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Ekj-YI-cDX" detailTextLabel="dXT-QS-OuI" style="IBUITableViewCellStyleSubtitle" id="Fpr-eA-DX9">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Ekj-YI-cDX" detailTextLabel="dXT-QS-OuI" imageView="2ze-LM-Jcd" style="IBUITableViewCellStyleSubtitle" id="Fpr-eA-DX9">
                                         <rect key="frame" x="0.0" y="695" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Fpr-eA-DX9" id="GyD-zo-x5X">
@@ -1294,19 +1402,23 @@ Technologies de Projets Web et mobiles </string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="WD" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ekj-YI-cDX">
-                                                    <rect key="frame" x="15" y="3" width="30" height="22"/>
+                                                    <rect key="frame" x="73" y="3" width="30" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Webdesign" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dXT-QS-OuI">
-                                                    <rect key="frame" x="15" y="25" width="62" height="15"/>
+                                                    <rect key="frame" x="73" y="25" width="62" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="icone-webdesign.jpg" id="2ze-LM-Jcd">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
@@ -1357,7 +1469,7 @@ Technologies de Projets Web et mobiles </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LrD-XW-5BA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1741" y="208"/>
+            <point key="canvasLocation" x="933" y="288"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="cKs-l3-TGi">
@@ -1387,7 +1499,7 @@ Technologies de Projets Web et mobiles </string>
         <scene sceneID="l9Q-ZK-W36">
             <objects>
                 <navigationController definesPresentationContext="YES" id="S2P-vT-BNu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Actualités" image="accueil_icone.png" id="EmP-bT-rzU"/>
+                    <tabBarItem key="tabBarItem" title="Actualités" image="actualites_icone.png" id="EmP-bT-rzU"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ud0-av-q5x">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.57647058819999997" green="0.070588235289999995" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -1421,135 +1533,163 @@ Technologies de Projets Web et mobiles </string>
         <scene sceneID="pcq-rN-rd5">
             <objects>
                 <tableViewController id="iNn-PT-ypd" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="nNv-vo-0JY">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="nNv-vo-0JY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
-                            <tableViewSection id="Tro-V8-joi">
+                            <tableViewSection headerTitle="Réseaux sociaux" id="Tro-V8-joi">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="07K-Is-VQE" style="IBUITableViewCellStyleDefault" id="YRu-5J-xAa">
-                                        <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="07K-Is-VQE" imageView="zlz-Dg-QDL" style="IBUITableViewCellStyleDefault" id="YRu-5J-xAa">
+                                        <rect key="frame" x="0.0" y="119" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YRu-5J-xAa" id="09w-Ok-cJw">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Facebook" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="07K-Is-VQE">
-                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <rect key="frame" x="73" y="0.0" width="212" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="facebook-icone.png" id="zlz-Dg-QDL">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="3ge-Nx-tIL" kind="push" id="4Bh-c3-tJH"/>
+                                            <segue destination="3ge-Nx-tIL" kind="push" id="N5M-YI-lUE"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="yxY-Qw-z2p" style="IBUITableViewCellStyleDefault" id="xJh-Kp-S2b">
-                                        <rect key="frame" x="0.0" y="108" width="320" height="44"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="yxY-Qw-z2p" imageView="dcj-Rv-7U5" style="IBUITableViewCellStyleDefault" id="xJh-Kp-S2b">
+                                        <rect key="frame" x="0.0" y="163" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xJh-Kp-S2b" id="ZUM-3N-VTF">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Google+" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yxY-Qw-z2p">
-                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <rect key="frame" x="73" y="0.0" width="212" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="google-icone.png" id="dcj-Rv-7U5">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="dX6-B3-SOk" kind="push" id="1kq-EH-cTG"/>
+                                            <segue destination="dX6-B3-SOk" kind="push" id="JwA-GZ-vrU"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="WDZ-dj-9rz" style="IBUITableViewCellStyleDefault" id="0kE-lT-zvp">
-                                        <rect key="frame" x="0.0" y="152" width="320" height="44"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="WDZ-dj-9rz" imageView="dBB-Ac-rhY" style="IBUITableViewCellStyleDefault" id="0kE-lT-zvp">
+                                        <rect key="frame" x="0.0" y="207" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0kE-lT-zvp" id="q9Z-j8-XtX">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Twitter" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WDZ-dj-9rz">
-                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <rect key="frame" x="73" y="0.0" width="212" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="twitter-icone.png" id="dBB-Ac-rhY">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="NWz-w1-ZJX" kind="push" id="G0e-zS-5wf"/>
+                                            <segue destination="NWz-w1-ZJX" kind="push" id="yEN-Gn-d8s"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="IWI-VW-dK0" style="IBUITableViewCellStyleDefault" id="znq-Yb-G6s">
-                                        <rect key="frame" x="0.0" y="196" width="320" height="44"/>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Liens partiques" id="1W8-0w-wR3">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="sjg-aA-ZsN" imageView="dNc-VW-yLq" style="IBUITableViewCellStyleDefault" id="IC9-Iv-Z8q">
+                                        <rect key="frame" x="0.0" y="299" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="znq-Yb-G6s" id="unn-fc-h7t">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IC9-Iv-Z8q" id="tDX-Zh-ofX">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Liens" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IWI-VW-dK0">
-                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Liens" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sjg-aA-ZsN">
+                                                    <rect key="frame" x="73" y="0.0" width="212" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="lien-icone.png" id="dNc-VW-yLq">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="5Rv-QE-9Na" kind="push" id="aCA-m6-EjZ"/>
+                                            <segue destination="5Rv-QE-9Na" kind="push" id="WRC-QK-UgB"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="lGy-Ww-Yny" imageView="r3e-rG-Znj" style="IBUITableViewCellStyleDefault" id="lDj-UG-w8l">
-                                        <rect key="frame" x="0.0" y="240" width="320" height="44"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="w7f-FX-4eS" imageView="kle-kb-U0i" style="IBUITableViewCellStyleDefault" id="1Ow-3N-vYh">
+                                        <rect key="frame" x="0.0" y="343" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lDj-UG-w8l" id="872-j6-fnT">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1Ow-3N-vYh" id="C43-lh-Fb5">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Eco Campus" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lGy-Ww-Yny">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Eco Campus" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="w7f-FX-4eS">
                                                     <rect key="frame" x="60" y="0.0" width="225" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="ecocampus_icone.png" id="r3e-rG-Znj">
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="ecocampus_icone.png" id="kle-kb-U0i">
                                                     <rect key="frame" x="15" y="6" width="30" height="30"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="i3w-v6-dPz" kind="push" id="kci-KO-rpW"/>
+                                            <segue destination="i3w-v6-dPz" kind="push" id="jDN-jJ-avq"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="UU6-4U-fHt" style="IBUITableViewCellStyleDefault" id="due-FH-Joq">
-                                        <rect key="frame" x="0.0" y="284" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="due-FH-Joq" id="Ijl-e3-dYK">
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Présentation anglaise" id="DDC-cE-LY5">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="bkb-QV-tb8" imageView="VN2-Qr-9BD" style="IBUITableViewCellStyleDefault" id="eqJ-cB-3WJ">
+                                        <rect key="frame" x="0.0" y="435" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eqJ-cB-3WJ" id="Yv1-0z-QdK">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="English" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UU6-4U-fHt">
-                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="English" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bkb-QV-tb8">
+                                                    <rect key="frame" x="73" y="0.0" width="212" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="drapeau-royaume-uni-icone.png" id="VN2-Qr-9BD">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="pUX-QI-Yqr" kind="push" id="zfg-u4-ZmU"/>
+                                            <segue destination="pUX-QI-Yqr" kind="push" id="MYM-NX-ufT"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -1589,7 +1729,7 @@ Technologies de Projets Web et mobiles </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ji-Le-X4G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2326" y="2352"/>
+            <point key="canvasLocation" x="-1790" y="2348"/>
         </scene>
         <!--Navigation Controller - Agenda-->
         <scene sceneID="9DA-SE-7Py">
@@ -1607,7 +1747,7 @@ Technologies de Projets Web et mobiles </string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Le7-V4-SYX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1005" y="288"/>
+            <point key="canvasLocation" x="333" y="288"/>
         </scene>
         <!--PageDUT Tech Co View Controller - Département Tech. de Co.-->
         <scene sceneID="CFb-Xi-md8">
@@ -4522,7 +4662,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zg0-2D-6SS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1806" y="2352"/>
+            <point key="canvasLocation" x="-1338" y="2348"/>
         </scene>
         <!--Twitter View Controller - Twitter-->
         <scene sceneID="66l-02-cMI">
@@ -4547,7 +4687,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bSB-Jq-97f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1286" y="2352"/>
+            <point key="canvasLocation" x="-2250" y="2348"/>
         </scene>
         <!--Itineraire View Controller - Itinéraire-->
         <scene sceneID="O9n-Sn-aMV">
@@ -4571,7 +4711,7 @@ L'intérêt du DUT R&amp;T est d'ouvrir de larges possibilités dans ce domaine 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HFa-zb-M4B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1963" y="1784"/>
+            <point key="canvasLocation" x="1963" y="1656"/>
         </scene>
         <!--PageDUTGU View Controller - Département Carrières Sociales-->
         <scene sceneID="5De-Cz-BlR">
@@ -5004,13 +5144,13 @@ email : sec_tc@iut-bm.univ-fcomte.fr</string>
         <scene sceneID="vqL-6k-FTC">
             <objects>
                 <tableViewController id="5Rv-QE-9Na" customClass="LiensViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Keg-4h-FkH">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Keg-4h-FkH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Myidentifier" id="4zG-os-DEb">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="119" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4zG-os-DEb" id="bBC-Ky-IWh">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -5032,7 +5172,7 @@ email : sec_tc@iut-bm.univ-fcomte.fr</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uyS-i5-oxd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2338" y="1392"/>
+            <point key="canvasLocation" x="-2250" y="1532"/>
         </scene>
         <!--Liens Web View Controller-->
         <scene sceneID="o6y-zH-zZ5">
@@ -5059,7 +5199,7 @@ email : sec_tc@iut-bm.univ-fcomte.fr</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ii-HP-zmY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1815" y="1392"/>
+            <point key="canvasLocation" x="-1790" y="1532"/>
         </scene>
         <!--View Controller - English-->
         <scene sceneID="g85-LL-hHP">
@@ -5144,21 +5284,21 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PYT-Vl-Bzg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2769" y="574"/>
+            <point key="canvasLocation" x="-1338" y="1520"/>
         </scene>
         <!--Table View Controller - Accueil-->
         <scene sceneID="dP1-qD-siP">
             <objects>
                 <tableViewController id="QFr-w8-7wl" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="iXD-qH-9Jf">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="iXD-qH-9Jf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
-                            <tableViewSection id="BHa-hn-Iap">
+                            <tableViewSection headerTitle="Actualités" id="BHa-hn-Iap">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="l1h-1S-PwW" style="IBUITableViewCellStyleDefault" id="FtW-kb-bU8">
-                                        <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="119" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FtW-kb-bU8" id="pe4-Lk-apr">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -5178,7 +5318,7 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="HAD-m5-Qob" style="IBUITableViewCellStyleDefault" id="Tkw-PC-eWZ">
-                                        <rect key="frame" x="0.0" y="108" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="163" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tkw-PC-eWZ" id="np8-ZP-bCO">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -5198,7 +5338,7 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="u35-hV-qVi" style="IBUITableViewCellStyleDefault" id="8ec-wf-dQa">
-                                        <rect key="frame" x="0.0" y="152" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="207" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8ec-wf-dQa" id="X9i-ej-r1N">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -5218,7 +5358,7 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="fAc-Hu-qFh" style="IBUITableViewCellStyleDefault" id="HAu-LD-heH">
-                                        <rect key="frame" x="0.0" y="196" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="251" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HAu-LD-heH" id="DNa-zV-USk">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -5238,7 +5378,7 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="9e5-YC-iBR" style="IBUITableViewCellStyleDefault" id="bQm-kf-Ncv">
-                                        <rect key="frame" x="0.0" y="240" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="295" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bQm-kf-Ncv" id="Bkm-lq-sBg">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -5258,7 +5398,7 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="l2c-Bb-9ze" style="IBUITableViewCellStyleDefault" id="lke-mZ-pBZ">
-                                        <rect key="frame" x="0.0" y="284" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="339" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lke-mZ-pBZ" id="f4U-BT-FAa">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -5663,7 +5803,7 @@ Télécharger le PDF</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2OI-Xi-JN7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2230" y="3992"/>
+            <point key="canvasLocation" x="-2218" y="3928"/>
         </scene>
         <!--Page Ecocampus Telechargement1 View Controller-->
         <scene sceneID="wUC-mF-9p5">
@@ -5688,7 +5828,136 @@ Télécharger le PDF</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e2z-EZ-8MU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1666" y="3520"/>
+            <point key="canvasLocation" x="-1746" y="3520"/>
+        </scene>
+        <!--Guide View Controller-->
+        <scene sceneID="mcC-rQ-mwu">
+            <objects>
+                <viewController id="jwt-C3-nng" customClass="GuideViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ys1-ZD-ndc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" id="Nro-Yy-Rl8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="92y-23-kHm">
+                                        <rect key="frame" x="0.0" y="-60" width="320" height="1050"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guide d'utilisation de l'application" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qOh-HC-5rD">
+                                                <rect key="frame" x="0.0" y="65" width="320" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cette section détaille le contenu de chaque partie de l'application ainsi de la manière de les utiliser." lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kRz-8d-LFu">
+                                                <rect key="frame" x="15" y="90" width="305" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Section de Actualités :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QYc-co-jEP">
+                                                <rect key="frame" x="0.0" y="150" width="320" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Eqs-0i-Gjb">
+                                                <rect key="frame" x="15" y="175" width="305" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Cette section contient la liste des actualités relatives à l'IUT. Chaque élement de la liste représente une actualité. Pour afficher le contenu d'une actualité, il vous suffit de cliquer sur l'élèment que vous souhaitez consulter. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Section des Formations :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n8K-TC-zCa">
+                                                <rect key="frame" x="0.0" y="260" width="320" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zar-Iv-0To">
+                                                <rect key="frame" x="15" y="285" width="305" height="170"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Cette section contient la liste des formations proposés par l'IUT. Le bouton situé en haut à gauche de l'écran vous donnera accès à cette liste. Ce bouton est également disponible dans toute les sections sauf la section des "Autres Lien". Chaque élement de la liste représente une formation. Chaque formation dispose d'une vue qui donne des détaille sur celle-ci. il vous suffit de cliquer sur l'élèment que vous souhaitez consulter. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Section de l'agenda :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Vf-wE-iHQ">
+                                                <rect key="frame" x="0.0" y="460" width="320" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9ZD-Ju-Aqg">
+                                                <rect key="frame" x="15" y="485" width="305" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Cette section contient un agenda. Vous pourrez trouver tout les événnement prévu par l'IUT de Belfort-Montbéliard. Vous pourrez visionner le détail des évènements en cliquant sur l'un des évènement. Vous pourrez aussi en créer un nouveau ou l'afficher dans le calendar de l'IOS.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hUD-YL-t2E">
+                                                <rect key="frame" x="20" y="443" width="0.0" height="0.0"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Section de Autres lien :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="F1k-HF-KEc">
+                                                <rect key="frame" x="0.0" y="860" width="320" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Sbg-Ac-PPY">
+                                                <rect key="frame" x="15" y="885" width="305" height="156"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Cette section contient les liens vers les réseaux sociaux de l'iut. Les liens vers le réseaux sociaux vous redirigerons vers la page que l'IUT possède sur chaqu'un de ces réseaux.
+On peut y retrouver des liens partiques sur la ville de belfort, pour s'y déplacer, ou pour si loger. On y retrouve aussi une petite présentation en anglais.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Section des Information :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aya-uX-hdq">
+                                                <rect key="frame" x="0.0" y="610" width="320" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="smq-E2-2Ok">
+                                                <rect key="frame" x="15" y="635" width="305" height="220"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Cette section contient la liste des personnes à contacter et une carte qui permet de situer l'IUT de Belfort-Montébéliard. L'itinéraire vous indiquera sur une carte, l'emplacement des différents sites de l'IUT. En cliquant sur le marqueur, vous obtiendrez l'adresse exacte du site choisi.
+Les contacts vous fournira une liste numéros de téléphone et d'adresse mail que vous pourrez utiliser pour enter en contact avec les différentes  instances de l'IUT.  POur se faire vous aurez simplement besoin de cliquer sur le numéro ou le mail qui vous intéresse.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1d4-n5-iX2"/>
+                    <connections>
+                        <outlet property="scroll" destination="Nro-Yy-Rl8" id="wzf-GK-sgB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PcI-Tz-Lxu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2447" y="2187"/>
         </scene>
         <!--Page Ecocampus Principal View Controller - Eco Campus-->
         <scene sceneID="KtC-Xi-8aN">
@@ -5774,7 +6043,7 @@ Télécharger le PDF</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cZn-XI-YLV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2769" y="3200"/>
+            <point key="canvasLocation" x="-2760" y="3520"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Nng-QU-1b1">
@@ -5855,25 +6124,52 @@ http://www.iut-bm.univ-fcomte.fr</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XGn-97-XKJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2223" y="3144"/>
+            <point key="canvasLocation" x="-2218" y="3128"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Charge-affaire.jpg" width="50" height="50"/>
+        <image name="GEII.jpg" width="48" height="48"/>
         <image name="IUTBM_quadri.jpg" width="276" height="102"/>
         <image name="LOGO UFC_1.jpg" width="181" height="102"/>
         <image name="LicenceVEGAGraph1.png" width="506" height="587"/>
         <image name="LicenceVEGAGraph2.png" width="499" height="363"/>
-        <image name="accueil_icone.png" width="30" height="30"/>
+        <image name="MP.jpeg" width="40" height="40"/>
+        <image name="Marketing.jpg" width="48" height="48"/>
+        <image name="Sap.png" width="48" height="48"/>
+        <image name="actualites_icone.png" width="30" height="30"/>
         <image name="agenda_icone.png" width="30" height="30"/>
+        <image name="aide.png" width="48" height="48"/>
         <image name="autres_icone.png" width="30" height="30"/>
+        <image name="construction-durable.jpg" width="48" height="48"/>
+        <image name="contact-icone.png" width="48" height="48"/>
         <image name="diplome-icone.png" width="48" height="48"/>
+        <image name="drapeau-royaume-uni-icone.png" width="48" height="48"/>
         <image name="ecocampus_icone.png" width="30" height="30"/>
+        <image name="facebook-icone.png" width="48" height="48"/>
+        <image name="famille-icone.png" width="48" height="48"/>
         <image name="formations_icone.png" width="30" height="30"/>
+        <image name="gestion-urbaine.png" width="48" height="48"/>
+        <image name="google-icone.png" width="48" height="48"/>
+        <image name="icone-chantier.gif" width="48" height="48"/>
+        <image name="icone-dut.png" width="48" height="48"/>
+        <image name="icone-energie.gif" width="48" height="48"/>
+        <image name="icone-medicale.png" width="48" height="48"/>
+        <image name="icone-telecom.png" width="48" height="48"/>
+        <image name="icone-webdesign.jpg" width="48" height="48"/>
+        <image name="informations_icone.png" width="30" height="30"/>
+        <image name="lien-icone.png" width="48" height="48"/>
         <image name="menu_icone.png" width="30" height="30"/>
+        <image name="meteo-icone.png" width="48" height="48"/>
         <image name="ordinateur-icone.png" width="48" height="48"/>
+        <image name="punaise-icone.png" width="48" height="48"/>
         <image name="slideshow_cp_ecocampus.gif" width="558" height="300"/>
         <image name="slideshow_logos.gif" width="558" height="300"/>
+        <image name="termometer.png" width="48" height="48"/>
+        <image name="twitter-icone.png" width="48" height="48"/>
         <image name="vignette_ss_challenge.gif" width="100" height="100"/>
+        <image name="voiture-icone.png" width="48" height="48"/>
+        <image name="web-icone.png" width="48" height="48"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -5881,6 +6177,6 @@ http://www.iut-bm.univ-fcomte.fr</string>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="DJc-gP-Xcw"/>
+        <segue reference="V59-ZD-Wz8"/>
     </inferredMetricsTieBreakers>
 </document>

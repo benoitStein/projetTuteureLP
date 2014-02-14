@@ -57,6 +57,37 @@
 		F0478F7E1859C941008A6303 /* pageAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0478F7D1859C941008A6303 /* pageAgendaViewController.m */; };
 		F05F548C18A38E7500C5009C /* diplome-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F05F548A18A38E7500C5009C /* diplome-icone.png */; };
 		F05F548D18A38E7500C5009C /* ordinateur-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F05F548B18A38E7500C5009C /* ordinateur-icone.png */; };
+		F05F549218A3945B00C5009C /* google-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F05F548E18A3945A00C5009C /* google-icone.png */; };
+		F05F549318A3945B00C5009C /* drapeau-royaume-uni-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F05F548F18A3945A00C5009C /* drapeau-royaume-uni-icone.png */; };
+		F05F549418A3945B00C5009C /* twitter-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F05F549018A3945B00C5009C /* twitter-icone.png */; };
+		F05F549518A3945B00C5009C /* facebook-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F05F549118A3945B00C5009C /* facebook-icone.png */; };
+		F06E05CD18ACCA030017B76E /* punaise-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05CB18ACCA030017B76E /* punaise-icone.png */; };
+		F06E05CE18ACCA030017B76E /* lien-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05CC18ACCA030017B76E /* lien-icone.png */; };
+		F06E05D018ACCAB20017B76E /* contact-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05CF18ACCAB20017B76E /* contact-icone.png */; };
+		F06E05D318ACCC500017B76E /* icone-energie.gif in Resources */ = {isa = PBXBuildFile; fileRef = F06E05D118ACCC500017B76E /* icone-energie.gif */; };
+		F06E05D418ACCC500017B76E /* voiture-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05D218ACCC500017B76E /* voiture-icone.png */; };
+		F06E05D618ACCC7D0017B76E /* famille-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05D518ACCC7D0017B76E /* famille-icone.png */; };
+		F06E05DC18ACD0CA0017B76E /* icone-dut.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05D718ACD0C90017B76E /* icone-dut.png */; };
+		F06E05DD18ACD0CA0017B76E /* icone-webdesign.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F06E05D818ACD0C90017B76E /* icone-webdesign.jpg */; };
+		F06E05DF18ACD0CA0017B76E /* meteo-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05DA18ACD0C90017B76E /* meteo-icone.png */; };
+		F06E05E018ACD0CA0017B76E /* construction.gif in Resources */ = {isa = PBXBuildFile; fileRef = F06E05DB18ACD0C90017B76E /* construction.gif */; };
+		F06E05E318ACD2910017B76E /* icone-medicale.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05E118ACD2910017B76E /* icone-medicale.png */; };
+		F06E05E418ACD2910017B76E /* icone-chantier.gif in Resources */ = {isa = PBXBuildFile; fileRef = F06E05E218ACD2910017B76E /* icone-chantier.gif */; };
+		F06E05E618ACD5AF0017B76E /* termometer.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05E518ACD5AF0017B76E /* termometer.png */; };
+		F06E05E818ACD64F0017B76E /* web-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05E718ACD64F0017B76E /* web-icone.png */; };
+		F06E05EA18ACD70E0017B76E /* icone-telecom.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05E918ACD70E0017B76E /* icone-telecom.png */; };
+		F06E05EE18ACD96C0017B76E /* Sap.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05EB18ACD96C0017B76E /* Sap.png */; };
+		F06E05EF18ACD96C0017B76E /* construction-durable.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F06E05EC18ACD96C0017B76E /* construction-durable.jpg */; };
+		F06E05F018ACD96C0017B76E /* gestion-urbaine.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05ED18ACD96C0017B76E /* gestion-urbaine.png */; };
+		F06E05F218ACDB180017B76E /* GEII.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F06E05F118ACDB180017B76E /* GEII.jpg */; };
+		F06E05F418ACDCF30017B76E /* MP.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F06E05F318ACDCF30017B76E /* MP.jpeg */; };
+		F06E05F618ACDDB30017B76E /* Marketing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F06E05F518ACDDB30017B76E /* Marketing.jpg */; };
+		F06E05F818ACE84A0017B76E /* Charge-affaire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F06E05F718ACE84A0017B76E /* Charge-affaire.jpg */; };
+		F06E05FA18ACEC340017B76E /* aide.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05F918ACEC340017B76E /* aide.png */; };
+		F06E05FE18ACF4640017B76E /* menu_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05FB18ACF4640017B76E /* menu_icone.png */; };
+		F06E05FF18ACF4640017B76E /* actualites_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05FC18ACF4640017B76E /* actualites_icone.png */; };
+		F06E060018ACF4640017B76E /* informations_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F06E05FD18ACF4640017B76E /* informations_icone.png */; };
+		F06E060318AD22770017B76E /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06E060218AD22770017B76E /* GuideViewController.m */; };
 		F0706036184E35A6006DFC2D /* skydb171.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0706035184E35A6006DFC2D /* skydb171.jpg */; };
 		F070604C18507667006DFC2D /* LOGO UFC_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F070604B18507667006DFC2D /* LOGO UFC_1.jpg */; };
 		F070604E185076BE006DFC2D /* IUTBM_quadri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F070604D185076BE006DFC2D /* IUTBM_quadri.jpg */; };
@@ -182,6 +213,38 @@
 		F0478F7D1859C941008A6303 /* pageAgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pageAgendaViewController.m; sourceTree = "<group>"; };
 		F05F548A18A38E7500C5009C /* diplome-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "diplome-icone.png"; path = "../../Downloads/diplome-icone.png"; sourceTree = "<group>"; };
 		F05F548B18A38E7500C5009C /* ordinateur-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ordinateur-icone.png"; path = "../../Downloads/ordinateur-icone.png"; sourceTree = "<group>"; };
+		F05F548E18A3945A00C5009C /* google-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "google-icone.png"; path = "../../Downloads/google-icone.png"; sourceTree = "<group>"; };
+		F05F548F18A3945A00C5009C /* drapeau-royaume-uni-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "drapeau-royaume-uni-icone.png"; path = "../../Downloads/drapeau-royaume-uni-icone.png"; sourceTree = "<group>"; };
+		F05F549018A3945B00C5009C /* twitter-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter-icone.png"; path = "../../Downloads/twitter-icone.png"; sourceTree = "<group>"; };
+		F05F549118A3945B00C5009C /* facebook-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebook-icone.png"; path = "../../Downloads/facebook-icone.png"; sourceTree = "<group>"; };
+		F06E05CB18ACCA030017B76E /* punaise-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "punaise-icone.png"; path = "../../Downloads/punaise-icone.png"; sourceTree = "<group>"; };
+		F06E05CC18ACCA030017B76E /* lien-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lien-icone.png"; path = "../../Downloads/lien-icone.png"; sourceTree = "<group>"; };
+		F06E05CF18ACCAB20017B76E /* contact-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "contact-icone.png"; path = "../../Downloads/contact-icone.png"; sourceTree = "<group>"; };
+		F06E05D118ACCC500017B76E /* icone-energie.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "icone-energie.gif"; path = "../../Downloads/icone-energie.gif"; sourceTree = "<group>"; };
+		F06E05D218ACCC500017B76E /* voiture-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "voiture-icone.png"; path = "../../Downloads/voiture-icone.png"; sourceTree = "<group>"; };
+		F06E05D518ACCC7D0017B76E /* famille-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "famille-icone.png"; path = "../../Downloads/famille-icone.png"; sourceTree = "<group>"; };
+		F06E05D718ACD0C90017B76E /* icone-dut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icone-dut.png"; path = "../../Downloads/icone-dut.png"; sourceTree = "<group>"; };
+		F06E05D818ACD0C90017B76E /* icone-webdesign.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "icone-webdesign.jpg"; path = "../../Downloads/icone-webdesign.jpg"; sourceTree = "<group>"; };
+		F06E05DA18ACD0C90017B76E /* meteo-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "meteo-icone.png"; path = "../../Downloads/meteo-icone.png"; sourceTree = "<group>"; };
+		F06E05DB18ACD0C90017B76E /* construction.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = construction.gif; path = ../../Downloads/construction.gif; sourceTree = "<group>"; };
+		F06E05E118ACD2910017B76E /* icone-medicale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icone-medicale.png"; path = "../../Downloads/icone-medicale.png"; sourceTree = "<group>"; };
+		F06E05E218ACD2910017B76E /* icone-chantier.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "icone-chantier.gif"; path = "../../Downloads/icone-chantier.gif"; sourceTree = "<group>"; };
+		F06E05E518ACD5AF0017B76E /* termometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = termometer.png; path = ../../Downloads/termometer.png; sourceTree = "<group>"; };
+		F06E05E718ACD64F0017B76E /* web-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "web-icone.png"; path = "../../Downloads/web-icone.png"; sourceTree = "<group>"; };
+		F06E05E918ACD70E0017B76E /* icone-telecom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icone-telecom.png"; path = "../../Downloads/icone-telecom.png"; sourceTree = "<group>"; };
+		F06E05EB18ACD96C0017B76E /* Sap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sap.png; path = ../../Downloads/Sap.png; sourceTree = "<group>"; };
+		F06E05EC18ACD96C0017B76E /* construction-durable.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "construction-durable.jpg"; path = "../../Downloads/construction-durable.jpg"; sourceTree = "<group>"; };
+		F06E05ED18ACD96C0017B76E /* gestion-urbaine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gestion-urbaine.png"; path = "../../Downloads/gestion-urbaine.png"; sourceTree = "<group>"; };
+		F06E05F118ACDB180017B76E /* GEII.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GEII.jpg; path = ../../Downloads/GEII.jpg; sourceTree = "<group>"; };
+		F06E05F318ACDCF30017B76E /* MP.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MP.jpeg; path = ../../Downloads/MP.jpeg; sourceTree = "<group>"; };
+		F06E05F518ACDDB30017B76E /* Marketing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Marketing.jpg; path = ../../Downloads/Marketing.jpg; sourceTree = "<group>"; };
+		F06E05F718ACE84A0017B76E /* Charge-affaire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Charge-affaire.jpg"; path = "../../Downloads/Charge-affaire.jpg"; sourceTree = "<group>"; };
+		F06E05F918ACEC340017B76E /* aide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aide.png; path = ../../Downloads/aide.png; sourceTree = "<group>"; };
+		F06E05FB18ACF4640017B76E /* menu_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_icone.png; path = ../../Downloads/menu_icone.png; sourceTree = "<group>"; };
+		F06E05FC18ACF4640017B76E /* actualites_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = actualites_icone.png; path = ../../Downloads/actualites_icone.png; sourceTree = "<group>"; };
+		F06E05FD18ACF4640017B76E /* informations_icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = informations_icone.png; path = ../../Downloads/informations_icone.png; sourceTree = "<group>"; };
+		F06E060118AD22770017B76E /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
+		F06E060218AD22770017B76E /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
 		F0706035184E35A6006DFC2D /* skydb171.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skydb171.jpg; sourceTree = "<group>"; };
 		F070604B18507667006DFC2D /* LOGO UFC_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LOGO UFC_1.jpg"; sourceTree = "<group>"; };
 		F070604D185076BE006DFC2D /* IUTBM_quadri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IUTBM_quadri.jpg; sourceTree = "<group>"; };
@@ -409,6 +472,8 @@
 				F0A3C34118916B2B0020242B /* LiensWebViewController.m */,
 				F0A3C34318916D980020242B /* LiensViewController.h */,
 				F0A3C34418916D980020242B /* LiensViewController.m */,
+				F06E060118AD22770017B76E /* GuideViewController.h */,
+				F06E060218AD22770017B76E /* GuideViewController.m */,
 			);
 			path = ApllicationIUT;
 			sourceTree = "<group>";
@@ -445,6 +510,36 @@
 		F0706032184E3515006DFC2D /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
+				F06E05FB18ACF4640017B76E /* menu_icone.png */,
+				F06E05FC18ACF4640017B76E /* actualites_icone.png */,
+				F06E05FD18ACF4640017B76E /* informations_icone.png */,
+				F06E05F918ACEC340017B76E /* aide.png */,
+				F06E05F718ACE84A0017B76E /* Charge-affaire.jpg */,
+				F06E05F318ACDCF30017B76E /* MP.jpeg */,
+				F06E05F518ACDDB30017B76E /* Marketing.jpg */,
+				F06E05F118ACDB180017B76E /* GEII.jpg */,
+				F06E05EB18ACD96C0017B76E /* Sap.png */,
+				F06E05EC18ACD96C0017B76E /* construction-durable.jpg */,
+				F06E05ED18ACD96C0017B76E /* gestion-urbaine.png */,
+				F06E05E918ACD70E0017B76E /* icone-telecom.png */,
+				F06E05E718ACD64F0017B76E /* web-icone.png */,
+				F06E05E518ACD5AF0017B76E /* termometer.png */,
+				F06E05E118ACD2910017B76E /* icone-medicale.png */,
+				F06E05E218ACD2910017B76E /* icone-chantier.gif */,
+				F06E05D718ACD0C90017B76E /* icone-dut.png */,
+				F06E05D818ACD0C90017B76E /* icone-webdesign.jpg */,
+				F06E05DA18ACD0C90017B76E /* meteo-icone.png */,
+				F06E05DB18ACD0C90017B76E /* construction.gif */,
+				F06E05D518ACCC7D0017B76E /* famille-icone.png */,
+				F06E05D118ACCC500017B76E /* icone-energie.gif */,
+				F06E05D218ACCC500017B76E /* voiture-icone.png */,
+				F06E05CF18ACCAB20017B76E /* contact-icone.png */,
+				F06E05CB18ACCA030017B76E /* punaise-icone.png */,
+				F06E05CC18ACCA030017B76E /* lien-icone.png */,
+				F05F548E18A3945A00C5009C /* google-icone.png */,
+				F05F548F18A3945A00C5009C /* drapeau-royaume-uni-icone.png */,
+				F05F549018A3945B00C5009C /* twitter-icone.png */,
+				F05F549118A3945B00C5009C /* facebook-icone.png */,
 				F05F548A18A38E7500C5009C /* diplome-icone.png */,
 				F05F548B18A38E7500C5009C /* ordinateur-icone.png */,
 				F09DCE8B18A29649002633D9 /* vue_3r.png */,
@@ -570,42 +665,72 @@
 				F09DCE9718A29649002633D9 /* vue_2r.png in Resources */,
 				F09DCE9518A29649002633D9 /* vue_4r.png in Resources */,
 				F00ECEA3184CC14D00C2B668 /* Images.xcassets in Resources */,
+				F05F549218A3945B00C5009C /* google-icone.png in Resources */,
 				F09DCE9C18A296F8002633D9 /* Default-568h@2x.png in Resources */,
 				F00ECE92184CC14D00C2B668 /* InfoPlist.strings in Resources */,
 				F0110EC91861CE6C0094E080 /* autres_icone.png in Resources */,
 				F0110EBE1861CE6C0094E080 /* liens_logo.png in Resources */,
+				F06E05CE18ACCA030017B76E /* lien-icone.png in Resources */,
 				F070604E185076BE006DFC2D /* IUTBM_quadri.jpg in Resources */,
 				F09DCE9318A29649002633D9 /* vue_3r.png in Resources */,
 				F0110EC51861CE6C0094E080 /* facebook_logo.png in Resources */,
+				F06E05DC18ACD0CA0017B76E /* icone-dut.png in Resources */,
 				F0706036184E35A6006DFC2D /* skydb171.jpg in Resources */,
 				F0110EBF1861CE6C0094E080 /* iut_logo120.png in Resources */,
 				F0110EAC1861B2220094E080 /* vignette_ss_challenge.gif in Resources */,
+				F06E05CD18ACCA030017B76E /* punaise-icone.png in Resources */,
+				F06E05EE18ACD96C0017B76E /* Sap.png in Resources */,
 				F09DCE9918A29649002633D9 /* vue_1r.png in Resources */,
 				F05F548D18A38E7500C5009C /* ordinateur-icone.png in Resources */,
 				F0110EC71861CE6C0094E080 /* ecocampus_icone.png in Resources */,
+				F06E05F218ACDB180017B76E /* GEII.jpg in Resources */,
+				F06E05E318ACD2910017B76E /* icone-medicale.png in Resources */,
 				F0110EAD1861B2220094E080 /* vignetteallongeeecocampus.jpg in Resources */,
 				F0110EC21861CE6C0094E080 /* itineraire_logo.png in Resources */,
+				F06E05D018ACCAB20017B76E /* contact-icone.png in Resources */,
+				F06E05D318ACCC500017B76E /* icone-energie.gif in Resources */,
 				F0110ECA1861CE6C0094E080 /* agenda_icone.png in Resources */,
 				F0110EC81861CE6C0094E080 /* contacts_logo.png in Resources */,
 				F05F548C18A38E7500C5009C /* diplome-icone.png in Resources */,
+				F06E05F618ACDDB30017B76E /* Marketing.jpg in Resources */,
 				F09DCE9418A29649002633D9 /* vue_4.png in Resources */,
+				F05F549318A3945B00C5009C /* drapeau-royaume-uni-icone.png in Resources */,
 				F0110EAA1861B2220094E080 /* slideshow_cp_ecocampus.gif in Resources */,
+				F06E05D418ACCC500017B76E /* voiture-icone.png in Resources */,
+				F06E05EA18ACD70E0017B76E /* icone-telecom.png in Resources */,
 				F0110EC61861CE6C0094E080 /* english_logo.png in Resources */,
+				F06E060018ACF4640017B76E /* informations_icone.png in Resources */,
+				F06E05E418ACD2910017B76E /* icone-chantier.gif in Resources */,
+				F06E05D618ACCC7D0017B76E /* famille-icone.png in Resources */,
 				F0110ECB1861CE6C0094E080 /* accueil_icone.png in Resources */,
 				F09DCE9818A29649002633D9 /* vue_2.png in Resources */,
+				F06E05FE18ACF4640017B76E /* menu_icone.png in Resources */,
 				F0110EC41861CE6C0094E080 /* formations_icone.png in Resources */,
 				F09DCE9A18A29649002633D9 /* vue_1.png in Resources */,
 				F00ECE9B184CC14D00C2B668 /* Main.storyboard in Resources */,
+				F06E05EF18ACD96C0017B76E /* construction-durable.jpg in Resources */,
 				F0110EC31861CE6C0094E080 /* google_logo.png in Resources */,
+				F06E05F418ACDCF30017B76E /* MP.jpeg in Resources */,
 				F0110EAB1861B2220094E080 /* slideshow_logos.gif in Resources */,
+				F06E05DD18ACD0CA0017B76E /* icone-webdesign.jpg in Resources */,
+				F05F549518A3945B00C5009C /* facebook-icone.png in Resources */,
 				F0110EC01861CE6C0094E080 /* iut_logo80.png in Resources */,
 				F0110EBD1861CE6C0094E080 /* twitter_logo.png in Resources */,
 				F0F7922C18901F7400D8950E /* menu_icone.png in Resources */,
 				F0C5E70918575BD4005CDB39 /* LicenceVEGAGraph2.png in Resources */,
 				F070604C18507667006DFC2D /* LOGO UFC_1.jpg in Resources */,
+				F05F549418A3945B00C5009C /* twitter-icone.png in Resources */,
+				F06E05FA18ACEC340017B76E /* aide.png in Resources */,
 				F0110EC11861CE6C0094E080 /* iut_logo58.png in Resources */,
+				F06E05FF18ACF4640017B76E /* actualites_icone.png in Resources */,
 				F09DCE9618A29649002633D9 /* vue_3.png in Resources */,
+				F06E05E018ACD0CA0017B76E /* construction.gif in Resources */,
+				F06E05E618ACD5AF0017B76E /* termometer.png in Resources */,
+				F06E05F818ACE84A0017B76E /* Charge-affaire.jpg in Resources */,
+				F06E05E818ACD64F0017B76E /* web-icone.png in Resources */,
 				F0C5E70A18575BD4005CDB39 /* LicenceVEGAGraph1.png in Resources */,
+				F06E05F018ACD96C0017B76E /* gestion-urbaine.png in Resources */,
+				F06E05DF18ACD0CA0017B76E /* meteo-icone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,6 +762,7 @@
 				F0CB68871850BEF20041544F /* pageDUTGACOViewController.m in Sources */,
 				F0110E791860C3E70094E080 /* ItineraireViewController.m in Sources */,
 				F0C5E6F418571589005CDB39 /* pageLicenceADIOViewController.m in Sources */,
+				F06E060318AD22770017B76E /* GuideViewController.m in Sources */,
 				F0CB68781850B89A0041544F /* pageDUTGEIIViewController.m in Sources */,
 				F0CB68841850BED90041544F /* pageDUTTechCoViewController.m in Sources */,
 				F0110E7C1860C3F40094E080 /* TestTableViewController.m in Sources */,
