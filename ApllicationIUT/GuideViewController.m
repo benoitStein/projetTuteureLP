@@ -31,7 +31,7 @@
     [_scroll setScrollEnabled:YES];
     [_scroll setContentSize:CGSizeMake(320, 1050)];
     _scroll.pagingEnabled =YES;
-    _scroll.bounces = NO;
+    //_scroll.bounces = NO;
 }
 
 - (void)didReceiveMemoryWarning

@@ -54,6 +54,8 @@
 		F0110ECB1861CE6C0094E080 /* accueil_icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F0110EBC1861CE6C0094E080 /* accueil_icone.png */; };
 		F0110ECD1861D4720094E080 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0110ECC1861D4720094E080 /* MapKit.framework */; };
 		F0110ED01861D55F0094E080 /* EnglishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0110ECF1861D55F0094E080 /* EnglishViewController.m */; };
+		F039034618B3B53E0017F547 /* agenda.gif in Resources */ = {isa = PBXBuildFile; fileRef = F039034518B3B53E0017F547 /* agenda.gif */; };
+		F039034C18B3B7230017F547 /* PagePrincipaleActualitésViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F039034B18B3B7230017F547 /* PagePrincipaleActualitésViewController.m */; };
 		F0478F7E1859C941008A6303 /* pageAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0478F7D1859C941008A6303 /* pageAgendaViewController.m */; };
 		F05F548C18A38E7500C5009C /* diplome-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F05F548A18A38E7500C5009C /* diplome-icone.png */; };
 		F05F548D18A38E7500C5009C /* ordinateur-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F05F548B18A38E7500C5009C /* ordinateur-icone.png */; };
@@ -209,6 +211,9 @@
 		F0110ECC1861D4720094E080 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F0110ECE1861D55F0094E080 /* EnglishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnglishViewController.h; sourceTree = "<group>"; };
 		F0110ECF1861D55F0094E080 /* EnglishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnglishViewController.m; sourceTree = "<group>"; };
+		F039034518B3B53E0017F547 /* agenda.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = agenda.gif; path = ../../Downloads/agenda.gif; sourceTree = "<group>"; };
+		F039034A18B3B7230017F547 /* PagePrincipaleActualitésViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PagePrincipaleActualitésViewController.h"; sourceTree = "<group>"; };
+		F039034B18B3B7230017F547 /* PagePrincipaleActualitésViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PagePrincipaleActualitésViewController.m"; sourceTree = "<group>"; };
 		F0478F7C1859C941008A6303 /* pageAgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pageAgendaViewController.h; sourceTree = "<group>"; };
 		F0478F7D1859C941008A6303 /* pageAgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pageAgendaViewController.m; sourceTree = "<group>"; };
 		F05F548A18A38E7500C5009C /* diplome-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "diplome-icone.png"; path = "../../Downloads/diplome-icone.png"; sourceTree = "<group>"; };
@@ -474,6 +479,8 @@
 				F0A3C34418916D980020242B /* LiensViewController.m */,
 				F06E060118AD22770017B76E /* GuideViewController.h */,
 				F06E060218AD22770017B76E /* GuideViewController.m */,
+				F039034A18B3B7230017F547 /* PagePrincipaleActualitésViewController.h */,
+				F039034B18B3B7230017F547 /* PagePrincipaleActualitésViewController.m */,
 			);
 			path = ApllicationIUT;
 			sourceTree = "<group>";
@@ -510,6 +517,7 @@
 		F0706032184E3515006DFC2D /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
+				F039034518B3B53E0017F547 /* agenda.gif */,
 				F06E05FB18ACF4640017B76E /* menu_icone.png */,
 				F06E05FC18ACF4640017B76E /* actualites_icone.png */,
 				F06E05FD18ACF4640017B76E /* informations_icone.png */,
@@ -722,6 +730,7 @@
 				F05F549418A3945B00C5009C /* twitter-icone.png in Resources */,
 				F06E05FA18ACEC340017B76E /* aide.png in Resources */,
 				F0110EC11861CE6C0094E080 /* iut_logo58.png in Resources */,
+				F039034618B3B53E0017F547 /* agenda.gif in Resources */,
 				F06E05FF18ACF4640017B76E /* actualites_icone.png in Resources */,
 				F09DCE9618A29649002633D9 /* vue_3.png in Resources */,
 				F06E05E018ACD0CA0017B76E /* construction.gif in Resources */,
@@ -767,6 +776,7 @@
 				F0CB68841850BED90041544F /* pageDUTTechCoViewController.m in Sources */,
 				F0110E7C1860C3F40094E080 /* TestTableViewController.m in Sources */,
 				F0C5E6FA185715F6005CDB39 /* pageLicenceCARTViewController.m in Sources */,
+				F039034C18B3B7230017F547 /* PagePrincipaleActualitésViewController.m in Sources */,
 				F0CB687E1850BE8C0041544F /* pageDUTSaPViewController.m in Sources */,
 				F0CB686F1850925E0041544F /* pagePresentationGCViewController.m in Sources */,
 				F0CB68901850BF250041544F /* pageDUTMMIViewController.m in Sources */,
