@@ -55,7 +55,12 @@
 		F0110ECD1861D4720094E080 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0110ECC1861D4720094E080 /* MapKit.framework */; };
 		F0110ED01861D55F0094E080 /* EnglishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0110ECF1861D55F0094E080 /* EnglishViewController.m */; };
 		F039034618B3B53E0017F547 /* agenda.gif in Resources */ = {isa = PBXBuildFile; fileRef = F039034518B3B53E0017F547 /* agenda.gif */; };
-		F039034C18B3B7230017F547 /* PagePrincipaleActualitésViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F039034B18B3B7230017F547 /* PagePrincipaleActualitésViewController.m */; };
+		F039035418B3B85B0017F547 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = F039034F18B3B85B0017F547 /* TFHpple.m */; };
+		F039035518B3B85B0017F547 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F039035118B3B85B0017F547 /* TFHppleElement.m */; };
+		F039035618B3B85B0017F547 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F039035318B3B85B0017F547 /* XPathQuery.m */; };
+		F039035818B3B9B30017F547 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F039035718B3B9B30017F547 /* libxml2.dylib */; };
+		F039035B18B3BAEA0017F547 /* Tutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = F039035A18B3BAEA0017F547 /* Tutorial.m */; };
+		F039035E18B3C00B0017F547 /* ActualiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F039035D18B3C00B0017F547 /* ActualiteViewController.m */; };
 		F0478F7E1859C941008A6303 /* pageAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0478F7D1859C941008A6303 /* pageAgendaViewController.m */; };
 		F05F548C18A38E7500C5009C /* diplome-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F05F548A18A38E7500C5009C /* diplome-icone.png */; };
 		F05F548D18A38E7500C5009C /* ordinateur-icone.png in Resources */ = {isa = PBXBuildFile; fileRef = F05F548B18A38E7500C5009C /* ordinateur-icone.png */; };
@@ -212,8 +217,17 @@
 		F0110ECE1861D55F0094E080 /* EnglishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnglishViewController.h; sourceTree = "<group>"; };
 		F0110ECF1861D55F0094E080 /* EnglishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnglishViewController.m; sourceTree = "<group>"; };
 		F039034518B3B53E0017F547 /* agenda.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = agenda.gif; path = ../../Downloads/agenda.gif; sourceTree = "<group>"; };
-		F039034A18B3B7230017F547 /* PagePrincipaleActualitésViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PagePrincipaleActualitésViewController.h"; sourceTree = "<group>"; };
-		F039034B18B3B7230017F547 /* PagePrincipaleActualitésViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PagePrincipaleActualitésViewController.m"; sourceTree = "<group>"; };
+		F039034E18B3B85B0017F547 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		F039034F18B3B85B0017F547 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		F039035018B3B85B0017F547 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		F039035118B3B85B0017F547 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		F039035218B3B85B0017F547 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		F039035318B3B85B0017F547 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		F039035718B3B9B30017F547 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		F039035918B3BAEA0017F547 /* Tutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutorial.h; sourceTree = "<group>"; };
+		F039035A18B3BAEA0017F547 /* Tutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tutorial.m; sourceTree = "<group>"; };
+		F039035C18B3C00B0017F547 /* ActualiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActualiteViewController.h; sourceTree = "<group>"; };
+		F039035D18B3C00B0017F547 /* ActualiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActualiteViewController.m; sourceTree = "<group>"; };
 		F0478F7C1859C941008A6303 /* pageAgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pageAgendaViewController.h; sourceTree = "<group>"; };
 		F0478F7D1859C941008A6303 /* pageAgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pageAgendaViewController.m; sourceTree = "<group>"; };
 		F05F548A18A38E7500C5009C /* diplome-icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "diplome-icone.png"; path = "../../Downloads/diplome-icone.png"; sourceTree = "<group>"; };
@@ -328,6 +342,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F039035818B3B9B30017F547 /* libxml2.dylib in Frameworks */,
 				F0110ECD1861D4720094E080 /* MapKit.framework in Frameworks */,
 				F00ECE8A184CC14D00C2B668 /* CoreGraphics.framework in Frameworks */,
 				F00ECE8C184CC14D00C2B668 /* UIKit.framework in Frameworks */,
@@ -373,6 +388,7 @@
 		F00ECE86184CC14D00C2B668 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F039035718B3B9B30017F547 /* libxml2.dylib */,
 				F0110ECC1861D4720094E080 /* MapKit.framework */,
 				F00ECE87184CC14D00C2B668 /* Foundation.framework */,
 				F00ECE89184CC14D00C2B668 /* CoreGraphics.framework */,
@@ -385,6 +401,7 @@
 		F00ECE8D184CC14D00C2B668 /* ApllicationIUT */ = {
 			isa = PBXGroup;
 			children = (
+				F039034D18B3B80A0017F547 /* HPPLE */,
 				F0AD050A18630568004EBD96 /* Library */,
 				F00ECE96184CC14D00C2B668 /* AppDelegate.h */,
 				F00ECE97184CC14D00C2B668 /* AppDelegate.m */,
@@ -479,8 +496,8 @@
 				F0A3C34418916D980020242B /* LiensViewController.m */,
 				F06E060118AD22770017B76E /* GuideViewController.h */,
 				F06E060218AD22770017B76E /* GuideViewController.m */,
-				F039034A18B3B7230017F547 /* PagePrincipaleActualitésViewController.h */,
-				F039034B18B3B7230017F547 /* PagePrincipaleActualitésViewController.m */,
+				F039035C18B3C00B0017F547 /* ActualiteViewController.h */,
+				F039035D18B3C00B0017F547 /* ActualiteViewController.m */,
 			);
 			path = ApllicationIUT;
 			sourceTree = "<group>";
@@ -512,6 +529,21 @@
 				F00ECEB2184CC14E00C2B668 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F039034D18B3B80A0017F547 /* HPPLE */ = {
+			isa = PBXGroup;
+			children = (
+				F039035918B3BAEA0017F547 /* Tutorial.h */,
+				F039035A18B3BAEA0017F547 /* Tutorial.m */,
+				F039034E18B3B85B0017F547 /* TFHpple.h */,
+				F039034F18B3B85B0017F547 /* TFHpple.m */,
+				F039035018B3B85B0017F547 /* TFHppleElement.h */,
+				F039035118B3B85B0017F547 /* TFHppleElement.m */,
+				F039035218B3B85B0017F547 /* XPathQuery.h */,
+				F039035318B3B85B0017F547 /* XPathQuery.m */,
+			);
+			name = HPPLE;
 			sourceTree = "<group>";
 		};
 		F0706032184E3515006DFC2D /* Ressources */ = {
@@ -760,23 +792,26 @@
 			files = (
 				F0110EA41861B1AF0094E080 /* PageEcocampusTelechargement1ViewController.m in Sources */,
 				F0994CC4184CD0F200AB253B /* pagePrincipaleFormationViewController.m in Sources */,
+				F039035618B3B85B0017F547 /* XPathQuery.m in Sources */,
 				F0C5E6F1185714E1005CDB39 /* pageLicenceTICaMaCoViewController.m in Sources */,
 				F0CB687B1850BE730041544F /* pageDUTGUViewController.m in Sources */,
 				F0C5E6FD18571605005CDB39 /* pageLicenceDORAViewController.m in Sources */,
 				F0110EA21861B1AF0094E080 /* PageEcocampusPrincipalViewController.m in Sources */,
 				F0110E731860C3830094E080 /* TwitterViewController.m in Sources */,
+				F039035418B3B85B0017F547 /* TFHpple.m in Sources */,
 				F0CB68811850BEB90041544F /* pageDUTGTEViewController.m in Sources */,
 				F0110E821860C40B0094E080 /* FacebookViewController.m in Sources */,
 				F0CB688D1850BF150041544F /* pageDUTRTViewController.m in Sources */,
 				F0CB68871850BEF20041544F /* pageDUTGACOViewController.m in Sources */,
 				F0110E791860C3E70094E080 /* ItineraireViewController.m in Sources */,
 				F0C5E6F418571589005CDB39 /* pageLicenceADIOViewController.m in Sources */,
+				F039035E18B3C00B0017F547 /* ActualiteViewController.m in Sources */,
 				F06E060318AD22770017B76E /* GuideViewController.m in Sources */,
 				F0CB68781850B89A0041544F /* pageDUTGEIIViewController.m in Sources */,
+				F039035B18B3BAEA0017F547 /* Tutorial.m in Sources */,
 				F0CB68841850BED90041544F /* pageDUTTechCoViewController.m in Sources */,
 				F0110E7C1860C3F40094E080 /* TestTableViewController.m in Sources */,
 				F0C5E6FA185715F6005CDB39 /* pageLicenceCARTViewController.m in Sources */,
-				F039034C18B3B7230017F547 /* PagePrincipaleActualitésViewController.m in Sources */,
 				F0CB687E1850BE8C0041544F /* pageDUTSaPViewController.m in Sources */,
 				F0CB686F1850925E0041544F /* pagePresentationGCViewController.m in Sources */,
 				F0CB68901850BF250041544F /* pageDUTMMIViewController.m in Sources */,
@@ -793,6 +828,7 @@
 				F0C5E6E118571417005CDB39 /* pageLicenceASSViewController.m in Sources */,
 				F0110E851860C4EB0094E080 /* ContactViewController.m in Sources */,
 				F0C5E70018571621005CDB39 /* pageLicenceMOSELViewController.m in Sources */,
+				F039035518B3B85B0017F547 /* TFHppleElement.m in Sources */,
 				F00ECE9E184CC14D00C2B668 /* MasterViewController.m in Sources */,
 				F0CB68691850878A0041544F /* pagePresentationDUTASSViewController.m in Sources */,
 				F0110EA51861B1AF0094E080 /* PageEcocampusTelechargement2ViewController.m in Sources */,
@@ -887,6 +923,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -920,6 +957,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

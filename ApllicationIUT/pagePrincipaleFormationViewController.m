@@ -30,7 +30,6 @@
     [_scroll setScrollEnabled:YES];
     [_scroll setContentSize:CGSizeMake(320, 850)];
     _scroll.pagingEnabled =YES;
-    _scroll.bounces = NO;
 	// Do any additional setup after loading the view.
 }
 

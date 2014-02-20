@@ -21,7 +21,7 @@
             </objects>
             <point key="canvasLocation" x="919" y="2187"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Table View Controller - Informations-->
         <scene sceneID="SB3-hc-i4U">
             <objects>
                 <tableViewController id="TPb-nt-diX" sceneMemberID="viewController">
@@ -148,7 +148,7 @@
                             <outlet property="delegate" destination="TPb-nt-diX" id="13k-uB-vBT"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="t4I-N5-G2u">
+                    <navigationItem key="navigationItem" title="Informations" id="t4I-N5-G2u">
                         <barButtonItem key="leftBarButtonItem" image="menu_icone.png" id="FDu-Ns-zxR">
                             <connections>
                                 <segue destination="3Ub-Oy-RbK" kind="push" id="DJc-gP-Xcw"/>
@@ -190,108 +190,146 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IUTBM_quadri.jpg" id="MlW-fR-ike">
+                                <rect key="frame" x="6" y="72" width="100" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO UFC_1.jpg" id="PpZ-JT-O2F">
+                                <rect key="frame" x="242" y="66" width="78" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Gq1-nu-Hzj">
-                                <rect key="frame" x="0.0" y="115" width="320" height="408"/>
+                                <rect key="frame" x="0.0" y="66" width="320" height="767"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="80p-UK-qZg">
-                                        <rect key="frame" x="0.0" y="-8" width="320" height="907"/>
+                                        <rect key="frame" x="0.0" y="48" width="320" height="719"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Des formations tournées vers l'avenir :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FUd-5u-3jp">
-                                                <rect key="frame" x="0.0" y="5" width="320" height="20"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Des formations tournées vers l'avenir :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FUd-5u-3jp">
+                                                <rect key="frame" x="0.0" y="2" width="320" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="15"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stages et projets professionnels : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kVK-9q-Uyb">
-                                                <rect key="frame" x="0.0" y="135" width="320" height="20"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Stages et projets professionnels : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kVK-9q-Uyb">
+                                                <rect key="frame" x="0.0" y="129" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="15"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Une culture de partenariat :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hKA-kF-Sci">
-                                                <rect key="frame" x="0.0" y="405" width="320" height="20"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Une culture de partenariat :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hKA-kF-Sci">
+                                                <rect key="frame" x="0.0" y="354" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="15"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enrichir son cursus à l'international :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vw6-Fm-cLz">
-                                                <rect key="frame" x="0.0" y="675" width="320" height="20"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Enrichir son cursus à l'international :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vw6-Fm-cLz">
+                                                <rect key="frame" x="0.0" y="576" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Des offres de formation adaptées :" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="crL-BH-RxY">
-                                                <rect key="frame" x="0.0" y="525" width="320" height="20"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Des offres de formation adaptées :" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="crL-BH-RxY">
+                                                <rect key="frame" x="0.0" y="449" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PES-8p-PEX">
-                                                <rect key="frame" x="15" y="30" width="305" height="100"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PES-8p-PEX">
+                                                <rect key="frame" x="8" y="20" width="312" height="107"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Etudier à l’IUT, c’est choisir de suivre une formation universitaire technologique professionnelle : enseignements théoriques alternent avec pratiques et expériences de terrain permettant à chacun d’améliorer ses connaissances et ses compétences. </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <string key="content">Etudier à l’IUT, c’est choisir de suivre une formation universitaire technologique professionnelle : enseignements théoriques alternent avec pratiques et expériences de terrain permettant à chacun d’améliorer ses connaissances et ses compétences. </string>
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EgZ-F2-IBk">
-                                                <rect key="frame" x="15" y="160" width="305" height="240"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EgZ-F2-IBk">
+                                                <rect key="frame" x="8" y="151" width="312" height="200"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Le projet personnel et professionnel de l’étudiant l’accompagne dans la découverte du monde du travail à partir de ses motivations, ses expériences et d’une meilleure connaissance de soi.
- 
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <string key="content">Le projet personnel et professionnel de l’étudiant l’accompagne dans la découverte du monde du travail à partir de ses motivations, ses expériences et d’une meilleure connaissance de soi.
 Les projets tuteurés permettent de développer l’autonomie dans la gestion et l’acquisition des méthodes de travail, dans un cadre individuel ou collectif.
- 
 Les stages en entreprise, de 10 à 14 semaines, se déroulent au cours du 4 semestre et débouchent dans 15% des cas sur un emploi.
 </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <attributes>
+                                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fk6-P3-tLb">
-                                                <rect key="frame" x="15" y="430" width="305" height="90"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fk6-P3-tLb">
+                                                <rect key="frame" x="8" y="370" width="305" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Les professionnels contribuent à l’enseignement et à la formation. En DUT, au moins 20% des enseignements sont assurés par des professionnels (25% en licence professionnelle).</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <string key="content">Les professionnels contribuent à l’enseignement et à la formation. En DUT, au moins 20% des enseignements sont assurés par des professionnels (25% en licence professionnelle).</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jIz-U9-Or6">
-                                                <rect key="frame" x="15" y="550" width="305" height="120"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jIz-U9-Or6">
+                                                <rect key="frame" x="8" y="467" width="305" height="109"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Formation continue, VAE, apprentissage, contrat de professionnalisation... L’IUT de Belfort-Montbéliard ouvre ses formations à des publics variés et leur propose des diplômes nationaux, soit pour faire évoluer leurs carrières, soit pour une meilleure insertion dans la vie active.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <string key="content">Formation continue, VAE, apprentissage, contrat de professionnalisation... L’IUT de Belfort-Montbéliard ouvre ses formations à des publics variés et leur propose des diplômes nationaux, soit pour faire évoluer leurs carrières, soit pour une meilleure insertion dans la vie active.</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fp3-Ar-6ti">
-                                                <rect key="frame" x="15" y="700" width="305" height="135"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fp3-Ar-6ti">
+                                                <rect key="frame" x="8" y="590" width="305" height="135"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effectuer des stages ou un semestre d’études à l’étranger, une expérience qui constitue un atout supplémentaire pour l’insertion professionnelle des diplômés. L’établissement accueille également des étudiants venus du monde entier.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <string key="content">L’IUT de Belfort-Montbéliard offre à ses étudiants la possibilité d’effectuer des stages ou un semestre d’études à l’étranger, une expérience qui constitue un atout supplémentaire pour l’insertion professionnelle des diplômés. L’établissement accueille également des étudiants venus du monde entier.</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
+                                <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="230"/>
                             </scrollView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IUTBM_quadri.jpg" id="MlW-fR-ike">
-                                <rect key="frame" x="0.0" y="70" width="100" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO UFC_1.jpg" id="PpZ-JT-O2F">
-                                <rect key="frame" x="220" y="70" width="100" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -1527,7 +1565,7 @@ Technologies de Projets Web et mobiles </string>
                         <color key="barTintColor" red="0.57647058819999997" green="0.070588235289999995" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="QFr-w8-7wl" kind="relationship" relationship="rootViewController" id="ycB-DX-ZyN"/>
+                        <segue destination="SNE-0x-GBg" kind="relationship" relationship="rootViewController" id="340-K8-dBX"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ic-Ip-qTd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1753,11 +1791,11 @@ Technologies de Projets Web et mobiles </string>
             </objects>
             <point key="canvasLocation" x="-1790" y="2348"/>
         </scene>
-        <!--Navigation Controller - Agenda-->
+        <!--Navigation Controller - Accueil-->
         <scene sceneID="9DA-SE-7Py">
             <objects>
                 <navigationController definesPresentationContext="YES" id="Keb-fA-WQx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Agenda" image="accueil_icone.png" id="W0s-BA-PeH"/>
+                    <tabBarItem key="tabBarItem" title="Accueil" image="accueil_icone.png" id="W0s-BA-PeH"/>
                     <navigationItem key="navigationItem" id="8tA-n5-QCh"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Tc-mE-UvR">
                         <autoresizingMask key="autoresizingMask"/>
@@ -4903,64 +4941,6 @@ Admission définitive : tests écrits de culture générale, professionnelle et 
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <inset key="contentInset" minX="0.0" minY="0.0" maxX="0.0" maxY="700"/>
                                 <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Olivier Prévôt, directeur
-Bruno Viezzi et Damien Charlet, directeurs adjoints</string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
-                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">
-email : directeurs@iut-bm.univ-fcomte.fr
-
-</string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="Secrétariat de direction">
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
-                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">
-tel : +33 (0)3 84 58 77 02  
-fax : +33 (0)3 84 22 29 05
-email : secretariat-direction@iut-bm.univ-fcomte.fr
- 
-</string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Sidhamed Benhadjeba
-Resp. administratif et financier</string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
-                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">
-tel : +33 (0)3 84 58 77 93
-fax : +33 (0)3 84 22 29 05
-
-</string>
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
                                     <fragment content="Carrières Sociales">
                                         <attributes>
                                             <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
@@ -5308,6 +5288,35 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
             </objects>
             <point key="canvasLocation" x="-1338" y="1520"/>
         </scene>
+        <!--Actualite View Controller - Actualités-->
+        <scene sceneID="XxI-Ic-rrj">
+            <objects>
+                <tableViewController id="SNE-0x-GBg" customClass="ActualiteViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="le8-85-qjF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="cyy-VY-n9m">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cyy-VY-n9m" id="Y0c-zg-Wn5">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="SNE-0x-GBg" id="x8W-Ak-th7"/>
+                            <outlet property="delegate" destination="SNE-0x-GBg" id="fIX-an-uYM"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Actualités" id="LoC-bU-BBg"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zoy-sP-u7j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2467" y="-2767"/>
+        </scene>
         <!--Table View Controller - Accueil-->
         <scene sceneID="dP1-qD-siP">
             <objects>
@@ -5320,7 +5329,7 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                             <tableViewSection headerTitle="Actualités" id="BHa-hn-Iap">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="l1h-1S-PwW" style="IBUITableViewCellStyleDefault" id="FtW-kb-bU8">
-                                        <rect key="frame" x="0.0" y="119" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="55" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FtW-kb-bU8" id="pe4-Lk-apr">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -5340,7 +5349,7 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="HAD-m5-Qob" style="IBUITableViewCellStyleDefault" id="Tkw-PC-eWZ">
-                                        <rect key="frame" x="0.0" y="163" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="99" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tkw-PC-eWZ" id="np8-ZP-bCO">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -5360,7 +5369,7 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="u35-hV-qVi" style="IBUITableViewCellStyleDefault" id="8ec-wf-dQa">
-                                        <rect key="frame" x="0.0" y="207" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="143" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8ec-wf-dQa" id="X9i-ej-r1N">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -5380,7 +5389,7 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="fAc-Hu-qFh" style="IBUITableViewCellStyleDefault" id="HAu-LD-heH">
-                                        <rect key="frame" x="0.0" y="251" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="187" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HAu-LD-heH" id="DNa-zV-USk">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -5400,7 +5409,7 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="9e5-YC-iBR" style="IBUITableViewCellStyleDefault" id="bQm-kf-Ncv">
-                                        <rect key="frame" x="0.0" y="295" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="231" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bQm-kf-Ncv" id="Bkm-lq-sBg">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -5420,7 +5429,7 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="l2c-Bb-9ze" style="IBUITableViewCellStyleDefault" id="lke-mZ-pBZ">
-                                        <rect key="frame" x="0.0" y="339" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="275" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lke-mZ-pBZ" id="f4U-BT-FAa">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -5457,7 +5466,7 @@ Since their creation, the IUT have trained more than 1 million graduates and mor
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4xd-pN-dfg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2561" y="-2855"/>
+            <point key="canvasLocation" x="-1843" y="-4051"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rDn-ag-08I">
@@ -5515,7 +5524,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qI3-rw-od5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1833" y="-3593"/>
+            <point key="canvasLocation" x="-1257" y="-4841"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="40e-eO-FSA">
@@ -5569,7 +5578,7 @@ Le résultat est un livre de textes accompagnés d'illustrations personnelles, l
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UQH-l8-ga6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1833" y="-2767"/>
+            <point key="canvasLocation" x="-1257" y="-4015"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MHU-gR-iNb">
@@ -5618,7 +5627,7 @@ Cgo
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wlm-pQ-HZ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1301" y="-3593"/>
+            <point key="canvasLocation" x="-725" y="-4841"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="n4d-Lg-Jjs">
@@ -5677,7 +5686,7 @@ En cas de problème | enquete-sphinx@iut-bm.univ-fcomte.fr</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Mt-Mk-vI6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1301" y="-2767"/>
+            <point key="canvasLocation" x="-725" y="-4015"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="svc-U1-1qA">
@@ -5734,7 +5743,7 @@ L'exposition, conçue pour être itinérante (les portraits sont imprimés sur b
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yJB-xA-gJg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1833" y="-1947"/>
+            <point key="canvasLocation" x="-1257" y="-3195"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ZaO-Lg-qO6">
@@ -5800,7 +5809,7 @@ Télécharger le PDF</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3A9-wK-NGL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1301" y="-1947"/>
+            <point key="canvasLocation" x="-725" y="-3195"/>
         </scene>
         <!--Page Ecocampus Telechargement2 View Controller-->
         <scene sceneID="CIg-qF-RwT">
@@ -5852,7 +5861,7 @@ Télécharger le PDF</string>
             </objects>
             <point key="canvasLocation" x="-1746" y="3520"/>
         </scene>
-        <!--Guide View Controller-->
+        <!--Guide View Controller - Guide-->
         <scene sceneID="mcC-rQ-mwu">
             <objects>
                 <viewController id="jwt-C3-nng" customClass="GuideViewController" sceneMemberID="viewController">
@@ -5891,7 +5900,7 @@ Télécharger le PDF</string>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Eqs-0i-Gjb">
                                                 <rect key="frame" x="15" y="175" width="305" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Cette section contient la liste des actualités relatives à l'IUT. Chaque élement de la liste représente une actualité. Pour afficher le contenu d'une actualité, il vous suffit de cliquer sur l'élèment que vous souhaitez consulter. </string>
+                                                <string key="text">Cette section contient la liste des actualités relatives à l'IUT. Chaque élement représente une actualité. Pour afficher le contenu, cliquez sur l'élèment pour le consulter. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -5911,7 +5920,7 @@ Télécharger le PDF</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Section de l'agenda :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Vf-wE-iHQ">
-                                                <rect key="frame" x="0.0" y="460" width="320" height="20"/>
+                                                <rect key="frame" x="0.0" y="457" width="320" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.52156862749999999" green="0.45098039220000002" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -5972,7 +5981,7 @@ Les contacts vous fournira une liste numéros de téléphone et d'adresse mail q
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="1d4-n5-iX2"/>
+                    <navigationItem key="navigationItem" title="Guide" id="1d4-n5-iX2"/>
                     <connections>
                         <outlet property="scroll" destination="Nro-Yy-Rl8" id="wzf-GK-sgB"/>
                     </connections>
@@ -6200,6 +6209,6 @@ http://www.iut-bm.univ-fcomte.fr</string>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="XU7-L0-Jfp"/>
+        <segue reference="z1U-pF-uYt"/>
     </inferredMetricsTieBreakers>
 </document>

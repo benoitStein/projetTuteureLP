@@ -1,5 +1,5 @@
 //
-//  PagePrincipaleActualitésViewController.h
+//  ActualiteViewController.h
 //  mont.bel.iut
 //
 //  Created by projetlp2013 on 18/02/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PagePrincipaleActualite_sViewController : UITableViewController
+@interface ActualiteViewController : UITableViewController
 
 @end

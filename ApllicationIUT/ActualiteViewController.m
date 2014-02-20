@@ -1,18 +1,23 @@
 //
-//  PagePrincipaleActualitésViewController.m
+//  ActualiteViewController.m
 //  mont.bel.iut
 //
 //  Created by projetlp2013 on 18/02/2014.
 //  Copyright (c) 2014 projetlp2013. All rights reserved.
 //
 
-#import "PagePrincipaleActualitésViewController.h"
+#import "ActualiteViewController.h"
+#import "Tutorial.h"
+#import "TFHpple.h"
 
-@interface PagePrincipaleActualite_sViewController ()
+@interface ActualiteViewController ()
+{
+    NSMutableArray *_objects;
+}
 
 @end
 
-@implementation PagePrincipaleActualite_sViewController
+@implementation ActualiteViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -32,6 +37,46 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    [self loadTitreActu];
+}
+
+- (void)loadTitreActu
+{
+    NSURL *Url = [NSURL URLWithString:@"http://www.iut-bm.univ-fcomte.fr/pages/fr/menu2880/-l-iut--l-actu-en-ligne-16484.html"];
+    NSData *HtmlData = [NSData dataWithContentsOfURL:Url];
+    
+   TFHpple *Parser = [TFHpple hppleWithHTMLData:HtmlData];
+    
+    NSString *XpathQueryString = @"//h3";
+    NSArray *Nodes = [Parser searchWithXPathQuery:XpathQueryString];
+    
+    NSString *XpathQueryString1 = @"//h4";
+    NSArray *Nodes1 = [Parser searchWithXPathQuery:XpathQueryString1];
+    
+    NSMutableArray *newActu = [[NSMutableArray alloc] initWithCapacity:0];
+    for (TFHppleElement *element in Nodes) {
+
+        Tutorial *tutorial = [[Tutorial alloc] init];
+        [newActu addObject:tutorial];
+        
+        tutorial.title = [[element firstChild] content];
+        
+        tutorial.url = [element objectForKey:@"href"];
+    }
+    
+    for (TFHppleElement *element in Nodes1) {
+        
+        Tutorial *tutorial = [[Tutorial alloc] init];
+        [newActu addObject:tutorial];
+        
+        tutorial.title = [[element firstChild] content];
+        
+        tutorial.url = [element objectForKey:@"href"];
+    }
+    
+    _objects = newActu;
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,28 +87,50 @@
 
 #pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+- (NSString*)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    switch (section) {
+        case 0:
+            //return @"Actualités";
+            break;
+    }
+    return nil;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 2;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    switch (section) {
+        case 0:
+            return _objects.count;
+            break;
+
+    }
     return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    // Configure the cell...
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    }
+    
+    Tutorial *thisTutorial = [_objects objectAtIndex:indexPath.row];
+    cell.textLabel.text = thisTutorial.title;
+    //cell.textLabel.font = [UIFont fontWithName:@"Courier" size:12.0f];
+    cell.detailTextLabel.text = thisTutorial.url;
     
     return cell;
+}
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
 }
 
 /*
